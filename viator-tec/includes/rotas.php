@@ -111,6 +111,10 @@ add_action( 'init', 'vtec_rotas' );
 add_action( 'init', function () {
 	if ( get_option( 'vtec_rotas_versao' ) !== VTEC_VERSION ) {
 		flush_rewrite_rules();
+		// o índice do Rank Math fica em cache: sem isso ele continua apontando para o sitemap antigo
+		if ( class_exists( '\RankMath\Sitemap\Cache' ) ) {
+			\RankMath\Sitemap\Cache::invalidate_storage();
+		}
 		update_option( 'vtec_rotas_versao', VTEC_VERSION );
 	}
 }, 99 );
