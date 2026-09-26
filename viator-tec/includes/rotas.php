@@ -83,6 +83,11 @@ function vtec_robots( $txt ) {
 		. "Disallow: /wp-content/plugins/viator-tec/assets/protegido.js\n";
 }
 
+function vtec_tag_canonica( $url ) {
+	return '' === $url ? '' : '<link rel="canonical" href="' . esc_url( $url ) . '" />' . "
+";
+}
+
 if ( defined( 'VTEC_TESTE' ) ) {
 	return; // daqui para baixo só ganchos do WordPress
 }
@@ -165,9 +170,15 @@ add_filter( 'rank_math/frontend/title', function ( $t ) {
 add_filter( 'rank_math/frontend/description', function ( $d ) {
 	return isset( $GLOBALS['vtec_atual'] ) ? $GLOBALS['vtec_atual']['descricao'] : $d;
 }, 99 );
+// O Rank Math não gera canônica em rotas virtuais: desliga a dele e imprime a nossa.
 add_filter( 'rank_math/frontend/canonical', function ( $c ) {
-	return isset( $GLOBALS['vtec_atual'] ) && $GLOBALS['vtec_atual']['canonica'] ? $GLOBALS['vtec_atual']['canonica'] : $c;
+	return isset( $GLOBALS['vtec_atual'] ) ? '' : $c;
 }, 99 );
+add_action( 'wp_head', function () {
+	if ( isset( $GLOBALS['vtec_atual'] ) ) {
+		echo vtec_tag_canonica( $GLOBALS['vtec_atual']['canonica'] ); // phpcs:ignore -- escapado em vtec_tag_canonica
+	}
+}, 2 );
 add_filter( 'rank_math/frontend/robots', function ( $r ) {
 	return isset( $GLOBALS['vtec_atual'] ) ? array( 'index' => 'index', 'follow' => 'follow' ) : $r;
 }, 99 );

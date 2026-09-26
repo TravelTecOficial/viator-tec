@@ -44,3 +44,6 @@ ok( strlen( $r['descricao'] ) > 50 && strlen( $r['descricao'] ) <= 170, 'descri�
 $robots = vtec_robots( "User-agent: *\nDisallow: /wp-admin/\n" );
 contem( 'Disallow: /wp-json/viator-tec/v1/protegido', $robots, 'robots bloqueia a REST protegida' );
 contem( 'Disallow: /wp-content/plugins/viator-tec/assets/protegido.js', $robots, 'robots bloqueia o JS protegido' );
+
+igual( '<link rel="canonical" href="https://exemplo.test/passeios/las-vegas/" />' . "\n", vtec_tag_canonica( 'https://exemplo.test/passeios/las-vegas/' ), 'tag canônica' );
+igual( '', vtec_tag_canonica( '' ), 'sem canônica não imprime nada' );

@@ -16,6 +16,7 @@ add_action( 'admin_post_vtec_salvar', function () {
 	check_admin_referer( 'vtec_salvar' );
 	update_option( 'vtec_opcoes', vtec_sanitizar_opcoes( wp_unslash( $_POST ), vtec_opcoes() ), false );
 	vtec_limpar_cache();
+	do_action( 'litespeed_purge_all' ); // páginas /passeios/ já em cache (inclusive 404) passam a refletir a mudança
 	wp_safe_redirect( admin_url( 'options-general.php?page=viator-tec&salvo=1' ) );
 	exit;
 } );
@@ -26,6 +27,7 @@ add_action( 'admin_post_vtec_limpar', function () {
 	}
 	check_admin_referer( 'vtec_limpar' );
 	vtec_limpar_cache();
+	do_action( 'litespeed_purge_all' );
 	wp_safe_redirect( admin_url( 'options-general.php?page=viator-tec&limpo=1' ) );
 	exit;
 } );
