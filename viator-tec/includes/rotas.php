@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function vtec_rotas() {
-	add_rewrite_rule( '^passeios-sitemap\.xml$', 'index.php?vtec_pagina=sitemap', 'top' );
+	add_rewrite_rule( '^passeios/sitemap\.xml$', 'index.php?vtec_pagina=sitemap', 'top' );
 	add_rewrite_rule( '^passeios/?$', 'index.php?vtec_pagina=destinos', 'top' );
 	add_rewrite_rule( '^passeios/p/([A-Za-z0-9_]+)(?:-[^/]*)?/?$', 'index.php?vtec_pagina=produto&vtec_codigo=$matches[1]', 'top' );
 	add_rewrite_rule( '^passeios/([^/]+)/?$', 'index.php?vtec_pagina=destino&vtec_destino=$matches[1]', 'top' );

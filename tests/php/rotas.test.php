@@ -11,7 +11,7 @@ ok( isset( $regras[ $regra_produto ] ), 'regra do produto' );
 ok( 1 === preg_match( '#' . $regra_produto . '#', 'passeios/p/56549P1-passeio-a-ilha-mar/', $m ) && '56549P1' === $m[1], 'regex pega o código com qualquer slug' );
 ok( 1 === preg_match( '#' . $regra_produto . '#', 'passeios/p/56549P1/' ), 'regex aceita sem slug' );
 ok( isset( $regras['^passeios/([^/]+)/?$'] ), 'regra do destino' );
-igual( array( '^passeios-sitemap\.xml$', '^passeios/?$', $regra_produto, '^passeios/([^/]+)/?$' ), array_keys( $regras ), 'sitemap, lista, produto e destino, nessa ordem' );
+igual( array( '^passeios/sitemap\.xml$', '^passeios/?$', $regra_produto, '^passeios/([^/]+)/?$' ), array_keys( $regras ), 'sitemap, lista, produto e destino, nessa ordem' );
 
 $r = vtec_resolver_pagina( 'destino', 'nao-existe', '', '' );
 igual( 404, $r['status'], 'destino fora da lista = 404' );

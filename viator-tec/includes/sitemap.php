@@ -1,5 +1,5 @@
 <?php
-/** /passeios-sitemap.xml: lista de destinos, cada destino e os passeios da 1ª página. Entra no índice do Rank Math. */
+/** /passeios/sitemap.xml (não "passeios-sitemap.xml": o Rank Math captura todo *-sitemap.xml): lista de destinos, cada destino e os passeios da 1ª página. Entra no índice do Rank Math. */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -29,7 +29,7 @@ function vtec_xml_sitemap( $urls ) {
 }
 
 function vtec_indice_sitemap( $xml ) {
-	return $xml . '<sitemap><loc>' . htmlspecialchars( home_url( '/passeios-sitemap.xml' ), ENT_QUOTES | ENT_XML1, 'UTF-8' ) . '</loc></sitemap>';
+	return $xml . '<sitemap><loc>' . htmlspecialchars( home_url( '/passeios/sitemap.xml' ), ENT_QUOTES | ENT_XML1, 'UTF-8' ) . '</loc></sitemap>';
 }
 
 if ( defined( 'VTEC_TESTE' ) ) {

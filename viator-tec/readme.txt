@@ -4,6 +4,7 @@ Requer: WordPress 6+, tema Hello Elementor (cabeçalho/rodapé pelo Theme Builde
 Instalação: Plugins > Adicionar novo > Enviar plugin > viator-tec.zip > Ativar.
 Configurações > Viator Tec: ambiente (sandbox/produção), chaves, campanha e destinos.
 
+0.3.1 (26/09/2026): sitemap de passeios em /passeios/sitemap.xml (o Rank Math captura *-sitemap.xml).
 0.3.0 (26/09/2026): telas no Elementor no padrão dos roteiros — campos dinâmicos Viator, widget Viator – Grade, 5 modelos instalados; sitemap de passeios.
 0.2.1 (26/09/2026): a lista de sugestões do autocompletar aparece logo abaixo do campo.
 0.2.0 (26/09/2026): autocompletar de destinos no painel — digite a cidade e ela entra na tabela com ID, nome e endereço.

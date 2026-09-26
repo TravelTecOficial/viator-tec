@@ -10,4 +10,4 @@ igual( 5, count( $u ), 'lista + destino + 3 passeios' );
 $x = vtec_xml_sitemap( array( 'https://exemplo.test/a?b=1&c=2' ) );
 contem( '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">', $x, 'urlset' );
 contem( '<loc>https://exemplo.test/a?b=1&amp;c=2</loc>', $x, '& escapado para XML' );
-contem( '<sitemap><loc>https://exemplo.test/passeios-sitemap.xml</loc>', vtec_indice_sitemap( '' ), 'entrada no índice do Rank Math' );
+contem( '<sitemap><loc>https://exemplo.test/passeios/sitemap.xml</loc>', vtec_indice_sitemap( '' ), 'entrada no índice do Rank Math' );
