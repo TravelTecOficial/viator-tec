@@ -11,7 +11,7 @@ ok( isset( $regras[ $regra_produto ] ), 'regra do produto' );
 ok( 1 === preg_match( '#' . $regra_produto . '#', 'passeios/p/56549P1-passeio-a-ilha-mar/', $m ) && '56549P1' === $m[1], 'regex pega o código com qualquer slug' );
 ok( 1 === preg_match( '#' . $regra_produto . '#', 'passeios/p/56549P1/' ), 'regex aceita sem slug' );
 ok( isset( $regras['^passeios/([^/]+)/?$'] ), 'regra do destino' );
-igual( array( '^passeios/?$', $regra_produto, '^passeios/([^/]+)/?$' ), array_keys( $regras ), 'produto antes do destino' );
+igual( array( '^passeios-sitemap\.xml$', '^passeios/?$', $regra_produto, '^passeios/([^/]+)/?$' ), array_keys( $regras ), 'sitemap, lista, produto e destino, nessa ordem' );
 
 $r = vtec_resolver_pagina( 'destino', 'nao-existe', '', '' );
 igual( 404, $r['status'], 'destino fora da lista = 404' );
@@ -47,3 +47,23 @@ contem( 'Disallow: /wp-content/plugins/viator-tec/assets/protegido.js', $robots,
 
 igual( '<link rel="canonical" href="https://exemplo.test/passeios/las-vegas/" />' . "\n", vtec_tag_canonica( 'https://exemplo.test/passeios/las-vegas/' ), 'tag canônica' );
 igual( '', vtec_tag_canonica( '' ), 'sem canônica não imprime nada' );
+
+update_option( 'vtec_opcoes', array( 'chave_sandbox' => 'K', 'modelos' => array( 'destino' => 41, 'produto' => 42 ), 'destinos' => array( array( 'id' => 684, 'nome' => 'Las Vegas', 'slug' => 'las-vegas', 'foto' => '' ) ) ) );
+vtec_limpar_cache();
+resposta_falsa( 200, fixture( 'search' ) );
+$r = vtec_resolver_pagina( 'destino', 'las-vegas', '', 'preco' );
+igual( 41, $r['modelo'], 'destino usa o modelo escolhido' );
+igual( 'Las Vegas', $r['contexto']['destino']['nome'], 'contexto do destino' );
+igual( 'preco', $r['contexto']['ordem'], 'contexto leva a ordem' );
+$GLOBALS['vtec_renderizador'] = function ( $m, $css = false ) { $c = vtec_contexto(); return "[modelo $m:" . $c['destino']['nome'] . ( $css ? ':css' : '' ) . ']'; };
+igual( '[modelo 41:Las Vegas:css]', vtec_render_pagina( $r ), 'página renderizada pelo modelo, com CSS' );
+$GLOBALS['vtec_renderizador'] = function () { return ''; };
+contem( 'Passeios em Las Vegas', vtec_render_pagina( $r ), 'modelo vazio: volta ao HTML da fase 1' );
+$r['modelo'] = 0;
+contem( 'Passeios em Las Vegas', vtec_render_pagina( $r ), 'sem modelo: HTML da fase 1' );
+resposta_falsa( 200, fixture( 'product' ) );
+resposta_falsa( 200, fixture( 'schedules' ) );
+resposta_falsa( 200, fixture( 'exchange' ) );
+$r = vtec_resolver_pagina( 'produto', '', '56549P1', '' );
+igual( 42, $r['modelo'], 'produto usa o modelo escolhido' );
+igual( 'R$ 954,87', $r['contexto']['produto']['preco'], 'contexto do produto com preço' );

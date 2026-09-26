@@ -13,11 +13,14 @@ function vtec_opcoes_padrao() {
 		'campanha'       => 'redeturistica-passeios',
 		'por_pagina'     => 12,
 		'destinos'       => array(),
+		'modelos'        => array( 'card_destino' => 0, 'card_passeio' => 0, 'destinos' => 0, 'destino' => 0, 'produto' => 0 ),
 	);
 }
 
 function vtec_opcoes() {
-	return array_merge( vtec_opcoes_padrao(), (array) get_option( 'vtec_opcoes', array() ) );
+	$o            = array_merge( vtec_opcoes_padrao(), (array) get_option( 'vtec_opcoes', array() ) );
+	$o['modelos'] = array_merge( vtec_opcoes_padrao()['modelos'], (array) $o['modelos'] );
+	return $o;
 }
 
 /**
@@ -58,6 +61,14 @@ function vtec_sanitizar_opcoes( $entrada, $atual ) {
 			'slug' => $slug,
 			'foto' => isset( $entrada['destino_foto'][ $i ] ) ? esc_url_raw( trim( $entrada['destino_foto'][ $i ] ) ) : '',
 		);
+	}
+	$salvos = isset( $atual['modelos'] ) && is_array( $atual['modelos'] ) ? $atual['modelos'] : array();
+	foreach ( array_keys( $s['modelos'] ) as $chave ) {
+		if ( isset( $entrada[ 'modelo_' . $chave ] ) ) {
+			$s['modelos'][ $chave ] = ctype_digit( (string) $entrada[ 'modelo_' . $chave ] ) ? (int) $entrada[ 'modelo_' . $chave ] : 0;
+		} elseif ( isset( $salvos[ $chave ] ) ) {
+			$s['modelos'][ $chave ] = (int) $salvos[ $chave ];
+		}
 	}
 	return $s;
 }

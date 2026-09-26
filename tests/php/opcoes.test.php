@@ -30,3 +30,11 @@ igual( 'Las Vegas', vtec_destino_por_slug( 'las-vegas' )['nome'], 'destino por s
 igual( null, vtec_destino_por_slug( 'nao-existe' ), 'slug inexistente devolve null' );
 igual( 'nova-prod', vtec_chave_atual(), 'chave do ambiente atual' );
 igual( 'https://api.viator.com/partner', vtec_base_url(), 'base produção' );
+
+igual( array( 'card_destino' => 0, 'card_passeio' => 0, 'destinos' => 0, 'destino' => 0, 'produto' => 0 ), vtec_opcoes_padrao()['modelos'], 'modelos padrão' );
+$atual2 = vtec_opcoes_padrao();
+$atual2['modelos']['produto'] = 77;
+$m = vtec_sanitizar_opcoes( array( 'modelo_destino' => '55', 'modelo_destinos' => 'abc' ), $atual2 )['modelos'];
+igual( 55, $m['destino'], 'modelo escolhido no painel' );
+igual( 77, $m['produto'], 'modelo não enviado mantém o salvo' );
+igual( 0, $m['destinos'], 'valor inválido vira 0' );

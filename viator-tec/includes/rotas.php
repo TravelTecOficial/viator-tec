@@ -6,13 +6,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function vtec_rotas() {
+	add_rewrite_rule( '^passeios-sitemap\.xml$', 'index.php?vtec_pagina=sitemap', 'top' );
 	add_rewrite_rule( '^passeios/?$', 'index.php?vtec_pagina=destinos', 'top' );
 	add_rewrite_rule( '^passeios/p/([A-Za-z0-9_]+)(?:-[^/]*)?/?$', 'index.php?vtec_pagina=produto&vtec_codigo=$matches[1]', 'top' );
 	add_rewrite_rule( '^passeios/([^/]+)/?$', 'index.php?vtec_pagina=destino&vtec_destino=$matches[1]', 'top' );
 }
 
 function vtec_pagina_404() {
-	return array( 'status' => 404, 'titulo' => '', 'descricao' => '', 'canonica' => '', 'html' => '' );
+	return array( 'status' => 404, 'titulo' => '', 'descricao' => '', 'canonica' => '', 'html' => '', 'contexto' => array(), 'modelo' => 0 );
 }
 
 /** Monta a página pedida. Não depende do WordPress além das opções e do cache — por isso é testável. */
@@ -27,6 +28,8 @@ function vtec_resolver_pagina( $pagina, $destino, $codigo, $ordem ) {
 			'descricao' => 'Passeios, ingressos e experiências nos principais destinos, com reserva segura pela Viator.',
 			'canonica'  => home_url( '/passeios/' ),
 			'html'      => vtec_html_destinos( $destinos ),
+			'contexto'  => array( 'destino' => null, 'produto' => null ),
+			'modelo'    => (int) $o['modelos']['destinos'],
 		);
 	}
 
@@ -43,6 +46,8 @@ function vtec_resolver_pagina( $pagina, $destino, $codigo, $ordem ) {
 			'descricao' => 'Os melhores passeios e ingressos em ' . $d['nome'] . ', com reserva segura pela Viator.',
 			'canonica'  => home_url( '/passeios/' . $d['slug'] . '/' ),
 			'html'      => is_wp_error( $r ) ? vtec_html_indisponivel() : vtec_html_destino( $d, $r['cards'], $r['total'], $ordem, $o['por_pagina'] ),
+			'contexto'  => array( 'destino' => $d, 'produto' => null, 'ordem' => $ordem ),
+			'modelo'    => (int) $o['modelos']['destino'],
 		);
 	}
 
@@ -55,6 +60,7 @@ function vtec_resolver_pagina( $pagina, $destino, $codigo, $ordem ) {
 			$dados = $p->get_error_code() === 'vtec_http_400' || $p->get_error_code() === 'vtec_http_404';
 			return $dados ? vtec_pagina_404() : array(
 				'status' => 200, 'titulo' => 'Passeio', 'descricao' => '', 'canonica' => '', 'html' => vtec_html_indisponivel(),
+				'contexto' => array(), 'modelo' => 0,
 			);
 		}
 		$v = vtec_produto_view( $p, vtec_preco_a_partir( $codigo ) );
@@ -64,6 +70,8 @@ function vtec_resolver_pagina( $pagina, $destino, $codigo, $ordem ) {
 			'descricao' => mb_substr( wp_trim_words( implode( ' ', $v['paragrafos'] ), 30, '' ), 0, 160 ),
 			'canonica'  => vtec_url_produto( $v['codigo'], $v['titulo'] ),
 			'html'      => vtec_html_produto( $v ),
+			'contexto'  => array( 'destino' => null, 'produto' => $v ),
+			'modelo'    => (int) $o['modelos']['produto'],
 		);
 	}
 
@@ -74,6 +82,18 @@ function vtec_robots( $txt ) {
 	return rtrim( $txt ) . "\n\n# Viator Tec: conteúdo protegido (regra da Viator)\n"
 		. "Disallow: /wp-json/viator-tec/v1/protegido\n"
 		. "Disallow: /wp-content/plugins/viator-tec/assets/protegido.js\n";
+}
+
+/** Conteúdo da página: o modelo do Elementor escolhido (com o contexto) ou, se não houver/vier vazio, o HTML da fase 1. */
+function vtec_render_pagina( $atual ) {
+	if ( ! empty( $atual['modelo'] ) ) {
+		vtec_definir_contexto( $atual['contexto'] );
+		$html = (string) call_user_func( vtec_renderizador(), (int) $atual['modelo'], true );
+		if ( '' !== trim( $html ) ) {
+			return $html;
+		}
+	}
+	return $atual['html'];
 }
 
 function vtec_tag_canonica( $url ) {
@@ -116,6 +136,11 @@ add_action( 'template_redirect', function () {
 	if ( ! $pagina ) {
 		return;
 	}
+	if ( 'sitemap' === $pagina ) {
+		header( 'Content-Type: application/xml; charset=UTF-8' );
+		echo vtec_xml_sitemap( vtec_urls_sitemap() ); // phpcs:ignore -- XML escapado em vtec_xml_sitemap
+		exit;
+	}
 	$GLOBALS['vtec_atual'] = vtec_resolver_pagina(
 		$pagina,
 		(string) get_query_var( 'vtec_destino' ),
@@ -137,14 +162,21 @@ add_filter( 'template_include', function ( $modelo ) {
 	return isset( $GLOBALS['vtec_atual'] ) ? VTEC_DIR . 'templates/pagina.php' : $modelo;
 }, 99 );
 
+add_action( 'init', function () {
+	wp_register_style( 'viator-tec', VTEC_URL . 'assets/viator-tec.css', array(), VTEC_VERSION );
+	wp_register_script( 'viator-tec', VTEC_URL . 'assets/viator-tec.js', array(), VTEC_VERSION, true );
+	wp_register_script( 'viator-tec-protegido', VTEC_URL . 'assets/protegido.js', array(), VTEC_VERSION, true );
+	wp_add_inline_script( 'viator-tec', 'window.vtecCfg=' . wp_json_encode( array( 'rest' => rest_url( 'viator-tec/v1/' ) ) ) . ';', 'before' );
+	wp_add_inline_script( 'viator-tec-protegido', 'window.vtecCfg=window.vtecCfg||' . wp_json_encode( array( 'rest' => rest_url( 'viator-tec/v1/' ) ) ) . ';', 'before' );
+} );
+
 add_action( 'wp_enqueue_scripts', function () {
 	if ( ! isset( $GLOBALS['vtec_atual'] ) ) {
 		return;
 	}
-	wp_enqueue_style( 'viator-tec', VTEC_URL . 'assets/viator-tec.css', array(), VTEC_VERSION );
-	wp_enqueue_script( 'viator-tec', VTEC_URL . 'assets/viator-tec.js', array(), VTEC_VERSION, true );
-	wp_enqueue_script( 'viator-tec-protegido', VTEC_URL . 'assets/protegido.js', array(), VTEC_VERSION, true );
-	wp_add_inline_script( 'viator-tec', 'window.vtecCfg=' . wp_json_encode( array( 'rest' => rest_url( 'viator-tec/v1/' ) ) ) . ';', 'before' );
+	wp_enqueue_style( 'viator-tec' );
+	wp_enqueue_script( 'viator-tec' );
+	wp_enqueue_script( 'viator-tec-protegido' );
 } );
 
 add_filter( 'body_class', function ( $classes ) {
