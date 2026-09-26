@@ -135,12 +135,17 @@ function vtec_ficha( $release ) {
 	);
 }
 
+/** Painel › Atualizações › "Verificar novamente" (force-check=1) ignora o cache de 6 h. */
+function vtec_forcar_consulta( $get ) {
+	return ! empty( $get['force-check'] );
+}
+
 /** É aqui que o WordPress descobre que existe versão nova. */
 add_filter( 'pre_set_site_transient_update_plugins', function ( $transiente ) {
 	if ( ! is_object( $transiente ) ) {
 		return $transiente;
 	}
-	$release = vtec_release();
+	$release = vtec_release( vtec_forcar_consulta( $_GET ) ); // phpcs:ignore -- só lê a flag do próprio WordPress
 	if ( empty( $release['versao'] ) ) {
 		return $transiente;
 	}

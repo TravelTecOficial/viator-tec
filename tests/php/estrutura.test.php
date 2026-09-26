@@ -10,3 +10,5 @@ $at = file_get_contents( '/p/includes/atualizador.php' );
 contem( "'TravelTecOficial/viator-tec'", $at, 'atualizador aponta para o repositório certo' );
 nao_contem( 'roteiros', strtolower( $at ), 'nada do Voucher Tec sobrou no atualizador' );
 nao_contem( 'TT_', $at, 'sem constantes TT_' );
+ok( vtec_forcar_consulta( array( 'force-check' => '1' ) ), '"Verificar novamente" força consultar o GitHub' );
+ok( ! vtec_forcar_consulta( array() ), 'sem force-check usa o cache' );
