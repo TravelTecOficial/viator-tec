@@ -33,6 +33,17 @@ add_action( 'admin_post_vtec_salvar', function () {
 	exit;
 } );
 
+add_action( 'admin_post_vtec_instalar', function () {
+	if ( ! current_user_can( 'manage_options' ) ) {
+		wp_die( 'Sem permissão.' );
+	}
+	check_admin_referer( 'vtec_instalar' );
+	$r = vtec_instalar_modelos( ! empty( $_POST['forcar'] ) );
+	do_action( 'litespeed_purge_all' );
+	wp_safe_redirect( admin_url( 'options-general.php?page=viator-tec&' . ( is_wp_error( $r ) ? 'erro_modelos=1' : 'modelos=1' ) ) );
+	exit;
+} );
+
 add_action( 'admin_post_vtec_limpar', function () {
 	if ( ! current_user_can( 'manage_options' ) ) {
 		wp_die( 'Sem permissão.' );
@@ -86,7 +97,31 @@ function vtec_tela_admin() {
 			. '<td><input class="regular-text" name="destino_foto[]" value="' . esc_attr( $d['foto'] ) . '"></td></tr>';
 	}
 	echo '</tbody></table><p>Para tirar um destino, apague o ID e salve. Linhas em branco são ignoradas.</p>';
+	echo '<h2>Modelos do Elementor</h2><p>Qual modelo cada tela usa. "HTML do plugin" é a tela simples da primeira versão.</p><table class="form-table">';
+	$modelos = vtec_opcoes_modelos_select();
+	$modelos['0'] = '— HTML do plugin —';
+	foreach ( array( 'destinos' => 'Lista de destinos (/passeios/)', 'destino' => 'Página do destino', 'produto' => 'Página do passeio' ) as $chave => $rotulo ) {
+		echo '<tr><th>' . esc_html( $rotulo ) . '</th><td><select name="modelo_' . esc_attr( $chave ) . '">';
+		foreach ( $modelos as $id => $titulo ) {
+			echo '<option value="' . esc_attr( $id ) . '"' . selected( (string) $o['modelos'][ $chave ], (string) $id, false ) . '>' . esc_html( $titulo ) . '</option>';
+		}
+		echo '</select>' . ( $o['modelos'][ $chave ] ? ' <a href="' . esc_url( admin_url( 'post.php?post=' . (int) $o['modelos'][ $chave ] . '&action=elementor' ) ) . '">Editar no Elementor</a>' : '' ) . '</td></tr>';
+	}
+	echo '</table><p class="description">Os cards de destino e de passeio são escolhidos no widget "Viator – Grade" de cada modelo.</p>';
 	submit_button( 'Salvar' );
+	echo '</form>';
+
+	if ( isset( $_GET['modelos'] ) ) {
+		echo '<div class="notice notice-success"><p>Modelos instalados.</p></div>';
+	}
+	if ( isset( $_GET['erro_modelos'] ) ) {
+		echo '<div class="notice notice-error"><p>Não foi possível instalar: o Elementor está ativo?</p></div>';
+	}
+	echo '<h2>Instalar modelos</h2><form method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '"><input type="hidden" name="action" value="vtec_instalar">';
+	wp_nonce_field( 'vtec_instalar' );
+	echo '<p>Instala os modelos que faltam (lista, destino, passeio e os dois cards). Os que já existem não são alterados.</p>'
+		. '<p><label><input type="checkbox" name="forcar" value="1"> Reinstalar todos (cria cópias novas; as atuais continuam na biblioteca)</label></p>';
+	submit_button( 'Instalar modelos', 'secondary' );
 	echo '</form>';
 
 	echo '<h2>Cache</h2><form method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '"><input type="hidden" name="action" value="vtec_limpar">';

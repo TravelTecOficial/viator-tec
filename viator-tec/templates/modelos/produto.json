@@ -1,0 +1,880 @@
+{
+ "chave": "produto",
+ "titulo": "Passeios – página do passeio (Viator Tec)",
+ "tipo": "page",
+ "page_settings": {
+  "custom_css": ".rt-single .rt-linha{position:relative;height:1px;background:#EAEAEA;margin:22px 0 26px}\n.rt-single .rt-linha span{position:absolute;left:0;top:-2px;width:70px;height:5px;background:#E98300}\n.rt-single .rt-apresentacao p:last-child{margin-bottom:0}\n.rt-lateral .rt-preco p{margin:0}\n.rt-preco .rt-preco-de,.rt-preco .rt-preco-comp{display:block;font-size:15px;font-weight:400;color:#8A8A8A}\n.rt-preco .rt-preco-de{font-weight:600;color:#6B6B6B}\n.rt-preco .rt-preco-valor{display:block;font-family:Montserrat,sans-serif;font-size:42px;font-weight:600;line-height:1.3;color:#666666}\n.rt-lateral .elementor-share-btn{cursor:pointer}\n@media (min-width:768px){.rt-lateral{position:sticky;top:110px}}\n.rt-hero .rt-hero-titulo{max-width:760px}\n#roteiro{scroll-margin-top:110px}\n.rt-hero{box-shadow:inset 0 170px 120px -80px rgba(0,0,0,.5)}\n/* galeria do roteiro */\n.rt-galeria{padding:0!important}\n.rt-galeria-track{gap:0!important}\n.rt-galeria .rt-gal-item{position:relative;flex:0 0 auto;width:25vw;height:min(19vw,340px);padding:0;margin:0;border:0;border-radius:0;background:#ddd;cursor:zoom-in;overflow:hidden;display:block}\n@media (max-width:767px){.rt-galeria .rt-gal-item{width:72vw;height:54vw}}\n.rt-galeria .rt-gal-item img{width:100%!important;height:100%!important;object-fit:cover;border-radius:0!important;display:block;transition:transform .6s ease}\n.rt-galeria .rt-gal-item::after{content:\"\";position:absolute;inset:0;background:rgba(0,0,0,.45) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/svg%3E\") center/54px no-repeat;opacity:0;transition:opacity .25s}\n.rt-galeria .rt-gal-item:hover::after,.rt-galeria .rt-gal-item:focus-visible::after{opacity:1}\n.rt-galeria .rt-gal-item:hover img{transform:scale(1.05)}\n.rt-galeria ~ p{display:none}\n.rt-lb{position:fixed;inset:0;z-index:2147483000;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center}\n.rt-lb[hidden]{display:none}\n.rt-lb figure{margin:0;max-width:90vw;text-align:center}\n.rt-lb img{max-width:90vw;max-height:80vh;object-fit:contain;display:block;margin:0 auto}\n.rt-lb figcaption{color:#ccc;font-size:14px;margin-top:12px}\n.rt-lb figcaption a{color:#fff;text-decoration:underline}\n.rt-lb .rt-lb-n{display:block;margin-top:4px;color:#888;font-size:13px}\n.rt-lb button{position:absolute;background:none;border:0;color:#fff;cursor:pointer;line-height:1;padding:10px;opacity:.85}\n.rt-lb button:hover{opacity:1;color:#E98300;background:none}\n.rt-lb .rt-lb-x{top:14px;right:18px;font-size:42px}\n.rt-lb .rt-lb-ant,.rt-lb .rt-lb-prox{top:50%;transform:translateY(-50%);font-size:64px}\n.rt-lb .rt-lb-ant{left:10px}.rt-lb .rt-lb-prox{right:10px}\n/* abas do roteiro */\n.rt-abas .e-n-tabs-heading{gap:0!important;justify-content:flex-start!important;background:#E6E6E6}\n.rt-abas .e-n-tab-title{flex:0 0 auto;background:#E6E6E6!important;border:0!important;border-right:1px solid #fff!important;border-radius:0!important;padding:20px 18px!important;color:#8A8A8A!important;font-family:Roboto,sans-serif;font-size:15px;font-weight:500;text-transform:uppercase;letter-spacing:.5px;transition:background .2s,color .2s}\n.rt-abas .e-n-tab-title .e-n-tab-title-text{color:inherit!important;font:inherit!important;text-transform:inherit;letter-spacing:inherit}\n.rt-abas .e-n-tab-title:hover{color:#E98300!important}\n.rt-abas .e-n-tab-title[aria-selected=true]{background:#E98300!important;color:#fff!important}\n.rt-abas .e-n-tabs-content > .e-con{padding-top:28px}\n@media (max-width:767px){.rt-abas .e-n-tab-title{border-right:0!important;border-bottom:1px solid #fff!important;width:100%;justify-content:flex-start}}\n.vtec-nota-produto .vtec-nota{font-size:15px;color:#555}\n.vtec-nota b{color:#E98300}\n"
+ },
+ "content": [
+  {
+   "id": "vpp0001",
+   "elType": "container",
+   "settings": {
+    "flex_direction": "column",
+    "min_height": {
+     "unit": "px",
+     "size": 500,
+     "sizes": []
+    },
+    "flex_justify_content": "center",
+    "background_background": "classic",
+    "background_position": "center center",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "rgba(0,0,0,0.62)",
+    "__dynamic__": {
+     "background_image": "[elementor-tag id=\"vt00016\" name=\"vtec-imagem\" settings=\"%7B%7D\"]"
+    },
+    "background_repeat": "no-repeat",
+    "background_size": "cover",
+    "background_attachment": "scroll",
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "20",
+     "bottom": "40",
+     "left": "20",
+     "isLinked": false
+    },
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    },
+    "flex_align_items": "flex-start",
+    "flex_gap": {
+     "unit": "px",
+     "size": 14,
+     "column": "14",
+     "row": "14",
+     "isLinked": true
+    },
+    "min_height_mobile": {
+     "unit": "px",
+     "size": 400,
+     "sizes": []
+    },
+    "background_overlay_color_stop": {
+     "unit": "%",
+     "size": 0
+    },
+    "background_overlay_color_b": "rgba(0,0,0,0.05)",
+    "background_overlay_color_b_stop": {
+     "unit": "%",
+     "size": 75
+    },
+    "background_overlay_gradient_type": "linear",
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "96",
+     "right": "16",
+     "bottom": "32",
+     "left": "16",
+     "isLinked": false
+    },
+    "css_classes": "rt-hero",
+    "background_overlay_opacity": {
+     "unit": "px",
+     "size": 1,
+     "sizes": []
+    },
+    "min_height_tablet": {
+     "unit": "px",
+     "size": 440,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "vpp0002",
+     "elType": "widget",
+     "settings": {
+      "title": "Adicione o texto do seu título aqui",
+      "typography_typography": "custom",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 52,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "title_color": "#FFFFFF",
+      "__dynamic__": {
+       "title": "[elementor-tag id=\"vt00017\" name=\"vtec-titulo\" settings=\"%7B%7D\"]"
+      },
+      "header_size": "h1",
+      "typography_font_family": "Montserrat",
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 40,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.15
+      },
+      "text_shadow_text_shadow_type": "yes",
+      "text_shadow_text_shadow": {
+       "horizontal": 0,
+       "vertical": 2,
+       "blur": 12,
+       "color": "rgba(0,0,0,0.35)"
+      },
+      "_css_classes": "rt-hero-titulo"
+     },
+     "elements": [],
+     "widgetType": "heading"
+    },
+    {
+     "id": "vpp0003",
+     "elType": "widget",
+     "settings": {
+      "text": "Conheça mais",
+      "link": {
+       "url": "#roteiro",
+       "is_external": "",
+       "nofollow": "",
+       "custom_attributes": ""
+      },
+      "selected_icon": {
+       "value": "fas fa-plus",
+       "library": "fa-solid"
+      },
+      "icon_align": "left",
+      "icon_indent": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "background_color": "rgba(60,61,61,0.85)",
+      "button_text_color": "#FFFFFF",
+      "button_background_hover_color": "#E98300",
+      "hover_color": "#FFFFFF",
+      "border_radius": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      },
+      "text_padding": {
+       "unit": "px",
+       "top": "15",
+       "right": "34",
+       "bottom": "15",
+       "left": "22",
+       "isLinked": false
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "16",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16,
+       "sizes": []
+      },
+      "typography_font_weight": "500",
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 1,
+       "sizes": []
+      }
+     },
+     "elements": [],
+     "widgetType": "button"
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "vpp0004",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    },
+    "flex_direction": "row",
+    "flex_direction_mobile": "column",
+    "flex_justify_content": "space-between",
+    "flex_align_items": "flex-start",
+    "flex_gap": {
+     "unit": "px",
+     "size": 60,
+     "column": "60",
+     "row": "60",
+     "isLinked": true
+    },
+    "padding": {
+     "unit": "px",
+     "top": "60",
+     "right": "20",
+     "bottom": "40",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "32",
+     "right": "16",
+     "bottom": "24",
+     "left": "16",
+     "isLinked": false
+    },
+    "_css_classes": "rt-single",
+    "css_classes": "rt-single"
+   },
+   "elements": [
+    {
+     "id": "vpp0005",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "width": {
+       "unit": "%",
+       "size": 62
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 0,
+       "column": "0",
+       "row": "0",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "vpp0006",
+       "elType": "widget",
+       "settings": {
+        "anchor": "roteiro"
+       },
+       "elements": [],
+       "widgetType": "menu-anchor"
+      },
+      {
+       "id": "vpp0007",
+       "elType": "widget",
+       "settings": {
+        "header_size": "h2",
+        "title_color": "#E98300",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 38,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 28,
+         "sizes": []
+        },
+        "typography_font_weight": "300",
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.2
+        },
+        "__dynamic__": {},
+        "title": "Sobre este passeio"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "vpp0008",
+       "elType": "widget",
+       "settings": {
+        "html": "<div class=\"rt-linha\"><span></span></div>"
+       },
+       "elements": [],
+       "widgetType": "html"
+      },
+      {
+       "id": "vpp0009",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "__dynamic__": {
+         "editor": "[elementor-tag id=\"vt0001c\" name=\"vtec-nota\" settings=\"%7B%7D\"]"
+        },
+        "_css_classes": "vtec-nota-produto"
+       },
+       "elements": []
+      },
+      {
+       "id": "vpp000a",
+       "elType": "widget",
+       "settings": {
+        "text_color": "#666666",
+        "align": "justify",
+        "align_mobile": "left",
+        "typography_typography": "custom",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16,
+         "sizes": []
+        },
+        "typography_line_height": {
+         "unit": "em",
+         "size": 1.8
+        },
+        "__dynamic__": {
+         "editor": "[elementor-tag id=\"vt00018\" name=\"vtec-descricao\" settings=\"%7B%7D\"]"
+        },
+        "_css_classes": "rt-apresentacao"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "vpp000b",
+     "elType": "container",
+     "settings": {
+      "content_width": "full",
+      "width": {
+       "unit": "%",
+       "size": 30
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_direction": "column",
+      "flex_align_items": "stretch",
+      "flex_gap": {
+       "unit": "px",
+       "size": 18,
+       "column": "18",
+       "row": "18",
+       "isLinked": true
+      },
+      "padding": {
+       "unit": "px",
+       "top": "8",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "_css_classes": "rt-lateral",
+      "css_classes": "rt-lateral"
+     },
+     "elements": [
+      {
+       "id": "vpp000c",
+       "elType": "widget",
+       "settings": {
+        "align": "center",
+        "text_color": "#3C3D3D",
+        "typography_typography": "custom",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        },
+        "typography_font_weight": "600",
+        "__dynamic__": {
+         "editor": "[elementor-tag id=\"vt00019\" name=\"vtec-preco\" settings=\"%7B%7D\"]"
+        },
+        "_css_classes": "rt-preco"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "vpp000d",
+       "elType": "widget",
+       "settings": {
+        "text": "Reservar na Viator",
+        "align": "justify",
+        "link": {
+         "url": "",
+         "is_external": "on",
+         "nofollow": "on",
+         "custom_attributes": "rel|noopener sponsored"
+        },
+        "background_color": "#E98300",
+        "button_text_color": "#FFFFFF",
+        "button_background_hover_color": "#3C3D3D",
+        "hover_color": "#FFFFFF",
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "14",
+         "right": "20",
+         "bottom": "14",
+         "left": "20",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 17,
+         "sizes": []
+        },
+        "typography_font_weight": "700",
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "__dynamic__": {
+         "link": "[elementor-tag id=\"vt0001b\" name=\"vtec-link-reserva\" settings=\"%7B%7D\"]"
+        },
+        "_css_classes": "vtec-reservar"
+       },
+       "elements": [],
+       "widgetType": "button"
+      },
+      {
+       "id": "vpp000e",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p class=\"vtec-aviso\">A reserva e o pagamento são feitos no site da Viator.</p>",
+        "typography_typography": "custom",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 13,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "vpp000f",
+       "elType": "widget",
+       "settings": {
+        "share_buttons": [
+         {
+          "_id": "rs1",
+          "button": "print"
+         },
+         {
+          "_id": "rs2",
+          "button": "email"
+         },
+         {
+          "_id": "rs3",
+          "button": "facebook"
+         },
+         {
+          "_id": "rs4",
+          "button": "whatsapp"
+         }
+        ],
+        "view": "icon",
+        "skin": "framed",
+        "shape": "circle",
+        "columns": "0",
+        "alignment": "center",
+        "button_size": {
+         "unit": "px",
+         "size": 1.1,
+         "sizes": []
+        },
+        "icon_size": {
+         "unit": "em",
+         "size": 1.6
+        },
+        "color_source": "custom",
+        "primary_color": "#E98300",
+        "secondary_color": "#FFFFFF",
+        "primary_color_hover": "#E98300",
+        "secondary_color_hover": "#FFFFFF",
+        "column_gap": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "share-buttons"
+      },
+      {
+       "id": "vpp0010",
+       "elType": "widget",
+       "settings": {
+        "html": "<script>\n(function(){\n  function esc(s){return s.replace(/[&<>\"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c];});}\n  function fmt(){\n    document.querySelectorAll('.rt-preco').forEach(function(w){\n      var el=w.querySelector('p')||w.querySelector('.elementor-widget-container')||w;\n      if(el.dataset.rtOk) return;\n      var t=(el.textContent||'').replace(/\\s+/g,' ').trim();\n      var m=t.match(/^(.*?)((?:USD|US\\$|U\\$|EUR|€|R\\$)\\s*[\\d.,]*\\d)\\s*,?\\s*(.*)$/i);\n      if(!m) return;\n      var de=m[1].trim()||'A partir de'; de=de.charAt(0).toUpperCase()+de.slice(1);\n      el.innerHTML='<span class=\"rt-preco-de\">'+esc(de)+'</span><span class=\"rt-preco-valor\">'+esc(m[2].replace(/^U\\$|^US\\$/i,'USD '))+'</span>'+(m[3]?'<span class=\"rt-preco-comp\">'+esc(m[3])+'</span>':'');\n      el.dataset.rtOk=1;\n    });\n  }\n  if(document.readyState!=='loading') fmt(); else document.addEventListener('DOMContentLoaded',fmt);\n})();\n</script>"
+       },
+       "elements": [],
+       "widgetType": "html"
+      },
+      {
+       "id": "vpp0011",
+       "elType": "widget",
+       "widgetType": "html",
+       "settings": {
+        "html": "<script>document.querySelectorAll('.vtec-reservar a').forEach(function(a){a.target='_blank';a.rel='noopener sponsored';});</script>"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "vpp0012",
+   "elType": "container",
+   "settings": {
+    "content_width": "full",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "40",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "flex_direction": "column"
+   },
+   "elements": [
+    {
+     "id": "vpp0013",
+     "elType": "widget",
+     "settings": {
+      "__dynamic__": {
+       "editor": "[elementor-tag id=\"vt0001a\" name=\"vtec-galeria\" settings=\"%7B%7D\"]"
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [],
+     "widgetType": "text-editor"
+    },
+    {
+     "id": "vpp0014",
+     "elType": "widget",
+     "settings": {
+      "html": "<script>\n(function(){\n  function init(){\n    var gal=document.querySelector('.rt-galeria');\n    if(!gal||gal.dataset.rtOk) return; gal.dataset.rtOk=1;\n    var box=gal.parentElement;\n    // créditos: some da página e vão para a foto ampliada\n    var cred=[], credP=box.querySelector('p');\n    if(credP && /Fotos:/i.test(credP.textContent)){\n      credP.querySelectorAll('a[href*=\"unsplash.com/@\"]').forEach(function(a){cred.push({nome:a.textContent.trim(),url:a.href});});\n      credP.style.display='none';\n    }\n    var imgs=[].slice.call(gal.querySelectorAll('img')), unicas=[];\n    imgs.forEach(function(img){ if(unicas.indexOf(img.src)<0) unicas.push(img.src); });\n    imgs.forEach(function(img){\n      var b=document.createElement('button'); b.type='button'; b.className='rt-gal-item';\n      b.setAttribute('aria-label','Ampliar foto');\n      img.loading='lazy'; img.parentNode.insertBefore(b,img); b.appendChild(img);\n      b.addEventListener('click',function(){abrir(unicas.indexOf(img.src));});\n    });\n    // lightbox\n    var lb=document.createElement('div'); lb.className='rt-lb'; lb.hidden=true;\n    lb.innerHTML='<button type=\"button\" class=\"rt-lb-x\" aria-label=\"Fechar\">&times;</button><button type=\"button\" class=\"rt-lb-ant\" aria-label=\"Anterior\">&#8249;</button><figure><img alt=\"\"><figcaption></figcaption></figure><button type=\"button\" class=\"rt-lb-prox\" aria-label=\"Próxima\">&#8250;</button>';\n    document.body.appendChild(lb);\n    var atual=0, im=lb.querySelector('img'), cap=lb.querySelector('figcaption');\n    function mostrar(i){\n      atual=(i+unicas.length)%unicas.length; im.src=unicas[atual];\n      var c=cred[atual]; cap.innerHTML='';\n      if(c){ cap.appendChild(document.createTextNode('Foto: ')); var a=document.createElement('a'); a.href=c.url; a.target='_blank'; a.rel='noopener'; a.textContent=c.nome; cap.appendChild(a); cap.appendChild(document.createTextNode(' · Unsplash')); }\n      cap.appendChild(Object.assign(document.createElement('span'),{className:'rt-lb-n',textContent:(atual+1)+' / '+unicas.length}));\n    }\n    function abrir(i){ mostrar(i); lb.hidden=false; document.documentElement.style.overflow='hidden'; }\n    function fechar(){ lb.hidden=true; document.documentElement.style.overflow=''; }\n    lb.querySelector('.rt-lb-x').onclick=fechar;\n    lb.querySelector('.rt-lb-ant').onclick=function(){mostrar(atual-1);};\n    lb.querySelector('.rt-lb-prox').onclick=function(){mostrar(atual+1);};\n    lb.addEventListener('click',function(e){ if(e.target===lb) fechar(); });\n    document.addEventListener('keydown',function(e){ if(lb.hidden) return;\n      if(e.key==='Escape') fechar(); if(e.key==='ArrowLeft') mostrar(atual-1); if(e.key==='ArrowRight') mostrar(atual+1); });\n    var x0=null; lb.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;},{passive:true});\n    lb.addEventListener('touchend',function(e){ if(x0===null) return; var dx=e.changedTouches[0].clientX-x0; if(Math.abs(dx)>40) mostrar(atual+(dx<0?1:-1)); x0=null; });\n  }\n  if(document.readyState!=='loading') init(); else document.addEventListener('DOMContentLoaded',init);\n})();\n</script>"
+     },
+     "elements": [],
+     "widgetType": "html"
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "vpp0015",
+   "elType": "container",
+   "settings": {
+    "margin": {
+     "unit": "px",
+     "top": "20",
+     "right": "10",
+     "bottom": "50",
+     "left": "10",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "vpp0016",
+     "elType": "widget",
+     "widgetType": "nested-tabs",
+     "settings": {
+      "tabs": [
+       {
+        "tab_title": "Inclui",
+        "_id": "a29ca66"
+       },
+       {
+        "tab_title": "Não inclui",
+        "_id": "3724236"
+       },
+       {
+        "tab_title": "Ponto de encontro",
+        "_id": "bbb4106"
+       },
+       {
+        "_id": "3adb8be",
+        "tab_title": "Cancelamento"
+       },
+       {
+        "_id": "36b01ec",
+        "tab_title": "Informações"
+       }
+      ],
+      "tabs_title_background_color_background": "classic",
+      "tabs_title_background_color_color": "#E7E7E7",
+      "tabs_title_background_color_active_color": "#757575",
+      "title_typography_typography": "custom",
+      "title_typography_font_size": {
+       "unit": "px",
+       "size": 13,
+       "sizes": []
+      },
+      "title_typography_font_weight": "500",
+      "tabs_title_background_color_hover_color": "#9B9B9B",
+      "__globals__": {
+       "tabs_title_background_color_active_color": "globals/colors?id=primary",
+       "tabs_title_background_color_hover_color": "globals/colors?id=accent"
+      },
+      "_css_classes": "rt-abas"
+     },
+     "elements": [
+      {
+       "id": "vpp0017",
+       "elType": "container",
+       "settings": {
+        "_title": "Aba Nº 1",
+        "content_width": "full"
+       },
+       "elements": [
+        {
+         "id": "vpp0018",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "vpp0019",
+           "elType": "widget",
+           "settings": {
+            "__dynamic__": {
+             "editor": "[elementor-tag id=\"vt0001d\" name=\"vtec-inclusoes\" settings=\"%7B%7D\"]"
+            }
+           },
+           "elements": [],
+           "widgetType": "text-editor"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true,
+       "isLocked": true
+      },
+      {
+       "id": "vpp001a",
+       "elType": "container",
+       "settings": {
+        "_title": "Aba Nº 2",
+        "content_width": "full"
+       },
+       "elements": [
+        {
+         "id": "vpp001b",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "vpp001c",
+           "elType": "widget",
+           "settings": {
+            "__dynamic__": {
+             "editor": "[elementor-tag id=\"vt0001e\" name=\"vtec-exclusoes\" settings=\"%7B%7D\"]"
+            }
+           },
+           "elements": [],
+           "widgetType": "text-editor"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true,
+       "isLocked": true
+      },
+      {
+       "id": "vpp001d",
+       "elType": "container",
+       "settings": {
+        "_title": "Aba Nº 3",
+        "content_width": "full"
+       },
+       "elements": [
+        {
+         "id": "vpp001e",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column"
+         },
+         "elements": [
+          {
+           "id": "vpp001f",
+           "elType": "widget",
+           "settings": {
+            "__dynamic__": {
+             "editor": "[elementor-tag id=\"vt0001f\" name=\"vtec-encontro\" settings=\"%7B%7D\"]"
+            }
+           },
+           "elements": [],
+           "widgetType": "text-editor"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true,
+       "isLocked": true
+      },
+      {
+       "id": "vpp0020",
+       "elType": "container",
+       "settings": {
+        "_title": "Aba Nº 4"
+       },
+       "elements": [
+        {
+         "id": "vpp0021",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "vpp0022",
+           "elType": "widget",
+           "settings": {
+            "__dynamic__": {
+             "editor": "[elementor-tag id=\"vt00020\" name=\"vtec-cancelamento\" settings=\"%7B%7D\"]"
+            }
+           },
+           "elements": [],
+           "widgetType": "text-editor"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true,
+       "isLocked": true
+      },
+      {
+       "id": "vpp0023",
+       "elType": "container",
+       "settings": {
+        "_title": "Aba Nº 5"
+       },
+       "elements": [
+        {
+         "id": "vpp0024",
+         "elType": "container",
+         "settings": {
+          "flex_direction": "column",
+          "content_width": "full"
+         },
+         "elements": [
+          {
+           "id": "vpp0025",
+           "elType": "widget",
+           "settings": {
+            "__dynamic__": {
+             "editor": "[elementor-tag id=\"vt00021\" name=\"vtec-informacoes\" settings=\"%7B%7D\"]"
+            }
+           },
+           "elements": [],
+           "widgetType": "text-editor"
+          }
+         ],
+         "isInner": true
+        }
+       ],
+       "isInner": true,
+       "isLocked": true
+      }
+     ]
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "vpp0026",
+   "elType": "container",
+   "settings": {
+    "flex_direction": "column",
+    "min_height": {
+     "unit": "px",
+     "size": 83,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "vpp0027",
+     "elType": "widget",
+     "settings": {
+      "text": "Divisor"
+     },
+     "elements": [],
+     "widgetType": "divider"
+    }
+   ],
+   "isInner": false
+  }
+ ]
+}
