@@ -22,7 +22,11 @@ function vtec_elemento_dinamico( $atual, $dados ) {
 		return true;
 	}
 	$din = isset( $dados['settings']['__dynamic__'] ) ? wp_json_encode( $dados['settings']['__dynamic__'] ) : '';
-	return false !== strpos( (string) $din, 'name=\"vtec-' ) || false !== strpos( (string) $din, 'name="vtec-' );
+	if ( false !== strpos( (string) $din, 'name=\"vtec-' ) || false !== strpos( (string) $din, 'name="vtec-' ) ) {
+		return true;
+	}
+	// texto com o shortcode [vtec ...] também muda a cada página
+	return isset( $dados['settings'] ) && false !== strpos( (string) wp_json_encode( $dados['settings'] ), '[vtec' );
 }
 
 function vtec_opcoes_modelos_select() {

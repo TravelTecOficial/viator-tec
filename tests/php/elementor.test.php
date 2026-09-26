@@ -63,4 +63,9 @@ namespace {
 	ok( vtec_elemento_dinamico( false, array( 'settings' => array( '__dynamic__' => array( 'title' => '[elementor-tag id="1" name="vtec-titulo" settings="%7B%7D"]' ) ) ) ), 'tag vtec marca o elemento como dinâmico' );
 	ok( ! vtec_elemento_dinamico( false, array( 'settings' => array( '__dynamic__' => array( 'title' => '[elementor-tag name="post-title"]' ) ) ) ), 'outras tags não mudam' );
 	ok( vtec_elemento_dinamico( false, array( 'widgetType' => 'vtec-grade', 'settings' => array() ) ), 'a grade é dinâmica' );
+	ok( vtec_elemento_dinamico( false, array( 'widgetType' => 'text-editor', 'settings' => array( 'editor' => '<h1>Passeios em [vtec campo="destino_nome"]</h1>' ) ) ), 'shortcode [vtec] também é dinâmico' );
+	ok( vtec_modelo_publicado( 'elementor_library', 'publish' ), 'modelo publicado renderiza' );
+	ok( ! vtec_modelo_publicado( 'elementor_library', 'draft' ), 'rascunho não renderiza' );
+	ok( ! vtec_modelo_publicado( 'elementor_library', 'trash' ), 'lixeira não renderiza' );
+	ok( ! vtec_modelo_publicado( 'page', 'publish' ), 'página comum não renderiza' );
 }

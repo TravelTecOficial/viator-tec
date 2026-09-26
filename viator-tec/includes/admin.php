@@ -120,7 +120,7 @@ function vtec_tela_admin() {
 	echo '<h2>Instalar modelos</h2><form method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '"><input type="hidden" name="action" value="vtec_instalar">';
 	wp_nonce_field( 'vtec_instalar' );
 	echo '<p>Instala os modelos que faltam (lista, destino, passeio e os dois cards). Os que já existem não são alterados.</p>'
-		. '<p><label><input type="checkbox" name="forcar" value="1"> Reinstalar todos (cria cópias novas; as atuais continuam na biblioteca)</label></p>';
+		. '<p><label><input type="checkbox" name="forcar" value="1"> Reinstalar todos (cria cópias novas e passa a usá-las nas telas; as atuais continuam na biblioteca)</label></p>';
 	submit_button( 'Instalar modelos', 'secondary' );
 	echo '</form>';
 

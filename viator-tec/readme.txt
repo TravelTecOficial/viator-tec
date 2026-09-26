@@ -4,6 +4,7 @@ Requer: WordPress 6+, tema Hello Elementor (cabeçalho/rodapé pelo Theme Builde
 Instalação: Plugins > Adicionar novo > Enviar plugin > viator-tec.zip > Ativar.
 Configurações > Viator Tec: ambiente (sandbox/produção), chaves, campanha e destinos.
 
+0.3.5 (26/09/2026): instalador não recria nem troca modelo escolhido pelo dono e só atualiza o que ele não editou (hash); só modelo publicado é renderizado; shortcode [vtec] fora do cache do Elementor.
 0.3.4 (26/09/2026): páginas do Elementor fora da caixa do tema (banner de ponta a ponta).
 0.3.3 (26/09/2026): foto dos cards como imagem (cada card com a sua foto); modelos não editados são atualizados a cada versão.
 0.3.2 (26/09/2026): limpa o cache de sitemap do Rank Math ao atualizar o plugin.

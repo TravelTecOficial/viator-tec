@@ -34,6 +34,14 @@ foreach ( array( 'card_passeio', 'card_destino' ) as $chave ) {
 }
 contem( 'vtec-destino-foto', json_encode( vtec_ler_modelo( 'card_destino' )['content'] ), 'card de destino usa a foto do destino' );
 
-// Atualizar modelos do plugin só se o dono nunca editou (data de modificação = data de criação).
-ok( vtec_modelo_intocado( '2026-09-26 10:00:00', '2026-09-26 10:00:00' ), 'nunca editado' );
-ok( ! vtec_modelo_intocado( '2026-09-26 10:00:00', '2026-09-26 11:30:00' ), 'editado no Elementor' );
+// Atualizar só o que o plugin gravou e ninguém mexeu: hash salvo = hash do _elementor_data atual.
+ok( vtec_modelo_intocado( md5( '[1]' ), '[1]' ), 'dados iguais aos gravados pelo plugin' );
+ok( ! vtec_modelo_intocado( md5( '[1]' ), '[2]' ), 'editado (Elementor, EMCP ou script)' );
+ok( ! vtec_modelo_intocado( '', '[1]' ), 'sem hash: modelo que o plugin não criou nunca é sobrescrito' );
+
+// Instalar: só cria o que o plugin nunca criou; não troca a escolha do dono.
+igual( array( 'criar' => true, 'selecionar' => true ), vtec_plano_modelo( 0, false, 0, false ), '1ª instalação: cria e seleciona' );
+igual( array( 'criar' => false, 'selecionar' => false ), vtec_plano_modelo( 51, true, 0, false ), 'dono escolheu "HTML do plugin" (0): não recria nem troca' );
+igual( array( 'criar' => false, 'selecionar' => false ), vtec_plano_modelo( 51, false, 60, false ), 'dono apagou o modelo do plugin: não recria sozinho' );
+igual( array( 'criar' => false, 'selecionar' => false ), vtec_plano_modelo( 51, true, 99, false ), 'dono escolheu outro modelo: mantém' );
+igual( array( 'criar' => true, 'selecionar' => true ), vtec_plano_modelo( 51, true, 51, true ), 'reinstalar: cria cópia e seleciona' );

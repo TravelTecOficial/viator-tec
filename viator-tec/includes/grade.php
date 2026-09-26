@@ -48,8 +48,13 @@ function vtec_renderizador() {
 }
 
 /** Conteúdo de um modelo do Elementor. Vazio se o Elementor não estiver ativo ou o modelo não existir. */
+/** Só modelo publicado do Elementor (rascunho, privado ou lixeira nunca vão para a página nem para a REST pública). */
+function vtec_modelo_publicado( $tipo, $status ) {
+	return 'elementor_library' === $tipo && 'publish' === $status;
+}
+
 function vtec_render_elementor( $modelo, $com_css = false ) {
-	if ( ! class_exists( '\Elementor\Plugin' ) || 'elementor_library' !== get_post_type( (int) $modelo ) ) {
+	if ( ! class_exists( '\Elementor\Plugin' ) || ! vtec_modelo_publicado( get_post_type( (int) $modelo ), get_post_status( (int) $modelo ) ) ) {
 		return '';
 	}
 	return (string) \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( (int) $modelo, $com_css );
