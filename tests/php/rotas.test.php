@@ -67,3 +67,7 @@ resposta_falsa( 200, fixture( 'exchange' ) );
 $r = vtec_resolver_pagina( 'produto', '', '56549P1', '' );
 igual( 42, $r['modelo'], 'produto usa o modelo escolhido' );
 igual( 'R$ 954,87', $r['contexto']['produto']['preco'], 'contexto do produto com preço' );
+
+// Página do modelo sem a caixa do tema (.site-main limita a largura e o banner não fica de ponta a ponta).
+igual( 'vtec-main vtec-main-elementor', vtec_classe_main( array( 'html' => '<p>fase 1</p>' ), '<div>modelo</div>' ), 'modelo: sem site-main' );
+igual( 'site-main vtec-main', vtec_classe_main( array( 'html' => '<p>fase 1</p>' ), '<p>fase 1</p>' ), 'HTML da fase 1: com site-main' );

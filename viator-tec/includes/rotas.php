@@ -96,6 +96,11 @@ function vtec_render_pagina( $atual ) {
 	return $atual['html'];
 }
 
+/** Página feita no Elementor não vai dentro de .site-main (o tema limita a largura; o banner precisa ir de ponta a ponta). */
+function vtec_classe_main( $atual, $html ) {
+	return $html !== $atual['html'] ? 'vtec-main vtec-main-elementor' : 'site-main vtec-main';
+}
+
 function vtec_tag_canonica( $url ) {
 	return '' === $url ? '' : '<link rel="canonical" href="' . esc_url( $url ) . '" />' . "
 ";
