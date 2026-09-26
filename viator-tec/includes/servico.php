@@ -86,24 +86,57 @@ function vtec_destinos_viator() {
 	}
 	$lista = array();
 	foreach ( isset( $r['destinations'] ) ? $r['destinations'] : array() as $d ) {
-		$lista[] = array( 'id' => (int) $d['destinationId'], 'nome' => (string) $d['name'], 'tipo' => (string) $d['type'] );
+		$lista[] = array(
+			'id'   => (int) $d['destinationId'],
+			'nome' => (string) $d['name'],
+			'tipo' => (string) $d['type'],
+			'pai'  => isset( $d['parentDestinationId'] ) ? (int) $d['parentDestinationId'] : 0,
+		);
 	}
 	return $lista;
 }
 
+/** "Paris (França)": sobe pela hierarquia da Viator até achar o país. */
+function vtec_rotulo_destino( $d, $por_id ) {
+	if ( 'COUNTRY' === $d['tipo'] ) {
+		return $d['nome'];
+	}
+	$pai   = isset( $d['pai'] ) ? $d['pai'] : 0;
+	$voltas = 0;
+	while ( $pai && isset( $por_id[ $pai ] ) && $voltas++ < 10 ) {
+		if ( 'COUNTRY' === $por_id[ $pai ]['tipo'] ) {
+			return $d['nome'] . ' (' . $por_id[ $pai ]['nome'] . ')';
+		}
+		$pai = isset( $por_id[ $pai ]['pai'] ) ? $por_id[ $pai ]['pai'] : 0;
+	}
+	return $d['nome'];
+}
+
+/** Busca do autocompletar: quem começa com o termo vem primeiro; cada item ganha rótulo e slug. */
 function vtec_filtrar_destinos( $lista, $termo, $max = 20 ) {
 	$termo = strtolower( remove_accents( trim( (string) $termo ) ) );
 	if ( '' === $termo ) {
 		return array();
 	}
-	$achados = array();
+	$inicio = array();
+	$meio   = array();
 	foreach ( $lista as $d ) {
-		if ( false !== strpos( strtolower( remove_accents( $d['nome'] ) ), $termo ) ) {
-			$achados[] = $d;
-			if ( count( $achados ) >= $max ) {
-				break;
-			}
+		$pos = strpos( strtolower( remove_accents( $d['nome'] ) ), $termo );
+		if ( 0 === $pos ) {
+			$inicio[] = $d;
+		} elseif ( false !== $pos ) {
+			$meio[] = $d;
 		}
+	}
+	$por_id = array();
+	foreach ( $lista as $d ) {
+		$por_id[ $d['id'] ] = $d;
+	}
+	$achados = array();
+	foreach ( array_slice( array_merge( $inicio, $meio ), 0, $max ) as $d ) {
+		$d['rotulo'] = vtec_rotulo_destino( $d, $por_id );
+		$d['slug']   = sanitize_title( $d['nome'] );
+		$achados[]   = $d;
 	}
 	return $achados;
 }

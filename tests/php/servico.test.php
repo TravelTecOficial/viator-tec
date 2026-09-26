@@ -36,3 +36,21 @@ $d = vtec_destinos_viator();
 ok( count( $d ) >= 3 && isset( $d[0]['id'], $d[0]['nome'], $d[0]['tipo'] ), 'destinos da Viator' );
 igual( array( 'Las Vegas' ), array_column( vtec_filtrar_destinos( $d, 'vegas' ), 'nome' ), 'filtro por nome, sem maiúsculas' );
 igual( array(), vtec_filtrar_destinos( $d, '' ), 'termo vazio não lista nada' );
+
+// Autocompletar do painel: rótulo com o país e começo do nome primeiro.
+$lista = array(
+	array( 'id' => 51, 'nome' => 'França', 'tipo' => 'COUNTRY', 'pai' => 6 ),
+	array( 'id' => 5636, 'nome' => 'Île-de-France', 'tipo' => 'REGION', 'pai' => 51 ),
+	array( 'id' => 479, 'nome' => 'Paris', 'tipo' => 'CITY', 'pai' => 5636 ),
+	array( 'id' => 77, 'nome' => 'Brasil', 'tipo' => 'COUNTRY', 'pai' => 4 ),
+	array( 'id' => 900, 'nome' => 'Paraty', 'tipo' => 'CITY', 'pai' => 77 ),
+	array( 'id' => 901, 'nome' => 'Disneyland Paris', 'tipo' => 'CITY', 'pai' => 5636 ),
+	array( 'id' => 4, 'nome' => 'América do Sul', 'tipo' => 'REGION', 'pai' => 0 ),
+);
+$r = vtec_filtrar_destinos( $lista, 'par' );
+igual( array( 'Paris', 'Paraty', 'Disneyland Paris' ), array_column( $r, 'nome' ), 'começo do nome vem antes' );
+igual( 'Paris (França)', $r[0]['rotulo'], 'rótulo com o país (sobe pela região)' );
+igual( 'Paraty (Brasil)', $r[1]['rotulo'], 'rótulo com o país direto' );
+igual( 'paris', $r[0]['slug'], 'slug sugerido' );
+igual( 'França', vtec_filtrar_destinos( $lista, 'fran' )[0]['rotulo'], 'país sem parênteses' );
+ok( ! isset( vtec_filtrar_destinos( $lista, 'sul' )[0]['rotulo'] ) || 'América do Sul' === vtec_filtrar_destinos( $lista, 'sul' )[0]['rotulo'], 'região sem país não quebra' );

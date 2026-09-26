@@ -9,6 +9,18 @@ add_action( 'admin_menu', function () {
 	add_options_page( 'Viator Tec', 'Viator Tec', 'manage_options', 'viator-tec', 'vtec_tela_admin' );
 } );
 
+add_action( 'admin_enqueue_scripts', function ( $tela ) {
+	if ( 'settings_page_viator-tec' !== $tela ) {
+		return;
+	}
+	wp_enqueue_script( 'viator-tec-admin', VTEC_URL . 'assets/admin.js', array(), VTEC_VERSION, true );
+	wp_add_inline_script( 'viator-tec-admin', 'window.vtecAdmin=' . wp_json_encode( array(
+		'rest'  => rest_url( 'viator-tec/v1/destinos' ),
+		'nonce' => wp_create_nonce( 'wp_rest' ),
+	) ) . ';', 'before' );
+	wp_add_inline_style( 'common', '.vtec-auto{position:relative;display:inline-block}#vtec-sugestoes{position:absolute;z-index:99;left:0;right:0;top:100%;margin:2px 0 0;background:#fff;border:1px solid #c3c4c7;border-radius:4px;max-height:280px;overflow:auto;box-shadow:0 4px 12px rgba(0,0,0,.1)}#vtec-sugestoes li{margin:0;padding:8px 10px;cursor:pointer}#vtec-sugestoes li:hover,#vtec-sugestoes li.ativo{background:#f0f6fc}#vtec-destinos tr.vtec-novo td{background:#fff8e5}' );
+} );
+
 add_action( 'admin_post_vtec_salvar', function () {
 	if ( ! current_user_can( 'manage_options' ) ) {
 		wp_die( 'Sem permissão.' );
@@ -34,7 +46,6 @@ add_action( 'admin_post_vtec_limpar', function () {
 
 function vtec_tela_admin() {
 	$o     = vtec_opcoes();
-	$busca = isset( $_GET['busca'] ) ? sanitize_text_field( wp_unslash( $_GET['busca'] ) ) : '';
 	echo '<div class="wrap"><h1>Viator Tec</h1>';
 	if ( isset( $_GET['salvo'] ) ) {
 		echo '<div class="notice notice-success"><p>Salvo. O cache foi limpo.</p></div>';
@@ -63,9 +74,13 @@ function vtec_tela_admin() {
 	echo '<tr><th>Campanha</th><td><input class="regular-text" name="campanha" value="' . esc_attr( $o['campanha'] ) . '"></td></tr>'
 		. '<tr><th>Passeios por página</th><td><input type="number" min="1" max="50" name="por_pagina" value="' . (int) $o['por_pagina'] . '"></td></tr></table>';
 
-	echo '<h2>Destinos</h2><p>ID da Viator, nome exibido, endereço (/passeios/<em>slug</em>/) e foto (opcional — sem foto usa a do passeio mais bem avaliado).</p>'
-		. '<table class="widefat striped"><thead><tr><th>ID Viator</th><th>Nome</th><th>Slug</th><th>URL da foto</th></tr></thead><tbody>';
-	$linhas = array_merge( $o['destinos'], array_fill( 0, 3, array( 'id' => '', 'nome' => '', 'slug' => '', 'foto' => '' ) ) );
+	echo '<h2>Destinos</h2>'
+		. '<p><label for="vtec-procurar"><strong>Adicionar destino:</strong></label> '
+		. '<span class="vtec-auto"><input id="vtec-procurar" type="search" class="regular-text" autocomplete="off" placeholder="Digite a cidade ou o país, ex.: Paris">'
+		. '<ul id="vtec-sugestoes" hidden></ul></span> <span id="vtec-aviso-destino" class="description"></span></p>'
+		. '<p class="description">Escolha na lista e o destino entra na tabela; depois clique em Salvar. O nome e o endereço (/passeios/<em>slug</em>/) podem ser editados. Foto é opcional — sem foto usa a do passeio mais bem avaliado.</p>'
+		. '<table class="widefat striped"><thead><tr><th>ID Viator</th><th>Nome</th><th>Slug</th><th>URL da foto</th></tr></thead><tbody id="vtec-destinos">';
+	$linhas = array_merge( $o['destinos'], array_fill( 0, 1, array( 'id' => '', 'nome' => '', 'slug' => '', 'foto' => '' ) ) );
 	foreach ( $linhas as $d ) {
 		echo '<tr><td><input size="8" name="destino_id[]" value="' . esc_attr( $d['id'] ) . '"></td>'
 			. '<td><input name="destino_nome[]" value="' . esc_attr( $d['nome'] ) . '"></td>'
@@ -75,23 +90,6 @@ function vtec_tela_admin() {
 	echo '</tbody></table><p>Para tirar um destino, apague o ID e salve. Linhas em branco são ignoradas.</p>';
 	submit_button( 'Salvar' );
 	echo '</form>';
-
-	echo '<h2>Procurar ID de destino</h2><form method="get"><input type="hidden" name="page" value="viator-tec">'
-		. '<input name="busca" value="' . esc_attr( $busca ) . '" placeholder="ex.: Paris"> ';
-	submit_button( 'Procurar', 'secondary', '', false );
-	echo '</form>';
-	if ( '' !== $busca ) {
-		$lista = vtec_destinos_viator();
-		if ( is_wp_error( $lista ) ) {
-			echo '<p>Erro: ' . esc_html( $lista->get_error_message() ) . '</p>';
-		} else {
-			echo '<ul>';
-			foreach ( vtec_filtrar_destinos( $lista, $busca ) as $d ) {
-				echo '<li><code>' . (int) $d['id'] . '</code> — ' . esc_html( $d['nome'] ) . ' (' . esc_html( $d['tipo'] ) . ')</li>';
-			}
-			echo '</ul>';
-		}
-	}
 
 	echo '<h2>Cache</h2><form method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '"><input type="hidden" name="action" value="vtec_limpar">';
 	wp_nonce_field( 'vtec_limpar' );

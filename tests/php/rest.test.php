@@ -17,3 +17,8 @@ $busca = fixture( 'search' );
 $busca['totalCount'] = 5;
 resposta_falsa( 200, $busca );
 igual( null, vtec_rest_mais( 'las-vegas', 'preco', 4 )['proximo'], 'última página não tem próximo' );
+
+resposta_falsa( 200, fixture( 'destinations' ) );
+$r = vtec_rest_destinos( 'vegas' );
+igual( array( array( 'id' => 684, 'nome' => 'Las Vegas', 'rotulo' => 'Las Vegas', 'slug' => 'las-vegas' ) ), $r, 'autocompletar devolve só o que o painel usa' );
+igual( array(), vtec_rest_destinos( 'v' ), 'menos de 2 letras não busca' );

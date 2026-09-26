@@ -39,6 +39,22 @@ function vtec_rest_mais( $slug, $ordem, $inicio ) {
 	);
 }
 
+/** Autocompletar do painel (só administradores). */
+function vtec_rest_destinos( $termo ) {
+	if ( strlen( trim( (string) $termo ) ) < 2 ) {
+		return array();
+	}
+	$lista = vtec_destinos_viator();
+	if ( is_wp_error( $lista ) ) {
+		return $lista;
+	}
+	$saida = array();
+	foreach ( vtec_filtrar_destinos( $lista, $termo, 15 ) as $d ) {
+		$saida[] = array( 'id' => $d['id'], 'nome' => $d['nome'], 'rotulo' => $d['rotulo'], 'slug' => $d['slug'] );
+	}
+	return $saida;
+}
+
 if ( defined( 'VTEC_TESTE' ) ) {
 	return;
 }
@@ -49,6 +65,15 @@ add_action( 'rest_api_init', function () {
 		'permission_callback' => '__return_true',
 		'callback'            => function ( $req ) {
 			return rest_ensure_response( (object) vtec_rest_protegido( (string) $req->get_param( 'codigos' ) ) );
+		},
+	) );
+	register_rest_route( 'viator-tec/v1', '/destinos', array(
+		'methods'             => 'GET',
+		'permission_callback' => function () {
+			return current_user_can( 'manage_options' );
+		},
+		'callback'            => function ( $req ) {
+			return rest_ensure_response( vtec_rest_destinos( sanitize_text_field( (string) $req->get_param( 'termo' ) ) ) );
 		},
 	) );
 	register_rest_route( 'viator-tec/v1', '/mais', array(
