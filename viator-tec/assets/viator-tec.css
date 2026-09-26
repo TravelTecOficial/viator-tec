@@ -17,8 +17,8 @@
 .vtec-card-preco strong{font-size:18px;color:#E98300}
 .vtec-nota{font-size:14px;min-height:1em}
 .vtec-nota b{color:#E98300}
-.vtec-ordem{margin:0 0 16px;font-size:14px}
-.vtec-ordem a{margin-left:8px;padding:4px 10px;border:1px solid #D9D9D9;border-radius:8px}
+.vtec-ordem{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 16px;font-size:14px}
+.vtec-ordem a{white-space:nowrap;padding:4px 10px;border:1px solid #D9D9D9;border-radius:8px}
 .vtec-ordem a[aria-current]{border-color:#E98300;color:#E98300;font-weight:600}
 .vtec-mais,.vtec-botao{display:block;margin:28px auto 0;padding:14px 28px;background:#E98300;color:#fff!important;border:0;border-radius:8px;font-weight:700;font-size:16px;cursor:pointer;text-align:center}
 .vtec-mais[disabled]{opacity:.6;cursor:wait}
