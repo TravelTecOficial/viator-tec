@@ -1,6 +1,6 @@
 <?php
 require '/t/bootstrap.php';
-foreach ( array( 'opcoes', 'api', 'cache', 'dados', 'servico', 'render', 'rotas' ) as $f ) { require "/p/includes/$f.php"; }
+foreach ( array( 'opcoes', 'api', 'cache', 'dados', 'servico', 'render', 'contexto', 'grade', 'rotas' ) as $f ) { require "/p/includes/$f.php"; }
 update_option( 'vtec_opcoes', array( 'chave_sandbox' => 'K', 'destinos' => array( array( 'id' => 684, 'nome' => 'Las Vegas', 'slug' => 'las-vegas', 'foto' => '' ) ) ) );
 
 vtec_rotas();

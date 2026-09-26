@@ -1,6 +1,6 @@
 <?php
 require '/t/bootstrap.php';
-foreach ( array( 'dados', 'render' ) as $f ) { require "/p/includes/$f.php"; }
+foreach ( array( 'dados', 'render', 'contexto', 'grade' ) as $f ) { require "/p/includes/$f.php"; }
 
 $h = vtec_html_destinos( array( array( 'nome' => 'Las Vegas', 'slug' => 'las-vegas', 'foto' => 'https://x.test/f.jpg' ), array( 'nome' => 'Sem <foto>', 'slug' => 'sem-foto', 'foto' => '' ) ) );
 contem( 'href="https://exemplo.test/passeios/las-vegas/"', $h, 'link do destino' );

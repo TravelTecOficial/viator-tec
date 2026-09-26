@@ -20,14 +20,7 @@ function vtec_resolver_pagina( $pagina, $destino, $codigo, $ordem ) {
 	$o = vtec_opcoes();
 
 	if ( 'destinos' === $pagina ) {
-		$destinos = array();
-		foreach ( $o['destinos'] as $d ) {
-			if ( '' === $d['foto'] ) {
-				$r         = vtec_buscar( $d['id'], 'avaliacao', 1, 1 );
-				$d['foto'] = ! is_wp_error( $r ) && $r['cards'] ? $r['cards'][0]['imagem'] : '';
-			}
-			$destinos[] = $d;
-		}
+		$destinos = vtec_destinos_com_foto();
 		return array(
 			'status'    => 200,
 			'titulo'    => 'Passeios e ingressos',

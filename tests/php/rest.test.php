@@ -1,6 +1,6 @@
 <?php
 require '/t/bootstrap.php';
-foreach ( array( 'opcoes', 'api', 'cache', 'dados', 'servico', 'render', 'rest' ) as $f ) { require "/p/includes/$f.php"; }
+foreach ( array( 'opcoes', 'api', 'cache', 'dados', 'servico', 'render', 'contexto', 'grade', 'rest' ) as $f ) { require "/p/includes/$f.php"; }
 update_option( 'vtec_opcoes', array( 'chave_sandbox' => 'K', 'por_pagina' => 3, 'destinos' => array( array( 'id' => 684, 'nome' => 'Las Vegas', 'slug' => 'las-vegas', 'foto' => '' ) ) ) );
 
 vtec_guardar_nota( 'A1B', 4.8, 99 );

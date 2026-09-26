@@ -22,21 +22,21 @@ function vtec_rest_protegido( $codigos_csv ) {
 	return $saida;
 }
 
-function vtec_rest_mais( $slug, $ordem, $inicio ) {
-	$d = vtec_destino_por_slug( $slug );
-	if ( ! $d ) {
+function vtec_rest_mais( $slug, $ordem, $inicio, $modelo = 0, $fonte = 'destino', $qtd = 0 ) {
+	$qtd = $qtd ? min( 50, max( 1, (int) $qtd ) ) : vtec_opcoes()['por_pagina'];
+	if ( 'destinos' !== $fonte && ! vtec_destino_por_slug( $slug ) ) {
 		return new WP_Error( 'vtec_destino', 'Destino não encontrado.', array( 'status' => 404 ) );
 	}
-	$qtd = vtec_opcoes()['por_pagina'];
-	$r   = vtec_buscar( $d['id'], $ordem, $inicio, $qtd );
+	$r = vtec_itens_grade( 'destinos' === $fonte ? 'destinos' : 'destino', $slug, null, $ordem, $inicio, $qtd );
 	if ( is_wp_error( $r ) ) {
 		return $r;
 	}
-	$proximo = $inicio + count( $r['cards'] );
-	return array(
-		'html'    => vtec_html_cards( $r['cards'] ),
-		'proximo' => $r['cards'] && $proximo <= $r['total'] ? $proximo : null,
-	);
+	$html = '';
+	foreach ( $r['itens'] as $ctx ) {
+		$html .= '<div class="vtec-grade-item">' . vtec_render_card( (int) $modelo, $ctx ) . '</div>';
+	}
+	$proximo = $inicio + count( $r['itens'] );
+	return array( 'html' => $html, 'proximo' => $r['itens'] && $proximo <= $r['total'] ? $proximo : null );
 }
 
 /** Autocompletar do painel (só administradores). */
@@ -83,7 +83,10 @@ add_action( 'rest_api_init', function () {
 			return rest_ensure_response( vtec_rest_mais(
 				sanitize_title( (string) $req->get_param( 'destino' ) ),
 				sanitize_key( (string) $req->get_param( 'ordem' ) ),
-				max( 1, (int) $req->get_param( 'inicio' ) )
+				max( 1, (int) $req->get_param( 'inicio' ) ),
+				(int) $req->get_param( 'modelo' ),
+				'destinos' === $req->get_param( 'fonte' ) ? 'destinos' : 'destino',
+				(int) $req->get_param( 'qtd' )
 			) );
 		},
 	) );

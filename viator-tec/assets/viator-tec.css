@@ -32,3 +32,7 @@
 .vtec-reserva-preco strong{font-size:26px;color:#E98300}
 .vtec-reserva .vtec-botao{margin:16px 0 12px}
 @media (max-width:860px){.vtec-produto-colunas{grid-template-columns:1fr}.vtec-reserva{position:static;order:-1}.vtec-galeria img{height:240px}}
+.vtec-grade-el{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:30px}
+.vtec-grade-item{display:flex;flex-direction:column;min-width:0}
+.vtec-grade-item > *{flex:1}
+.vtec-grade-item .vtec-card,.vtec-grade-item .vtec-destino{height:100%}

@@ -16,12 +16,16 @@ function vtec_html_img( $url, $alt, $classe ) {
 		: '<img class="' . esc_attr( $classe ) . '" src="' . esc_url( $url ) . '" alt="' . esc_attr( $alt ) . '" loading="lazy">';
 }
 
+function vtec_html_destino_card( $d ) {
+	return '<a class="vtec-destino" href="' . esc_url( home_url( '/passeios/' . $d['slug'] . '/' ) ) . '">'
+		. vtec_html_img( $d['foto'], $d['nome'], 'vtec-destino-foto' )
+		. '<span class="vtec-destino-nome">' . esc_html( $d['nome'] ) . '</span></a>';
+}
+
 function vtec_html_destinos( $destinos ) {
 	$h = '<div class="vtec"><h1 class="vtec-titulo">Passeios e ingressos</h1><div class="vtec-grade vtec-grade-destinos">';
 	foreach ( $destinos as $d ) {
-		$h .= '<a class="vtec-destino" href="' . esc_url( home_url( '/passeios/' . $d['slug'] . '/' ) ) . '">'
-			. vtec_html_img( $d['foto'], $d['nome'], 'vtec-destino-foto' )
-			. '<span class="vtec-destino-nome">' . esc_html( $d['nome'] ) . '</span></a>';
+		$h .= vtec_html_destino_card( $d );
 	}
 	return $h . '</div></div>';
 }
@@ -43,23 +47,19 @@ function vtec_html_cards( $cards ) {
 }
 
 function vtec_html_destino( $destino, $cards, $total, $ordem, $por_pagina ) {
-	$base = home_url( '/passeios/' . $destino['slug'] . '/' );
-	$h    = '<div class="vtec"><p class="vtec-voltar"><a href="' . esc_url( home_url( '/passeios/' ) ) . '">← Todos os destinos</a></p>'
+	$h = '<div class="vtec"><p class="vtec-voltar"><a href="' . esc_url( home_url( '/passeios/' ) ) . '">← Todos os destinos</a></p>'
 		. '<h1 class="vtec-titulo">Passeios em ' . esc_html( $destino['nome'] ) . '</h1>'
 		. '<p class="vtec-aviso">' . esc_html( VTEC_AVISO ) . '</p>';
 	if ( ! $cards ) {
 		return $h . '<p class="vtec-vazio">Nenhum passeio encontrado neste destino.</p></div>';
 	}
-	$h .= '<nav class="vtec-ordem">Ordenar: ';
-	foreach ( array( 'avaliacao' => 'Mais bem avaliados', 'preco' => 'Menor preço' ) as $valor => $rotulo ) {
-		$url = 'avaliacao' === $valor ? $base : $base . '?ordem=' . $valor;
-		$h  .= '<a href="' . esc_url( $url ) . '"' . ( $valor === $ordem ? ' aria-current="true"' : '' ) . '>' . esc_html( $rotulo ) . '</a> ';
+	$itens = array();
+	foreach ( $cards as $c ) {
+		$itens[] = array( 'destino' => $destino, 'produto' => $c );
 	}
-	$h .= '</nav><div class="vtec-grade vtec-grade-cards">' . vtec_html_cards( $cards ) . '</div>';
-	if ( $total > count( $cards ) ) {
-		$h .= '<button type="button" class="vtec-mais" data-destino="' . esc_attr( $destino['slug'] ) . '" data-ordem="' . esc_attr( $ordem ) . '" data-inicio="' . ( count( $cards ) + 1 ) . '" data-por-pagina="' . (int) $por_pagina . '">Carregar mais passeios</button>';
-	}
-	return $h . '</div>';
+	return $h . vtec_html_ordem( $destino, $ordem ) . vtec_html_grade( $itens, $total, 0, array(
+		'fonte' => 'destino', 'destino' => $destino['slug'], 'ordem' => $ordem, 'qtd' => $por_pagina, 'mais_texto' => 'Carregar mais passeios',
+	) ) . '</div>';
 }
 
 function vtec_html_lista( $titulo, $itens ) {
