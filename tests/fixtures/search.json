@@ -1,0 +1,366 @@
+{
+ "products": [
+  {
+   "productCode": "56549P1",
+   "title": "Vale Privado do Fogo Caminhadas e Aventura",
+   "description": "Passe o dia explorando as fascinantes formações de arenito do Vale do Fogo. Seu guia, Adam, orienta aventuras ao ar livre há mais de dez anos e personalizará uma aventura para melhor atender às suas necessidades e desejos, ao mesmo tempo que faz da segurança sua prioridade número um. Adam também capturará a magnífica beleza do Vale do Fogo através de sua câmera durante o tempo que passarem juntos, sem nenhum custo adicional.\n\nEnquanto aprende sobre a vasta história, vegetação e bela vida selvagem do Vale do Fogo, você caminhará pelas rotas criadas por Adam.\n\nSua excursão incluirá embarque e desembarque em seu hotel, um guia divertido e experiente, lanches/água e um pacote de fotos de cortesia. Acreditamos na qualidade em vez da quantidade. No momento da reserva, você ou seu grupo não serão combinados com nenhum outro grupo. Caso você tenha alguma dúvida ou preocupação, não hesite em entrar em contato por e-mail ou telefone a qualquer momento.",
+   "images": [
+    {
+     "imageSource": "SUPPLIER_PROVIDED",
+     "caption": "",
+     "isCover": true,
+     "variants": [
+      {
+       "height": 100,
+       "width": 100,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 200,
+       "width": 200,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 400,
+       "width": 400,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 240,
+       "width": 360,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 320,
+       "width": 480,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 360,
+       "width": 540,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 446,
+       "width": 674,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 480,
+       "width": 720,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 118,
+       "width": 210,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/3b.jpg"
+      },
+      {
+       "height": 75,
+       "width": 75,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/3b.jpg"
+      }
+     ]
+    }
+   ],
+   "reviews": {
+    "sources": [
+     {
+      "provider": "VIATOR",
+      "totalCount": 6,
+      "averageRating": 5.0
+     },
+     {
+      "provider": "TRIPADVISOR",
+      "totalCount": 201,
+      "averageRating": 5.0
+     }
+    ],
+    "totalReviews": 207,
+    "combinedAverageRating": 5.0
+   },
+   "duration": {
+    "variableDurationFromMinutes": 360,
+    "variableDurationToMinutes": 600
+   },
+   "confirmationType": "INSTANT",
+   "itineraryType": "STANDARD",
+   "pricing": {
+    "summary": {
+     "fromPrice": 954.87
+    },
+    "currency": "BRL"
+   },
+   "productUrl": "https://shop.live.rc.viator.com/pt-BR/tours/Nevada/Private-Valley-of-Fire-Hiking-and-Sightseeing-Adventure/d22171-56549P1?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+   "destinations": [
+    {
+     "ref": "22171",
+     "primary": true
+    }
+   ],
+   "tags": [
+    11889,
+    11930,
+    12035,
+    367652,
+    21733,
+    367661,
+    22046,
+    11941,
+    11938,
+    21972,
+    367664
+   ],
+   "flags": [
+    "FREE_CANCELLATION",
+    "PRIVATE_TOUR"
+   ],
+   "translationInfo": {
+    "containsMachineTranslatedText": true,
+    "translationSource": "MACHINE",
+    "translationAttribution": "GOOGLE"
+   }
+  },
+  {
+   "productCode": "472036P1",
+   "title": "Grand Canyon West Rim incluindo Skywalk e almoço",
+   "description": "Embarque em um passeio por um dos destinos mais deslumbrantes da Terra. Maravilhe-se com dois dos mirantes mais deslumbrantes do cânion e descubra por que ele é celebrado como uma das Sete Maravilhas Naturais do Mundo. Para os aventureiros, suba no Skywalk para uma vista emocionante do fundo do cânion a 4.000 pés de altura. Desfrute de um breve passeio por uma vila indígena e saboreie o almoço em um charmoso Western Ranch que parece uma cena de um filme de John Wayne!",
+   "images": [
+    {
+     "imageSource": "SUPPLIER_PROVIDED",
+     "caption": "",
+     "isCover": true,
+     "variants": [
+      {
+       "height": 100,
+       "width": 100,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 200,
+       "width": 200,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 400,
+       "width": 400,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 240,
+       "width": 360,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 320,
+       "width": 480,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 360,
+       "width": 540,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 446,
+       "width": 674,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 480,
+       "width": 720,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 118,
+       "width": 210,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/8e/0f/ef.jpg"
+      },
+      {
+       "height": 75,
+       "width": 75,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/8e/0f/ef.jpg"
+      }
+     ]
+    }
+   ],
+   "reviews": {
+    "sources": [
+     {
+      "provider": "VIATOR",
+      "totalCount": 3,
+      "averageRating": 5.0
+     },
+     {
+      "provider": "TRIPADVISOR",
+      "totalCount": 78,
+      "averageRating": 5.0
+     }
+    ],
+    "totalReviews": 81,
+    "combinedAverageRating": 5.0
+   },
+   "duration": {
+    "fixedDurationInMinutes": 180
+   },
+   "confirmationType": "INSTANT",
+   "itineraryType": "STANDARD",
+   "pricing": {
+    "summary": {
+     "fromPrice": 1989.32
+    },
+    "currency": "BRL"
+   },
+   "productUrl": "https://shop.live.rc.viator.com/pt-BR/tours/Las-Vegas/Grand-Canyon-Skywalk-and-The-Ranch/d684-472036P1?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+   "destinations": [
+    {
+     "ref": "684",
+     "primary": true
+    }
+   ],
+   "tags": [
+    21972,
+    12039,
+    367658,
+    22083,
+    367661,
+    367667,
+    12046,
+    21578,
+    20757,
+    11890,
+    11949,
+    21860
+   ],
+   "flags": [
+    "FREE_CANCELLATION",
+    "LIKELY_TO_SELL_OUT"
+   ],
+   "translationInfo": {
+    "containsMachineTranslatedText": true,
+    "translationSource": "MACHINE",
+    "translationAttribution": "GOOGLE"
+   }
+  },
+  {
+   "productCode": "480672P3",
+   "title": "Gold Elvis Wedding or Vow Renewal em Las Vegas Sign",
+   "description": "Experimente a tradição final de Las Vegas com um casamento de Elvis divertido e sincero ou renovação de votos no famoso sinal de boas-vindas a Fabulous Las Vegas. Performado por um oficial profissional de Elvis, sua cerimônia inclui canto ao vivo, votos românticos e uma primeira dança memorável em um dos locais mais icônicos do mundo.\n\nAo contrário de muitas capelas tradicionais, você é livre para tirar fotos ilimitadas e gravar toda a cerimônia com seu próprio telefone - nós até fornecemos um portador de telefone para torná-lo fácil. Atualizadores opcionais disponíveis que incluem um fotógrafo profissional com 20 + ou 100 + fotos, para que você possa capturar cada momento do seu jeito.\n\nEsta é uma maneira flexível e livre de estresse para comemorar seu amor no verdadeiro estilo de Vegas!",
+   "images": [
+    {
+     "imageSource": "SUPPLIER_PROVIDED",
+     "caption": "",
+     "isCover": true,
+     "variants": [
+      {
+       "height": 100,
+       "width": 100,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 200,
+       "width": 200,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 400,
+       "width": 400,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 240,
+       "width": 360,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 320,
+       "width": 480,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 360,
+       "width": 540,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 446,
+       "width": 674,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 480,
+       "width": 720,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 118,
+       "width": 210,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/r/33/a0/d8/64/caption.jpg"
+      },
+      {
+       "height": 75,
+       "width": 75,
+       "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/r/33/a0/d8/64/caption.jpg"
+      }
+     ]
+    }
+   ],
+   "reviews": {
+    "sources": [
+     {
+      "provider": "VIATOR",
+      "totalCount": 38,
+      "averageRating": 5.0
+     },
+     {
+      "provider": "TRIPADVISOR",
+      "totalCount": 27,
+      "averageRating": 5.0
+     }
+    ],
+    "totalReviews": 65,
+    "combinedAverageRating": 5.0
+   },
+   "duration": {
+    "fixedDurationInMinutes": 45
+   },
+   "confirmationType": "INSTANT",
+   "itineraryType": "ACTIVITY",
+   "pricing": {
+    "summary": {
+     "fromPrice": 649.84
+    },
+    "currency": "BRL"
+   },
+   "productUrl": "https://shop.live.rc.viator.com/pt-BR/tours/Las-Vegas/Free-product-for-Feb-2025/d684-480672P3?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+   "destinations": [
+    {
+     "ref": "684",
+     "primary": true
+    }
+   ],
+   "tags": [
+    367658,
+    367653,
+    11914,
+    367663,
+    21972,
+    21589,
+    20222,
+    22143,
+    11915,
+    367654,
+    367661
+   ],
+   "flags": [
+    "FREE_CANCELLATION",
+    "PRIVATE_TOUR"
+   ],
+   "translationInfo": {
+    "containsMachineTranslatedText": true,
+    "translationSource": "MACHINE"
+   }
+  }
+ ],
+ "totalCount": 1309
+}

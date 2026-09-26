@@ -1,0 +1,7413 @@
+{
+ "status": "ACTIVE",
+ "productCode": "56549P1",
+ "language": "pt-BR",
+ "createdAt": "2018-07-18T07:00:00Z",
+ "lastUpdatedAt": "2026-09-10T07:52:13Z",
+ "title": "Vale Privado do Fogo Caminhadas e Aventura",
+ "ticketInfo": {
+  "ticketTypes": [
+   "MOBILE_ONLY"
+  ],
+  "ticketTypeDescription": "Ingresso em papel ou digital aceito",
+  "ticketsPerBooking": "ONE_PER_BOOKING",
+  "ticketsPerBookingDescription": "Um por reserva"
+ },
+ "pricingInfo": {
+  "type": "PER_PERSON",
+  "ageBands": [
+   {
+    "ageBand": "INFANT",
+    "startAge": 0,
+    "endAge": 2,
+    "minTravelersPerBooking": 0,
+    "maxTravelersPerBooking": 0
+   },
+   {
+    "ageBand": "CHILD",
+    "startAge": 3,
+    "endAge": 8,
+    "minTravelersPerBooking": 0,
+    "maxTravelersPerBooking": 12
+   },
+   {
+    "ageBand": "YOUTH",
+    "startAge": 9,
+    "endAge": 17,
+    "minTravelersPerBooking": 0,
+    "maxTravelersPerBooking": 12
+   },
+   {
+    "ageBand": "ADULT",
+    "startAge": 18,
+    "endAge": 59,
+    "minTravelersPerBooking": 0,
+    "maxTravelersPerBooking": 12
+   },
+   {
+    "ageBand": "SENIOR",
+    "startAge": 60,
+    "endAge": 99,
+    "minTravelersPerBooking": 0,
+    "maxTravelersPerBooking": 12
+   }
+  ]
+ },
+ "images": [
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": true,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/3b.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/3b.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/65.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/65.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/65.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/65.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/65.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/65.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/65.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/65.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/65.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/65.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/67.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/67.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/67.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/67.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/67.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/67.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/67.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/67.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/67.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/67.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/69.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/69.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/69.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/69.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/69.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/69.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/69.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/69.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/69.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/69.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/6a.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/6a.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/71.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/71.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/71.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/71.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/71.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/71.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/71.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/71.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/71.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/71.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/72.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/72.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/72.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/72.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/72.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/72.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/72.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/72.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/72.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/72.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/75.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/75.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/75.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/75.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/75.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/75.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/75.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/75.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/75.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/75.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/76.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/76.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/76.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/76.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/76.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/76.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/76.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/76.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/76.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/76.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/77.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/77.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/77.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/77.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/77.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/77.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/77.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/77.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/77.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/77.jpg"
+    }
+   ]
+  },
+  {
+   "imageSource": "SUPPLIER_PROVIDED",
+   "caption": "",
+   "isCover": false,
+   "variants": [
+    {
+     "height": 100,
+     "width": 100,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-100x100/12/7d/10/78.jpg"
+    },
+    {
+     "height": 200,
+     "width": 200,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-200x200/12/7d/10/78.jpg"
+    },
+    {
+     "height": 400,
+     "width": 400,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-400x400/12/7d/10/78.jpg"
+    },
+    {
+     "height": 240,
+     "width": 360,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-360x240/12/7d/10/78.jpg"
+    },
+    {
+     "height": 320,
+     "width": 480,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-480x320/12/7d/10/78.jpg"
+    },
+    {
+     "height": 360,
+     "width": 540,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/12/7d/10/78.jpg"
+    },
+    {
+     "height": 446,
+     "width": 674,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/7d/10/78.jpg"
+    },
+    {
+     "height": 480,
+     "width": 720,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/7d/10/78.jpg"
+    },
+    {
+     "height": 118,
+     "width": 210,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-210x118/12/7d/10/78.jpg"
+    },
+    {
+     "height": 75,
+     "width": 75,
+     "url": "https://hare-media-cdn.tripadvisor.com/media/attractions-splice-spp-75x75/12/7d/10/78.jpg"
+    }
+   ]
+  }
+ ],
+ "logistics": {
+  "start": [
+   {
+    "location": {
+     "ref": "LOC-mdT/24+QQt9xSbMGff2ELlZFr2wLKw2KDoxQRhjGpvfd6iXuckyyUEhakqGJdUm4"
+    },
+    "description": "Se você não precisar de transporte e preferir dirigir sozinho, nos encontraremos no posto de gasolina Moapa Travel Plaza/Chevron, próximo à saída do Vale do Fogo."
+   }
+  ],
+  "end": [
+   {
+    "location": {
+     "ref": "LOC-mdT/24+QQt9xSbMGff2ELlZFr2wLKw2KDoxQRhjGpvfd6iXuckyyUEhakqGJdUm4"
+    },
+    "description": "Se você não precisar de transporte e preferir dirigir sozinho, nos encontraremos no posto de gasolina Moapa Travel Plaza/Chevron, próximo à saída do Vale do Fogo."
+   }
+  ],
+  "redemption": {
+   "redemptionType": "NONE"
+  },
+  "travelerPickup": {
+   "pickupOptionType": "PICKUP_AND_MEET_AT_START_POINT",
+   "allowCustomTravelerPickup": true,
+   "locations": [
+    {
+     "location": {
+      "ref": "MEET_AT_DEPARTURE_POINT"
+     },
+     "pickupType": "OTHER"
+    },
+    {
+     "location": {
+      "ref": "CONTACT_SUPPLIER_LATER"
+     },
+     "pickupType": "OTHER"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBErUbGdD0ZjHLRL1BPQaZ0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFzoNQaxUAQkiUg5w6dY+iY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPj7yxc1vBYWJW7y7cBGmxI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNCCG4AmvMPoTX2G+vWTEjw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI1I7bmQTPayCL5Ma5EvwFw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPZHgJU8KBekAYgOgQFwVx8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyODuFeqUoNXmKAbtwk4rj/4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMhe1tsqHn2NuE/awEppLG4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC5ssRjU8qvdNza4k6l5neM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLRBFwJ4nlBf6yh4VoK/j+Q="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN6ayKhzpWATCdklxevMZpM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIE6a2rIlteRk1CBcTbIVfI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLANtjSgN6busz3nl7123FU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI+84Xl2WgDg5q3YnMfA65s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDTaqzXJMmap6BgZUupfmaI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOt5P1Si6iTs3ntOqKIMNaY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDco2ssEWEmFnyGIh6qe8s8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM6nEC41A+Zheb0K22CfvjU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHseFt9gkzAiH35edfe5HPQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPj8F8fSmumrzf7fnCyNr2E="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC0pEaFCTzKA8lhP7eD5rGY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLsaNCmkiQLrPUpEWsxdteA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOD8aceOvZW4svTUlptSTbc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMCLTG+pkfRaxzSxvNUyqFw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNr3wRhgHxU4T390XT8t42Q="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLxKcGyJxQliesgpV17FjQI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDGgEiNUOi+BkhBvVn3H+08="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH1Dhkr5LZRMRejSkgWI4Gw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE3u+G5cqEb7lcE+B2SHz0c="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEdOfFNbaY/ObifMVabXCSI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM3nZCdIb1KW81XbRO1dFHQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO6dPUxaexVmp3KufbGeDYI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMqdwSRHSoTlPYe4zKqbWdY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK/tQ70GB/3+zEFKFgGFWlM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO5sypqXfjf1z4wlvK8F2s8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE73a0UcAUszslIs9r9uINE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAQn3vx3WymdFsW0BcPmkzE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIKz4Mo4Lp+ti6TOds47aJ4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNkhVY0XTPhDwc2IoeNzejs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHAsOnYz9bo7tfNE6ga82+Q="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHmm1mtZGz87LLcEJgK2p3Y="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMt6L92lJMtGUFDy1KzVaqo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAnwBJgER3cyeRjszeTNhKw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDO5zg28sIdq3yD9SbRlyGc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIgI6YYSPv4V/DQYAVyC1Bk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG6/ydsQtQmOOYbrH4DzqkA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOy1BSpv4k/CvXZSrTV+tE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKwWYkjV+FthbvnexyCnRB4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ7bt3fkYuI7mg+NTYtKAm4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDT/IlRicCY+q8eWWX2CuK4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGyHydx05lueGY39o5AKU1U="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEZ4LkUXfcRdgjvCvHzOu5o="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMcOCt6ynpri090F9v0F/U0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCf35wHWRAmiuDW+DzuYziQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLQn9UhOy4ZogK+Mm51yBRo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCsKrgl6Fipww0NbkmlV96s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH4pvJrrDUtQZdSSfBexI2c="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB6zbsUyx2WP4DX8JlMEHE4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM5msSwtCfodq+XvjOG4Maw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBpsNH0lZuueOx2U14wBnM4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPZY4poiKPLqj+cPrY9crfk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEvVLnLZDHyP50Fmryv3OYc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGlYThZ5u1HNNIpZEj6vbcg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKN0pNlVL7j1VzCiE/KCJJ0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLtQgkT7asyQ7XYtUODEjBM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJP12czl1EjgR9GV7U95FGk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyACHM389AOB6aNby/RpTyV4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHJztf7HoStjBRWPnkOYe7M="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFjbn5Pxo6hQo0A1sGYe8cI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHin/KYXB/aYamxG8B7jB18="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNHZpiT7PafTHKyKUtbDwCc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHUdTx4V6PYx5FVxvZZRDR0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPB0jxdXhnCrAlQO+019Guc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPBbM1ZmNfhq3DxwKmFnkLs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGWYzsZzvyqqcc7mg6cdHLA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDzkzwCxEWYsDu49p/xHDO4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNhlehMgShoOluB5jQpLV3M="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKbDEbcifG5leH8DJaYqVeE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM15tUuhDlhk5zN7O8GsqUk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCDeUApF/EqJ1B5h1GcBkn4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGJxPFexIWm/aY/5UOlzx8c="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGk4FVZKKfsvZ3q7XS8QOMc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCJpHuPhMEsMXrk4IADkvjs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHX8jxLQWmIhUB7uZEvtBbA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH6P3T1FYCM3qGyvKkbiM0E="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOeh88nne4BGhjiBwqiNX4k="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGurSczSJyGP7X7ukQ32X1c="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEcframtSsD/ITvP8V6djp0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEFqhVptf3fbh5RoklYVgb4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBJQLnrG7DJuG+5Q91bBxs0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOzLfaoJWqIf1c02Ha371DU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNVCKijBk3TZ2v9owjRQZgs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDtWBGanuqfBPaIyOd4OKoY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPCJ7fUell8uVwr5LhENBX0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBvZ/wBZVsjoq9x0PdBuYMk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPz/EVvfdgCBT4YrYqFH+8o="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL4/7YyiJdTt6dHCpGcHhq0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNIgGcWCef8dYo0mSKed6yw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHzeyJmQ+THjhq36g8JvZtg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO1ICCrBApGMm/tWUNV+oLs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC3JMc4tLG/tdzD77yPVpnc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyInQ1t9XvM154sKOS6zeWm8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAOHD5P96DD2J96kz74iPh8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMnh9t7+tIcKvyG6+W3+aG0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB/5wZdIrKnRNaBd1qqfhNQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCvfKXZ7UW6jO6vIM6y7Sw8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ4FDx/QP4S8NJY1d8MXQuY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMvOxU8/WXrFnQEhp0KJgZE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFpzSTDhxWkqqFdFgAl0Ja0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL8Qi1o0VTyYxmhLTNdBF/o="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNmDS0HqAqHZhW2SqJyQF1c="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyP5RzExWHR3ZSmUNN4NKoiU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE1MwqACT1ThhJ10V5uX3P4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL6iJhb25PhT5Aj6lYuQ5bA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAy2Ytl/4dLnvPj4J4CLaig="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCacMdfYtSZ3JsYejmnf2Gk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPm7MJniqFxTwIssGiLDUm0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBFe3K43upE9w2VQK0f6QPc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBZ5ncV6VrDynQode4ZtoQQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNwmXlH7r/vAWjApbxN3eo4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBUu2d1nSOCoDpt1dykjEyY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO+ado2OdOb1Ne8l7JjmFhc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyORCfXCgyhzAatotHFV7qOs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDOACEtCgOrwVwVRJHZsz7Q="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN7aqxSiCsaWZzMygXySmLo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCgWdn8UjQFyISfKqDL9C7I="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDLqIffkABEUSrdG//IHA90="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIOr+tw3Vi3wkFTtEY6UT+s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDhf4qrxHNGWGcyVDr+Kmm4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBbic/yUNW8nTHBSius/C88="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD/Gdp9ZJ4lCQvNP5mw7ZzE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMJsj7zQSu7Vm86lxQscvU8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGB9dp9nvAbfflwvlFIuVTI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDdi8aCToWOAN93zOvO0S2A="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGBkJ8g54wabSArRUG7W8eI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLXShMlchnFG3w62yYEfMVM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJEST2O5YI9oy33Kx+Q+6zI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBbBPS+B7GZluBgKbhQWzLo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDboZ+DBBkbttsZTXJlfe1M="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNdC4w3KCjvxGKww5QTD09U="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD3aQEhHOEKSrlJSog3eakQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLoAGMZhQEF9c5I/nnpfEyk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNNAPZMBDnQDl5uViZJPh6g="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC8IumtTBgXIvY3cHMSzGBs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH+MC8uklV6rA4PoMYqpGFA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHvfg4UVyYz3yyBDFgXmSOw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ4lSUT3qR0Ny9mtmouOSMM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBRrBnJ7NOst/cxFgV2gKR8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDQN6aREWHiXKzyzH/ubRnA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG1xGTj/R8ziI/Jz8Pa4T4k="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAVE/AVICFytR/adokuZ6Xw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBsStKxcjVbtYDH3l0D809o="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI6Fn1Pjqzg6cwYlHBk4qbo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG3s16OQb4XY0sQfOAdBxPI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyObJ/zRU/nMWfoVNiIpo50s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIz//KLAdnj+Z4u70niG0eo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGQ8QU1td3T0YP9iRid99LI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAqjM4t0obDHNc7CiuBi/LU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAeuBfRQ0pTJYXsvDmdVZxE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBMlZafty6a0TC9KeQuLK5o="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL81fYl/Jo7VlP6armQGMzE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFCqK2cLKrchOFJKjr1/y5A="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBKITGrhR/YmBpQhZPdAkfo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKZSI/SDHrwqXC8jhQdBlHA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNWytHxB19+vHaUafff/y/Y="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyORM7Eep/q0Pbq1oevBZst4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFX9GK73hAKzwjN669LbD/s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL1HgbXrEbW09yExvKyEDRY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLLh+T86PyAyLjA9lSmJDKQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGrJo7kvIV5N0fBgs0ZPb28="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMGkEY9wusrlJC/3nGIuqnM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHhKYb/OWyZZ4pBTFgMZgLA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC9wXM5mfrnExR5xeOZQT0w="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEoQysKGVnvClKlDdwL3HUI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBpD9dEcBf4OB1f/k++rxEg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIqaf7HAZtb7fY+h/iBS1EA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPAPdo9y5jQbKhh5oUW5Zp8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI6H3SP9434nTqxkFVRsWrU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJausKxrmizvwaBuba6oeQc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDor+9AgaVHxrkBzT36TSKQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEXuwM3B7F+rzSmKhRREqsI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN8TjMgmDYVTjtIP3ndQIaM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCJntfxmtgr8vA+M9lpKBbs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMbk4X5LV07WQ9hB0C5r+xI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGvZgsoPdW1e0WAw0trJXvI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDoTrSRVJpBhQZnrUgggay0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGb4XnKXK6gelpswo64iqtY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPwcJxeNxaayXG7Goh2y5cA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDsDfYKmtjIpM+1c9kjGFJc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGaKlu8wEEh6N0rgee2RGQE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEbsd28y3g5mPwy+Opb/tiU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPNCPKwfYPvtOAz7Q4DHV68="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyML44m1Fa/7WWT8Uoht/6TY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOCmF5qE1C0hUg/qu8PKr8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIKK6zAS9GK9X8vaNiAChrQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOXFHvht3Im+oPtFPPLiV5A="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM63+u5DTPOojyOcWEucIR8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKI1HoIC2LRBVXJwup3mscs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBDVdmDxRN4f807N4g3CNEc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJXD+xeg6iOLkG7zVaL/pO8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEwXkXqMLwz9OewEfvhNqzg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHoN05A5bqneqWO4tm+hUd0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKP/LpxGEt9hJPGN/Plpncg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIBMT4vyJx77EpxCmHFDCUo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHFSEICX3hYxfqC5IEBK9kU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEOF6n1Fa+8FU4VSuwPL4AQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBzGvDXqBhFWRefC+B7N+UA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOCIY66u2dQl9jBjlQN1Y20="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPlxhZWIQ6QhsLzgdut72Ks="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDmborpCVJ3fEqZ/xH81I5c="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLQneT27MTi7fTS1KhMc7As="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGj3LA29JWqr9n72tJUimkU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKy0WuhQsskxEsx1AQeER/I="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLmz4snDcvQkDZdccsUm7YE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBwCCAMM1OJf6yPoSWlQtmw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEVGGlZ73070pMpYWSPzvQs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCGR4NKytuvWqvHwWYdnVlA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFNBVwQ0BXCfuHthQTd+puQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBFcdunDpGs4Ft8qVSxRwY4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKDAzaVwE2MD+UKmc78oIoc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMYfem/RT4BkfOoOXo5tHjo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDmm2rKR2jwYKENDcSt4Tyw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBdFz5wQ0NYH6Bn6A/SQQOw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH11uGg5KC++KeXsO3atPpw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPP6H3WY0Q9XL5rcNdeDQcU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG4ZJHYl/otGTbLVQaH8j3M="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBsNnQH+DozMvy/y3e/Mb5U="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE7au4qb+R8RDL4YJHwZUW8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIG1ZnPPG2CSy2EpF8j0b7Q="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH3RvG8ixei+osdnk+XOCpc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFpLXXGeNdck03ziYv4S6/Q="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM/5u1g+dbnAQqbNg8+6SEE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBqe9hIBpsA4VZoPTnT20zs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLgocV8401Kd9cPwI61r+kw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLpyFP4aHCmimZ2QC12XChw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPPki1HgqETbE8rAZLxI0Vo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNI5DyLmRpicD0erj9DZ3ig="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDTHZ1oL7bU6e6XywiyZDwY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD3z7JxLZVpiXPJXT8jvS4Q="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIX/nDvhyBku8BEmRcU0v+s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOEGGuyaOnlxeeAnlxgnCiA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM3hQt5JnXqYZC5o3Ev1k78="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOWQ5E2IFhWMjhH92ESspn4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOGeFBVlp09z995QmNkvVCM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyF3+KLWgMR+cVgsWJwhai68="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNQbBaD/iWafveK+BYtV/Qs="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGud/xKXX9ErKWYP1rYGEYw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFs5kBLhrHyMw8MyXJ20t9w="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAd9PQKABrIAZmIzdEOqH8s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHSq0OjW6V21fLSvNvemS3s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOCeDueDswe/fpBtUvKhVM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK3JHJnjuVrkB8kR3V84rlI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBycGcsFWb12mH7nDCSvrUw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLHbhvsdP8Zl9KNrguyI6Qk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyInkh2dLnP+ftyJp/mQudCM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH0ZHgw64ZFr0GEkkr+e/+4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM+SdnVSIYsNOSlWxa/XEqg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDWSwloBX85oB2Qu4hbGNrY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyElmB0jrYLflCfp0DFtzcek="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMN628nk9dNJ7h2A2zjbtsc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBJ8Scjx9QAwvk8DlJbmbTg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBZYGv8mnF9bdybqQ1kM7Fk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHuvhRK1DttPtoyDsDwJEac="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHgRZomLiRIp9RjSTkHVD2w="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNkJM2A9YkJ0jynEmvLqtCI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKAONS3qwq1U9Fo2drswfxM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKaHp64uDOM4IvCru0ygPnc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPhYhSJpRQxPZ0NcgiAxduc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCvIw6eO1/PPJ0SoF7f0q7U="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKkPDpVhx2/cyFAF9YM30k8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLexJpHDPx2feiBnhYVZNj0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG2wg4z4KxXyNlAUo+h+ZRM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG/SG+0snhJ6Rfkhv2LEGKM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJRNnj6cKHR/+ITKVF+htHo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKq2QD2Xynb8tVOWZ+5Kjw8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLlROj6ud06x53wLdqHfLak="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyASSAEB4T+TKP1I2Cmn5018="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLRz4Bbiyffl9Lp+fxywA04="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDvEyFZaSMQQY0VElMAoQfY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCnY92S9CQqtaRMGEoTZHDc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIwxL6mlcQ9CXDqbAP8EC8o="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPW8tXzangvyZhk+838MAKE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLfqcBgiHE+D7n2ISR/obyc="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJp6oUCB0iwEAOQ747lZrYY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFr1tQcbwqITuQpIZVIljP4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyA8/9b8wecmzjymwLPkcQVg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPdWf8s6poIB+3h41eIKL+I="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGRw+HRVZr62YYl5HvPTdi4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOjNbfn+fzJkmefpVxviM6s="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAKD0/4uMWHrlfNLyVXC4Fk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHdoJXmv7sRHc5cewCSwo7k="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFkgyh64N3+LkiEq3UTHjjM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKwJkGUdtoZqC7pySYn6/yw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEpNrvZTe2Vt8WODr1B81U4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNUl2SlxaXmoqQAER0mXUxY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDzVusDLtWjaXM6Xoxx87AA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPMiK5shX8rQhBeE29L+Cno="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLx0qS3Ywa8gF/EyoiLTeI0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIRMUhYH74zo1730jbUkZd0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCY9DgS4jC2/AnGQA9wkJhU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJf7IIq10yKFJ2hka4k5Ioo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM8lM6NOhmqZ3HFIA/nDgJQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKxMuc7Sl3582iF0Of+kBBI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIJw3NXceVx5RbncNQFUf3U="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEeQT+Ku9u8lviBmheBHXhU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBn1HiHKytFhC5OanOFefnM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKUC5JI1FQSRho8EaW/vNzE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDGMAa7J3rTuwjI42AsWezI="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOaUNG5Wn2t/MqUpW2X56Sg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOPha5Lw0ocbaQqV1bdcqiA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNTrrNS6kG1sATANA8ejDP4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBV3fVxNEpDzOir9REC7IGA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK7MwiDQsglP21FCpU86tG4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBQS5iGE0vqHSb8dB0jvdsg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHo4+TETzjnJ1znVfEIuFWE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKqTVjiQmla2q2gTTJgkuwQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEtnOPxbplVNbMRhyPBkWuE="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEBDT57KDlfKVvZVfwnSZ6M="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFASkGRrKv2l4EDUX/ALD2U="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMtxCQGoUlGy6qu4l/U6sDk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKc733PtVl0NVtlROGsMgOU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGjBTPZ+OF7DRSpfGJA4oDw="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKzlZWiOL22HdalU2qNfp38="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBcwEV5XWJwK2bd93TUErP8="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPsb7TNf61Q0zpkapkodAQQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKPkiDeyR6kpzfFQw9juGO4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ2LKNVN43paT+2A1RJyfwA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLwDGLT0ZMWUemU4N3UZx5U="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMnuuC+5fBDB2LC3t22dl0U="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKuIdHjaqaVWAbG+pf+wc1k="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyENTV6lTcjH42Tzclidyeyk="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNoGltQ+nwPYZcaI90J+a2o="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKQD4EMHMl6Nc2r+kODdJok="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB3Yymu5zzXVENjS6tL6LVg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJo7y8eyY/xTXBbx2uc3lo0="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAcWftYXCX1l6peE0tI4uGg="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBls096NhmGC3zHB3PejoXQ="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMKSx99ybf52Ov6XvvFmZYM="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBkgcj/gTFKCtsukT4ZYPlo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyECCLgtG2DAV03a23Xsmi0w="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEVmaz2i6yhdnAOoGdOGnp4="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFnVJxB/YPbxPrd8lGZsLLo="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJBu0MWQQsXhXj86TKOEhsU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM4/SRi3SfNP0odVkpjm3Ys="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDq5ZXy+alFvLd7uygspctY="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCwDjraw3aTtnPyOGOBJ1XU="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-o0AXGEKPN4wJ9sIG0RAn5I8JBmfQLepjs9LEz8Do3NnjvlKG5zcga6JdnaoTFXgQ"
+     },
+     "pickupType": "LOCATION"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOfHIX33e6a/u0VL+rWtiDA="
+     },
+     "pickupType": "HOTEL"
+    },
+    {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCgaVg3LEo0qlDraGWsSo9U="
+     },
+     "pickupType": "HOTEL"
+    }
+   ],
+   "additionalInfo": "Não vê a sua localização na lista? Não se preocupe! Envie-nos uma mensagem e podemos coordenar sua coleta. No dia da turnê, você será pego em sua acomodação em Las Vegas. O local exato em que se encontra será confirmado por telefone ou e-mail 48 horas antes do início da excursão."
+  }
+ },
+ "timeZone": "America/Los_Angeles",
+ "description": "Passe o dia explorando as fascinantes formações de arenito do Vale do Fogo. Seu guia, Adam, orienta aventuras ao ar livre há mais de dez anos e personalizará uma aventura para melhor atender às suas necessidades e desejos, ao mesmo tempo que faz da segurança sua prioridade número um. Adam também capturará a magnífica beleza do Vale do Fogo através de sua câmera durante o tempo que passarem juntos, sem nenhum custo adicional.\n\nEnquanto aprende sobre a vasta história, vegetação e bela vida selvagem do Vale do Fogo, você caminhará pelas rotas criadas por Adam.\n\nSua excursão incluirá embarque e desembarque em seu hotel, um guia divertido e experiente, lanches/água e um pacote de fotos de cortesia. Acreditamos na qualidade em vez da quantidade. No momento da reserva, você ou seu grupo não serão combinados com nenhum outro grupo. Caso você tenha alguma dúvida ou preocupação, não hesite em entrar em contato por e-mail ou telefone a qualquer momento.",
+ "inclusions": [
+  {
+   "category": "OTHER",
+   "categoryDescription": "Outros",
+   "type": "OTHER",
+   "typeDescription": "Outros",
+   "otherDescription": "Guia profissional"
+  },
+  {
+   "category": "OTHER",
+   "categoryDescription": "Outros",
+   "type": "OTHER",
+   "typeDescription": "Outros",
+   "otherDescription": "Motorista / guia"
+  },
+  {
+   "category": "OTHER",
+   "categoryDescription": "Outros",
+   "type": "OTHER",
+   "typeDescription": "Outros",
+   "otherDescription": "Bebidas"
+  },
+  {
+   "category": "FOOD_AND_DRINK",
+   "categoryDescription": "Comida e bebida",
+   "type": "SNACKS",
+   "typeDescription": "Lanches",
+   "description": "Lanches"
+  },
+  {
+   "category": "OTHER",
+   "categoryDescription": "Outros",
+   "type": "OTHER",
+   "typeDescription": "Outros",
+   "otherDescription": "Recepção e desembarque no hotel"
+  },
+  {
+   "category": "OTHER",
+   "categoryDescription": "Outros",
+   "type": "OTHER",
+   "typeDescription": "Outros",
+   "otherDescription": "Tour privado"
+  },
+  {
+   "category": "FOOD_AND_DRINK",
+   "categoryDescription": "Comida e bebida",
+   "type": "BOTTLED_WATER",
+   "typeDescription": "Água mineral",
+   "description": "Água mineral"
+  },
+  {
+   "category": "OTHER",
+   "categoryDescription": "Outros",
+   "type": "OTHER",
+   "typeDescription": "Outros",
+   "otherDescription": "Guia local"
+  },
+  {
+   "category": "OTHER",
+   "categoryDescription": "Outros",
+   "type": "OTHER",
+   "typeDescription": "Outros",
+   "otherDescription": "Todas as atividades"
+  },
+  {
+   "category": "FEES_AND_TAXES",
+   "categoryDescription": "Taxas",
+   "type": "FUEL_SURCHARGE",
+   "typeDescription": "Sobretaxa de combustível",
+   "description": "Sobretaxa de combustível"
+  },
+  {
+   "category": "OTHER",
+   "categoryDescription": "Outros",
+   "type": "OTHER",
+   "typeDescription": "Outros",
+   "otherDescription": "Transporte por veículo particular"
+  }
+ ],
+ "exclusions": [
+  {
+   "category": "FEES_AND_TAXES",
+   "categoryDescription": "Taxas",
+   "type": "GRATUITIES",
+   "typeDescription": "Gorjetas",
+   "description": "Gorjetas"
+  }
+ ],
+ "additionalInfo": [
+  {
+   "type": "INFANTS_MUST_SIT_ON_LAPS",
+   "description": "Bebês precisam sentar no colo de um adulto"
+  },
+  {
+   "type": "PHYSICAL_EASY",
+   "description": "Adequado para todos os níveis de condicionamento físico"
+  },
+  {
+   "type": "OTHER",
+   "description": "Traje Recomendado / Itens a Trazer:"
+  },
+  {
+   "type": "OTHER",
+   "description": "Calçados esportivos / para caminhadas"
+  },
+  {
+   "type": "OTHER",
+   "description": "Roupa Confortável (por favor, verifique as condições meteorológicas antes do dia da reserva)"
+  },
+  {
+   "type": "OTHER",
+   "description": "Chapéu / óculos de sol"
+  },
+  {
+   "type": "OTHER",
+   "description": "Protetor solar"
+  },
+  {
+   "type": "OTHER",
+   "description": "Mochila Pequena"
+  },
+  {
+   "type": "OTHER",
+   "description": "Entusiasmo e prontidão para a aventura!"
+  }
+ ],
+ "cancellationPolicy": {
+  "type": "STANDARD",
+  "description": "Para receber um reembolso integral, cancele até 24 horas antes do horário de partida.",
+  "cancelIfBadWeather": false,
+  "cancelIfInsufficientTravelers": false,
+  "refundEligibility": [
+   {
+    "dayRangeMin": 1,
+    "percentageRefundable": 100
+   },
+   {
+    "dayRangeMin": 0,
+    "dayRangeMax": 1,
+    "percentageRefundable": 0
+   }
+  ]
+ },
+ "bookingConfirmationSettings": {
+  "bookingCutoffType": "START_TIME",
+  "bookingCutoffInMinutes": 720,
+  "confirmationType": "INSTANT"
+ },
+ "bookingRequirements": {
+  "minTravelersPerBooking": 1,
+  "maxTravelersPerBooking": 12,
+  "requiresAdultForBooking": true
+ },
+ "languageGuides": [
+  {
+   "type": "GUIDE",
+   "language": "en",
+   "legacyGuide": "en/SERVICE_GUIDE"
+  }
+ ],
+ "bookingQuestions": [
+  "PICKUP_POINT",
+  "SPECIAL_REQUIREMENTS"
+ ],
+ "tags": [
+  11889,
+  11930,
+  12035,
+  367652,
+  21733,
+  367661,
+  22046,
+  11941,
+  11938,
+  21972,
+  367664
+ ],
+ "destinations": [
+  {
+   "ref": "22171",
+   "primary": true
+  },
+  {
+   "ref": "684",
+   "primary": false
+  }
+ ],
+ "itinerary": {
+  "itineraryType": "STANDARD",
+  "skipTheLine": false,
+  "privateTour": true,
+  "duration": {
+   "variableDurationFromMinutes": 360,
+   "variableDurationToMinutes": 600
+  },
+  "itineraryItems": [
+   {
+    "pointOfInterestLocation": {
+     "location": {
+      "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBCU+XF8+Cu6HG+73dfLYIg="
+     },
+     "attractionId": 1265
+    },
+    "duration": {
+     "fixedDurationInMinutes": 240
+    },
+    "passByWithoutStopping": false,
+    "admissionIncluded": "YES",
+    "description": "Descubra a beleza dramática do Parque Estadual Valley of Fire, localizado a nordeste de Las Vegas, em uma excursão particular para caminhadas e passeios turísticos. Você terá a oportunidade de ver antigas formações de arenito, as cores vivas e variadas da paisagem rochosa, desfiladeiros sinuosos e muito mais enquanto você explora com um guia, que conta sobre a vida selvagem, a vida vegetal e a história natural da região."
+   }
+  ]
+ },
+ "productOptions": [
+  {
+   "productOptionCode": "TG2",
+   "description": "Caminhadas e passeios turísticos\nPrimeira classe\nDuração: 10 horas\nAlmoço\nVale do Fogo\nSUV\nExcursão de dia inteiro ao Vale do Fogo: Passe o dia explorando muitas áreas do Vale do Fogo que raramente são vistas por outras pessoas. Adam, proprietário/guia, garantirá que esta aventura seja um destaque de sua viagem a Las Vegas! O passeio tem duração de 10 horas.\nTraslado incluído",
+   "title": "Vale do Fogo Dia Inteiro",
+   "logistics": {
+    "start": [
+     {
+      "location": {
+       "ref": "LOC-mdT/24+QQt9xSbMGff2ELlZFr2wLKw2KDoxQRhjGpvfd6iXuckyyUEhakqGJdUm4"
+      },
+      "description": "Se você não precisar de transporte e preferir dirigir sozinho, nos encontraremos no posto de gasolina Moapa Travel Plaza/Chevron, próximo à saída do Vale do Fogo."
+     }
+    ],
+    "end": [
+     {
+      "location": {
+       "ref": "LOC-mdT/24+QQt9xSbMGff2ELlZFr2wLKw2KDoxQRhjGpvfd6iXuckyyUEhakqGJdUm4"
+      },
+      "description": "Se você não precisar de transporte e preferir dirigir sozinho, nos encontraremos no posto de gasolina Moapa Travel Plaza/Chevron, próximo à saída do Vale do Fogo."
+     }
+    ],
+    "travelerPickup": {
+     "pickupOptionType": "PICKUP_AND_MEET_AT_START_POINT",
+     "allowCustomTravelerPickup": true,
+     "locations": [
+      {
+       "location": {
+        "ref": "MEET_AT_DEPARTURE_POINT"
+       },
+       "pickupType": "OTHER"
+      },
+      {
+       "location": {
+        "ref": "CONTACT_SUPPLIER_LATER"
+       },
+       "pickupType": "OTHER"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBErUbGdD0ZjHLRL1BPQaZ0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFzoNQaxUAQkiUg5w6dY+iY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPj7yxc1vBYWJW7y7cBGmxI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNCCG4AmvMPoTX2G+vWTEjw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI1I7bmQTPayCL5Ma5EvwFw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPZHgJU8KBekAYgOgQFwVx8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyODuFeqUoNXmKAbtwk4rj/4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMhe1tsqHn2NuE/awEppLG4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC5ssRjU8qvdNza4k6l5neM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLRBFwJ4nlBf6yh4VoK/j+Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN6ayKhzpWATCdklxevMZpM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIE6a2rIlteRk1CBcTbIVfI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLANtjSgN6busz3nl7123FU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI+84Xl2WgDg5q3YnMfA65s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDTaqzXJMmap6BgZUupfmaI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOt5P1Si6iTs3ntOqKIMNaY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDco2ssEWEmFnyGIh6qe8s8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM6nEC41A+Zheb0K22CfvjU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHseFt9gkzAiH35edfe5HPQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPj8F8fSmumrzf7fnCyNr2E="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC0pEaFCTzKA8lhP7eD5rGY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLsaNCmkiQLrPUpEWsxdteA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOD8aceOvZW4svTUlptSTbc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMCLTG+pkfRaxzSxvNUyqFw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNr3wRhgHxU4T390XT8t42Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLxKcGyJxQliesgpV17FjQI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDGgEiNUOi+BkhBvVn3H+08="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH1Dhkr5LZRMRejSkgWI4Gw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE3u+G5cqEb7lcE+B2SHz0c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEdOfFNbaY/ObifMVabXCSI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM3nZCdIb1KW81XbRO1dFHQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO6dPUxaexVmp3KufbGeDYI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMqdwSRHSoTlPYe4zKqbWdY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK/tQ70GB/3+zEFKFgGFWlM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO5sypqXfjf1z4wlvK8F2s8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE73a0UcAUszslIs9r9uINE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAQn3vx3WymdFsW0BcPmkzE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIKz4Mo4Lp+ti6TOds47aJ4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNkhVY0XTPhDwc2IoeNzejs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHAsOnYz9bo7tfNE6ga82+Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHmm1mtZGz87LLcEJgK2p3Y="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMt6L92lJMtGUFDy1KzVaqo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAnwBJgER3cyeRjszeTNhKw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDO5zg28sIdq3yD9SbRlyGc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIgI6YYSPv4V/DQYAVyC1Bk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG6/ydsQtQmOOYbrH4DzqkA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOy1BSpv4k/CvXZSrTV+tE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKwWYkjV+FthbvnexyCnRB4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ7bt3fkYuI7mg+NTYtKAm4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDT/IlRicCY+q8eWWX2CuK4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGyHydx05lueGY39o5AKU1U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEZ4LkUXfcRdgjvCvHzOu5o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMcOCt6ynpri090F9v0F/U0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCf35wHWRAmiuDW+DzuYziQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLQn9UhOy4ZogK+Mm51yBRo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCsKrgl6Fipww0NbkmlV96s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH4pvJrrDUtQZdSSfBexI2c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB6zbsUyx2WP4DX8JlMEHE4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM5msSwtCfodq+XvjOG4Maw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBpsNH0lZuueOx2U14wBnM4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPZY4poiKPLqj+cPrY9crfk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEvVLnLZDHyP50Fmryv3OYc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGlYThZ5u1HNNIpZEj6vbcg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKN0pNlVL7j1VzCiE/KCJJ0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLtQgkT7asyQ7XYtUODEjBM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJP12czl1EjgR9GV7U95FGk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyACHM389AOB6aNby/RpTyV4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHJztf7HoStjBRWPnkOYe7M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFjbn5Pxo6hQo0A1sGYe8cI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHin/KYXB/aYamxG8B7jB18="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNHZpiT7PafTHKyKUtbDwCc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHUdTx4V6PYx5FVxvZZRDR0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPB0jxdXhnCrAlQO+019Guc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPBbM1ZmNfhq3DxwKmFnkLs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGWYzsZzvyqqcc7mg6cdHLA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDzkzwCxEWYsDu49p/xHDO4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNhlehMgShoOluB5jQpLV3M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKbDEbcifG5leH8DJaYqVeE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM15tUuhDlhk5zN7O8GsqUk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCDeUApF/EqJ1B5h1GcBkn4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGJxPFexIWm/aY/5UOlzx8c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGk4FVZKKfsvZ3q7XS8QOMc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCJpHuPhMEsMXrk4IADkvjs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHX8jxLQWmIhUB7uZEvtBbA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH6P3T1FYCM3qGyvKkbiM0E="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOeh88nne4BGhjiBwqiNX4k="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGurSczSJyGP7X7ukQ32X1c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEcframtSsD/ITvP8V6djp0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEFqhVptf3fbh5RoklYVgb4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBJQLnrG7DJuG+5Q91bBxs0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOzLfaoJWqIf1c02Ha371DU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNVCKijBk3TZ2v9owjRQZgs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDtWBGanuqfBPaIyOd4OKoY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPCJ7fUell8uVwr5LhENBX0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBvZ/wBZVsjoq9x0PdBuYMk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPz/EVvfdgCBT4YrYqFH+8o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL4/7YyiJdTt6dHCpGcHhq0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNIgGcWCef8dYo0mSKed6yw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHzeyJmQ+THjhq36g8JvZtg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO1ICCrBApGMm/tWUNV+oLs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC3JMc4tLG/tdzD77yPVpnc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyInQ1t9XvM154sKOS6zeWm8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAOHD5P96DD2J96kz74iPh8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMnh9t7+tIcKvyG6+W3+aG0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB/5wZdIrKnRNaBd1qqfhNQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCvfKXZ7UW6jO6vIM6y7Sw8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ4FDx/QP4S8NJY1d8MXQuY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMvOxU8/WXrFnQEhp0KJgZE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFpzSTDhxWkqqFdFgAl0Ja0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL8Qi1o0VTyYxmhLTNdBF/o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNmDS0HqAqHZhW2SqJyQF1c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyP5RzExWHR3ZSmUNN4NKoiU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE1MwqACT1ThhJ10V5uX3P4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL6iJhb25PhT5Aj6lYuQ5bA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAy2Ytl/4dLnvPj4J4CLaig="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCacMdfYtSZ3JsYejmnf2Gk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPm7MJniqFxTwIssGiLDUm0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBFe3K43upE9w2VQK0f6QPc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBZ5ncV6VrDynQode4ZtoQQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNwmXlH7r/vAWjApbxN3eo4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBUu2d1nSOCoDpt1dykjEyY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO+ado2OdOb1Ne8l7JjmFhc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyORCfXCgyhzAatotHFV7qOs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDOACEtCgOrwVwVRJHZsz7Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN7aqxSiCsaWZzMygXySmLo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCgWdn8UjQFyISfKqDL9C7I="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDLqIffkABEUSrdG//IHA90="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIOr+tw3Vi3wkFTtEY6UT+s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDhf4qrxHNGWGcyVDr+Kmm4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBbic/yUNW8nTHBSius/C88="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD/Gdp9ZJ4lCQvNP5mw7ZzE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMJsj7zQSu7Vm86lxQscvU8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGB9dp9nvAbfflwvlFIuVTI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDdi8aCToWOAN93zOvO0S2A="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGBkJ8g54wabSArRUG7W8eI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLXShMlchnFG3w62yYEfMVM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJEST2O5YI9oy33Kx+Q+6zI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBbBPS+B7GZluBgKbhQWzLo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDboZ+DBBkbttsZTXJlfe1M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNdC4w3KCjvxGKww5QTD09U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD3aQEhHOEKSrlJSog3eakQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLoAGMZhQEF9c5I/nnpfEyk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNNAPZMBDnQDl5uViZJPh6g="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC8IumtTBgXIvY3cHMSzGBs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH+MC8uklV6rA4PoMYqpGFA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHvfg4UVyYz3yyBDFgXmSOw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ4lSUT3qR0Ny9mtmouOSMM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBRrBnJ7NOst/cxFgV2gKR8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDQN6aREWHiXKzyzH/ubRnA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG1xGTj/R8ziI/Jz8Pa4T4k="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAVE/AVICFytR/adokuZ6Xw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBsStKxcjVbtYDH3l0D809o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI6Fn1Pjqzg6cwYlHBk4qbo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG3s16OQb4XY0sQfOAdBxPI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyObJ/zRU/nMWfoVNiIpo50s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIz//KLAdnj+Z4u70niG0eo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGQ8QU1td3T0YP9iRid99LI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAqjM4t0obDHNc7CiuBi/LU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAeuBfRQ0pTJYXsvDmdVZxE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBMlZafty6a0TC9KeQuLK5o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL81fYl/Jo7VlP6armQGMzE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFCqK2cLKrchOFJKjr1/y5A="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBKITGrhR/YmBpQhZPdAkfo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKZSI/SDHrwqXC8jhQdBlHA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNWytHxB19+vHaUafff/y/Y="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyORM7Eep/q0Pbq1oevBZst4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFX9GK73hAKzwjN669LbD/s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL1HgbXrEbW09yExvKyEDRY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLLh+T86PyAyLjA9lSmJDKQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGrJo7kvIV5N0fBgs0ZPb28="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMGkEY9wusrlJC/3nGIuqnM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHhKYb/OWyZZ4pBTFgMZgLA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC9wXM5mfrnExR5xeOZQT0w="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEoQysKGVnvClKlDdwL3HUI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBpD9dEcBf4OB1f/k++rxEg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIqaf7HAZtb7fY+h/iBS1EA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPAPdo9y5jQbKhh5oUW5Zp8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI6H3SP9434nTqxkFVRsWrU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJausKxrmizvwaBuba6oeQc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDor+9AgaVHxrkBzT36TSKQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEXuwM3B7F+rzSmKhRREqsI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN8TjMgmDYVTjtIP3ndQIaM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCJntfxmtgr8vA+M9lpKBbs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMbk4X5LV07WQ9hB0C5r+xI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGvZgsoPdW1e0WAw0trJXvI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDoTrSRVJpBhQZnrUgggay0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGb4XnKXK6gelpswo64iqtY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPwcJxeNxaayXG7Goh2y5cA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDsDfYKmtjIpM+1c9kjGFJc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGaKlu8wEEh6N0rgee2RGQE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEbsd28y3g5mPwy+Opb/tiU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPNCPKwfYPvtOAz7Q4DHV68="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyML44m1Fa/7WWT8Uoht/6TY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOCmF5qE1C0hUg/qu8PKr8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIKK6zAS9GK9X8vaNiAChrQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOXFHvht3Im+oPtFPPLiV5A="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM63+u5DTPOojyOcWEucIR8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKI1HoIC2LRBVXJwup3mscs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBDVdmDxRN4f807N4g3CNEc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJXD+xeg6iOLkG7zVaL/pO8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEwXkXqMLwz9OewEfvhNqzg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHoN05A5bqneqWO4tm+hUd0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKP/LpxGEt9hJPGN/Plpncg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIBMT4vyJx77EpxCmHFDCUo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHFSEICX3hYxfqC5IEBK9kU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEOF6n1Fa+8FU4VSuwPL4AQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBzGvDXqBhFWRefC+B7N+UA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOCIY66u2dQl9jBjlQN1Y20="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPlxhZWIQ6QhsLzgdut72Ks="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDmborpCVJ3fEqZ/xH81I5c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLQneT27MTi7fTS1KhMc7As="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGj3LA29JWqr9n72tJUimkU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKy0WuhQsskxEsx1AQeER/I="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLmz4snDcvQkDZdccsUm7YE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBwCCAMM1OJf6yPoSWlQtmw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEVGGlZ73070pMpYWSPzvQs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCGR4NKytuvWqvHwWYdnVlA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFNBVwQ0BXCfuHthQTd+puQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBFcdunDpGs4Ft8qVSxRwY4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKDAzaVwE2MD+UKmc78oIoc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMYfem/RT4BkfOoOXo5tHjo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDmm2rKR2jwYKENDcSt4Tyw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBdFz5wQ0NYH6Bn6A/SQQOw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH11uGg5KC++KeXsO3atPpw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPP6H3WY0Q9XL5rcNdeDQcU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG4ZJHYl/otGTbLVQaH8j3M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBsNnQH+DozMvy/y3e/Mb5U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE7au4qb+R8RDL4YJHwZUW8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIG1ZnPPG2CSy2EpF8j0b7Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH3RvG8ixei+osdnk+XOCpc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFpLXXGeNdck03ziYv4S6/Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM/5u1g+dbnAQqbNg8+6SEE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBqe9hIBpsA4VZoPTnT20zs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLgocV8401Kd9cPwI61r+kw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLpyFP4aHCmimZ2QC12XChw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPPki1HgqETbE8rAZLxI0Vo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNI5DyLmRpicD0erj9DZ3ig="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDTHZ1oL7bU6e6XywiyZDwY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD3z7JxLZVpiXPJXT8jvS4Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIX/nDvhyBku8BEmRcU0v+s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOEGGuyaOnlxeeAnlxgnCiA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM3hQt5JnXqYZC5o3Ev1k78="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOWQ5E2IFhWMjhH92ESspn4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOGeFBVlp09z995QmNkvVCM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyF3+KLWgMR+cVgsWJwhai68="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNQbBaD/iWafveK+BYtV/Qs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGud/xKXX9ErKWYP1rYGEYw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFs5kBLhrHyMw8MyXJ20t9w="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAd9PQKABrIAZmIzdEOqH8s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHSq0OjW6V21fLSvNvemS3s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOCeDueDswe/fpBtUvKhVM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK3JHJnjuVrkB8kR3V84rlI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBycGcsFWb12mH7nDCSvrUw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLHbhvsdP8Zl9KNrguyI6Qk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyInkh2dLnP+ftyJp/mQudCM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH0ZHgw64ZFr0GEkkr+e/+4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM+SdnVSIYsNOSlWxa/XEqg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDWSwloBX85oB2Qu4hbGNrY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyElmB0jrYLflCfp0DFtzcek="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMN628nk9dNJ7h2A2zjbtsc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBJ8Scjx9QAwvk8DlJbmbTg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBZYGv8mnF9bdybqQ1kM7Fk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHuvhRK1DttPtoyDsDwJEac="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHgRZomLiRIp9RjSTkHVD2w="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNkJM2A9YkJ0jynEmvLqtCI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKAONS3qwq1U9Fo2drswfxM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKaHp64uDOM4IvCru0ygPnc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPhYhSJpRQxPZ0NcgiAxduc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCvIw6eO1/PPJ0SoF7f0q7U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKkPDpVhx2/cyFAF9YM30k8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLexJpHDPx2feiBnhYVZNj0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG2wg4z4KxXyNlAUo+h+ZRM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG/SG+0snhJ6Rfkhv2LEGKM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJRNnj6cKHR/+ITKVF+htHo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKq2QD2Xynb8tVOWZ+5Kjw8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLlROj6ud06x53wLdqHfLak="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyASSAEB4T+TKP1I2Cmn5018="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLRz4Bbiyffl9Lp+fxywA04="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDvEyFZaSMQQY0VElMAoQfY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCnY92S9CQqtaRMGEoTZHDc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIwxL6mlcQ9CXDqbAP8EC8o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPW8tXzangvyZhk+838MAKE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLfqcBgiHE+D7n2ISR/obyc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJp6oUCB0iwEAOQ747lZrYY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFr1tQcbwqITuQpIZVIljP4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyA8/9b8wecmzjymwLPkcQVg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPdWf8s6poIB+3h41eIKL+I="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGRw+HRVZr62YYl5HvPTdi4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOjNbfn+fzJkmefpVxviM6s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAKD0/4uMWHrlfNLyVXC4Fk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHdoJXmv7sRHc5cewCSwo7k="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFkgyh64N3+LkiEq3UTHjjM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKwJkGUdtoZqC7pySYn6/yw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEpNrvZTe2Vt8WODr1B81U4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNUl2SlxaXmoqQAER0mXUxY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDzVusDLtWjaXM6Xoxx87AA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPMiK5shX8rQhBeE29L+Cno="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLx0qS3Ywa8gF/EyoiLTeI0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIRMUhYH74zo1730jbUkZd0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCY9DgS4jC2/AnGQA9wkJhU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJf7IIq10yKFJ2hka4k5Ioo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM8lM6NOhmqZ3HFIA/nDgJQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKxMuc7Sl3582iF0Of+kBBI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIJw3NXceVx5RbncNQFUf3U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEeQT+Ku9u8lviBmheBHXhU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBn1HiHKytFhC5OanOFefnM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKUC5JI1FQSRho8EaW/vNzE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDGMAa7J3rTuwjI42AsWezI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOaUNG5Wn2t/MqUpW2X56Sg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOPha5Lw0ocbaQqV1bdcqiA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNTrrNS6kG1sATANA8ejDP4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBV3fVxNEpDzOir9REC7IGA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK7MwiDQsglP21FCpU86tG4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBQS5iGE0vqHSb8dB0jvdsg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHo4+TETzjnJ1znVfEIuFWE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKqTVjiQmla2q2gTTJgkuwQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEtnOPxbplVNbMRhyPBkWuE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEBDT57KDlfKVvZVfwnSZ6M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFASkGRrKv2l4EDUX/ALD2U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMtxCQGoUlGy6qu4l/U6sDk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKc733PtVl0NVtlROGsMgOU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGjBTPZ+OF7DRSpfGJA4oDw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKzlZWiOL22HdalU2qNfp38="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBcwEV5XWJwK2bd93TUErP8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPsb7TNf61Q0zpkapkodAQQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKPkiDeyR6kpzfFQw9juGO4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ2LKNVN43paT+2A1RJyfwA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLwDGLT0ZMWUemU4N3UZx5U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMnuuC+5fBDB2LC3t22dl0U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKuIdHjaqaVWAbG+pf+wc1k="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyENTV6lTcjH42Tzclidyeyk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNoGltQ+nwPYZcaI90J+a2o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKQD4EMHMl6Nc2r+kODdJok="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB3Yymu5zzXVENjS6tL6LVg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJo7y8eyY/xTXBbx2uc3lo0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAcWftYXCX1l6peE0tI4uGg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBls096NhmGC3zHB3PejoXQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMKSx99ybf52Ov6XvvFmZYM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBkgcj/gTFKCtsukT4ZYPlo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyECCLgtG2DAV03a23Xsmi0w="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEVmaz2i6yhdnAOoGdOGnp4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFnVJxB/YPbxPrd8lGZsLLo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJBu0MWQQsXhXj86TKOEhsU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM4/SRi3SfNP0odVkpjm3Ys="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDq5ZXy+alFvLd7uygspctY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCwDjraw3aTtnPyOGOBJ1XU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-o0AXGEKPN4wJ9sIG0RAn5I8JBmfQLepjs9LEz8Do3NnjvlKG5zcga6JdnaoTFXgQ"
+       },
+       "pickupType": "LOCATION"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOfHIX33e6a/u0VL+rWtiDA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCgaVg3LEo0qlDraGWsSo9U="
+       },
+       "pickupType": "HOTEL"
+      }
+     ],
+     "additionalInfo": "Não vê a sua localização na lista? Não se preocupe! Envie-nos uma mensagem e podemos coordenar sua coleta. No dia da turnê, você será pego em sua acomodação em Las Vegas. O local exato em que se encontra será confirmado por telefone ou e-mail 48 horas antes do início da excursão."
+    }
+   },
+   "languageGuides": [
+    {
+     "type": "GUIDE",
+     "language": "en",
+     "legacyGuide": "en/SERVICE_GUIDE"
+    }
+   ]
+  },
+  {
+   "productOptionCode": "TG10",
+   "description": "Traslado incluído",
+   "title": "Aventura de meio dia - 6h",
+   "logistics": {
+    "start": [
+     {
+      "location": {
+       "ref": "LOC-mdT/24+QQt9xSbMGff2ELlZFr2wLKw2KDoxQRhjGpvfd6iXuckyyUEhakqGJdUm4"
+      },
+      "description": "Se você não precisar de transporte e preferir dirigir sozinho, nos encontraremos no posto de gasolina Moapa Travel Plaza/Chevron, próximo à saída do Vale do Fogo."
+     }
+    ],
+    "end": [
+     {
+      "location": {
+       "ref": "LOC-mdT/24+QQt9xSbMGff2ELlZFr2wLKw2KDoxQRhjGpvfd6iXuckyyUEhakqGJdUm4"
+      },
+      "description": "Se você não precisar de transporte e preferir dirigir sozinho, nos encontraremos no posto de gasolina Moapa Travel Plaza/Chevron, próximo à saída do Vale do Fogo."
+     }
+    ],
+    "travelerPickup": {
+     "pickupOptionType": "PICKUP_AND_MEET_AT_START_POINT",
+     "allowCustomTravelerPickup": true,
+     "locations": [
+      {
+       "location": {
+        "ref": "MEET_AT_DEPARTURE_POINT"
+       },
+       "pickupType": "OTHER"
+      },
+      {
+       "location": {
+        "ref": "CONTACT_SUPPLIER_LATER"
+       },
+       "pickupType": "OTHER"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBErUbGdD0ZjHLRL1BPQaZ0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFzoNQaxUAQkiUg5w6dY+iY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPj7yxc1vBYWJW7y7cBGmxI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNCCG4AmvMPoTX2G+vWTEjw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI1I7bmQTPayCL5Ma5EvwFw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPZHgJU8KBekAYgOgQFwVx8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyODuFeqUoNXmKAbtwk4rj/4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMhe1tsqHn2NuE/awEppLG4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC5ssRjU8qvdNza4k6l5neM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLRBFwJ4nlBf6yh4VoK/j+Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN6ayKhzpWATCdklxevMZpM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIE6a2rIlteRk1CBcTbIVfI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLANtjSgN6busz3nl7123FU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI+84Xl2WgDg5q3YnMfA65s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDTaqzXJMmap6BgZUupfmaI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOt5P1Si6iTs3ntOqKIMNaY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDco2ssEWEmFnyGIh6qe8s8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM6nEC41A+Zheb0K22CfvjU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHseFt9gkzAiH35edfe5HPQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPj8F8fSmumrzf7fnCyNr2E="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC0pEaFCTzKA8lhP7eD5rGY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLsaNCmkiQLrPUpEWsxdteA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOD8aceOvZW4svTUlptSTbc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMCLTG+pkfRaxzSxvNUyqFw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNr3wRhgHxU4T390XT8t42Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLxKcGyJxQliesgpV17FjQI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDGgEiNUOi+BkhBvVn3H+08="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH1Dhkr5LZRMRejSkgWI4Gw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE3u+G5cqEb7lcE+B2SHz0c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEdOfFNbaY/ObifMVabXCSI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM3nZCdIb1KW81XbRO1dFHQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO6dPUxaexVmp3KufbGeDYI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMqdwSRHSoTlPYe4zKqbWdY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK/tQ70GB/3+zEFKFgGFWlM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO5sypqXfjf1z4wlvK8F2s8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE73a0UcAUszslIs9r9uINE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAQn3vx3WymdFsW0BcPmkzE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIKz4Mo4Lp+ti6TOds47aJ4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNkhVY0XTPhDwc2IoeNzejs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHAsOnYz9bo7tfNE6ga82+Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHmm1mtZGz87LLcEJgK2p3Y="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMt6L92lJMtGUFDy1KzVaqo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAnwBJgER3cyeRjszeTNhKw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDO5zg28sIdq3yD9SbRlyGc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIgI6YYSPv4V/DQYAVyC1Bk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG6/ydsQtQmOOYbrH4DzqkA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOy1BSpv4k/CvXZSrTV+tE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKwWYkjV+FthbvnexyCnRB4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ7bt3fkYuI7mg+NTYtKAm4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDT/IlRicCY+q8eWWX2CuK4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGyHydx05lueGY39o5AKU1U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEZ4LkUXfcRdgjvCvHzOu5o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMcOCt6ynpri090F9v0F/U0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCf35wHWRAmiuDW+DzuYziQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLQn9UhOy4ZogK+Mm51yBRo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCsKrgl6Fipww0NbkmlV96s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH4pvJrrDUtQZdSSfBexI2c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB6zbsUyx2WP4DX8JlMEHE4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM5msSwtCfodq+XvjOG4Maw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBpsNH0lZuueOx2U14wBnM4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPZY4poiKPLqj+cPrY9crfk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEvVLnLZDHyP50Fmryv3OYc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGlYThZ5u1HNNIpZEj6vbcg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKN0pNlVL7j1VzCiE/KCJJ0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLtQgkT7asyQ7XYtUODEjBM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJP12czl1EjgR9GV7U95FGk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyACHM389AOB6aNby/RpTyV4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHJztf7HoStjBRWPnkOYe7M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFjbn5Pxo6hQo0A1sGYe8cI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHin/KYXB/aYamxG8B7jB18="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNHZpiT7PafTHKyKUtbDwCc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHUdTx4V6PYx5FVxvZZRDR0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPB0jxdXhnCrAlQO+019Guc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPBbM1ZmNfhq3DxwKmFnkLs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGWYzsZzvyqqcc7mg6cdHLA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDzkzwCxEWYsDu49p/xHDO4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNhlehMgShoOluB5jQpLV3M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKbDEbcifG5leH8DJaYqVeE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM15tUuhDlhk5zN7O8GsqUk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCDeUApF/EqJ1B5h1GcBkn4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGJxPFexIWm/aY/5UOlzx8c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGk4FVZKKfsvZ3q7XS8QOMc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCJpHuPhMEsMXrk4IADkvjs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHX8jxLQWmIhUB7uZEvtBbA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH6P3T1FYCM3qGyvKkbiM0E="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOeh88nne4BGhjiBwqiNX4k="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGurSczSJyGP7X7ukQ32X1c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEcframtSsD/ITvP8V6djp0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEFqhVptf3fbh5RoklYVgb4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBJQLnrG7DJuG+5Q91bBxs0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOzLfaoJWqIf1c02Ha371DU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNVCKijBk3TZ2v9owjRQZgs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDtWBGanuqfBPaIyOd4OKoY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPCJ7fUell8uVwr5LhENBX0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBvZ/wBZVsjoq9x0PdBuYMk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPz/EVvfdgCBT4YrYqFH+8o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL4/7YyiJdTt6dHCpGcHhq0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNIgGcWCef8dYo0mSKed6yw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHzeyJmQ+THjhq36g8JvZtg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO1ICCrBApGMm/tWUNV+oLs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC3JMc4tLG/tdzD77yPVpnc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyInQ1t9XvM154sKOS6zeWm8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAOHD5P96DD2J96kz74iPh8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMnh9t7+tIcKvyG6+W3+aG0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB/5wZdIrKnRNaBd1qqfhNQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCvfKXZ7UW6jO6vIM6y7Sw8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ4FDx/QP4S8NJY1d8MXQuY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMvOxU8/WXrFnQEhp0KJgZE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFpzSTDhxWkqqFdFgAl0Ja0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL8Qi1o0VTyYxmhLTNdBF/o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNmDS0HqAqHZhW2SqJyQF1c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyP5RzExWHR3ZSmUNN4NKoiU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE1MwqACT1ThhJ10V5uX3P4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL6iJhb25PhT5Aj6lYuQ5bA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAy2Ytl/4dLnvPj4J4CLaig="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCacMdfYtSZ3JsYejmnf2Gk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPm7MJniqFxTwIssGiLDUm0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBFe3K43upE9w2VQK0f6QPc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBZ5ncV6VrDynQode4ZtoQQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNwmXlH7r/vAWjApbxN3eo4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBUu2d1nSOCoDpt1dykjEyY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyO+ado2OdOb1Ne8l7JjmFhc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyORCfXCgyhzAatotHFV7qOs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDOACEtCgOrwVwVRJHZsz7Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN7aqxSiCsaWZzMygXySmLo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCgWdn8UjQFyISfKqDL9C7I="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDLqIffkABEUSrdG//IHA90="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIOr+tw3Vi3wkFTtEY6UT+s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDhf4qrxHNGWGcyVDr+Kmm4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBbic/yUNW8nTHBSius/C88="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD/Gdp9ZJ4lCQvNP5mw7ZzE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMJsj7zQSu7Vm86lxQscvU8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGB9dp9nvAbfflwvlFIuVTI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDdi8aCToWOAN93zOvO0S2A="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGBkJ8g54wabSArRUG7W8eI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLXShMlchnFG3w62yYEfMVM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJEST2O5YI9oy33Kx+Q+6zI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBbBPS+B7GZluBgKbhQWzLo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDboZ+DBBkbttsZTXJlfe1M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNdC4w3KCjvxGKww5QTD09U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD3aQEhHOEKSrlJSog3eakQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLoAGMZhQEF9c5I/nnpfEyk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNNAPZMBDnQDl5uViZJPh6g="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC8IumtTBgXIvY3cHMSzGBs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH+MC8uklV6rA4PoMYqpGFA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHvfg4UVyYz3yyBDFgXmSOw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ4lSUT3qR0Ny9mtmouOSMM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBRrBnJ7NOst/cxFgV2gKR8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDQN6aREWHiXKzyzH/ubRnA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG1xGTj/R8ziI/Jz8Pa4T4k="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAVE/AVICFytR/adokuZ6Xw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBsStKxcjVbtYDH3l0D809o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI6Fn1Pjqzg6cwYlHBk4qbo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG3s16OQb4XY0sQfOAdBxPI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyObJ/zRU/nMWfoVNiIpo50s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIz//KLAdnj+Z4u70niG0eo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGQ8QU1td3T0YP9iRid99LI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAqjM4t0obDHNc7CiuBi/LU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAeuBfRQ0pTJYXsvDmdVZxE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBMlZafty6a0TC9KeQuLK5o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL81fYl/Jo7VlP6armQGMzE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFCqK2cLKrchOFJKjr1/y5A="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBKITGrhR/YmBpQhZPdAkfo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKZSI/SDHrwqXC8jhQdBlHA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNWytHxB19+vHaUafff/y/Y="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyORM7Eep/q0Pbq1oevBZst4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFX9GK73hAKzwjN669LbD/s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyL1HgbXrEbW09yExvKyEDRY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLLh+T86PyAyLjA9lSmJDKQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGrJo7kvIV5N0fBgs0ZPb28="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMGkEY9wusrlJC/3nGIuqnM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHhKYb/OWyZZ4pBTFgMZgLA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyC9wXM5mfrnExR5xeOZQT0w="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEoQysKGVnvClKlDdwL3HUI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBpD9dEcBf4OB1f/k++rxEg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIqaf7HAZtb7fY+h/iBS1EA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPAPdo9y5jQbKhh5oUW5Zp8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyI6H3SP9434nTqxkFVRsWrU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJausKxrmizvwaBuba6oeQc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDor+9AgaVHxrkBzT36TSKQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEXuwM3B7F+rzSmKhRREqsI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyN8TjMgmDYVTjtIP3ndQIaM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCJntfxmtgr8vA+M9lpKBbs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMbk4X5LV07WQ9hB0C5r+xI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGvZgsoPdW1e0WAw0trJXvI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDoTrSRVJpBhQZnrUgggay0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGb4XnKXK6gelpswo64iqtY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPwcJxeNxaayXG7Goh2y5cA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDsDfYKmtjIpM+1c9kjGFJc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGaKlu8wEEh6N0rgee2RGQE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEbsd28y3g5mPwy+Opb/tiU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPNCPKwfYPvtOAz7Q4DHV68="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyML44m1Fa/7WWT8Uoht/6TY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOCmF5qE1C0hUg/qu8PKr8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIKK6zAS9GK9X8vaNiAChrQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOXFHvht3Im+oPtFPPLiV5A="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM63+u5DTPOojyOcWEucIR8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKI1HoIC2LRBVXJwup3mscs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBDVdmDxRN4f807N4g3CNEc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJXD+xeg6iOLkG7zVaL/pO8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEwXkXqMLwz9OewEfvhNqzg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHoN05A5bqneqWO4tm+hUd0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKP/LpxGEt9hJPGN/Plpncg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIBMT4vyJx77EpxCmHFDCUo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHFSEICX3hYxfqC5IEBK9kU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEOF6n1Fa+8FU4VSuwPL4AQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBzGvDXqBhFWRefC+B7N+UA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOCIY66u2dQl9jBjlQN1Y20="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPlxhZWIQ6QhsLzgdut72Ks="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDmborpCVJ3fEqZ/xH81I5c="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLQneT27MTi7fTS1KhMc7As="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGj3LA29JWqr9n72tJUimkU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKy0WuhQsskxEsx1AQeER/I="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLmz4snDcvQkDZdccsUm7YE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBwCCAMM1OJf6yPoSWlQtmw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEVGGlZ73070pMpYWSPzvQs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCGR4NKytuvWqvHwWYdnVlA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFNBVwQ0BXCfuHthQTd+puQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBFcdunDpGs4Ft8qVSxRwY4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKDAzaVwE2MD+UKmc78oIoc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMYfem/RT4BkfOoOXo5tHjo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDmm2rKR2jwYKENDcSt4Tyw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBdFz5wQ0NYH6Bn6A/SQQOw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH11uGg5KC++KeXsO3atPpw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPP6H3WY0Q9XL5rcNdeDQcU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG4ZJHYl/otGTbLVQaH8j3M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBsNnQH+DozMvy/y3e/Mb5U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyE7au4qb+R8RDL4YJHwZUW8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIG1ZnPPG2CSy2EpF8j0b7Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH3RvG8ixei+osdnk+XOCpc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFpLXXGeNdck03ziYv4S6/Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM/5u1g+dbnAQqbNg8+6SEE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBqe9hIBpsA4VZoPTnT20zs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLgocV8401Kd9cPwI61r+kw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLpyFP4aHCmimZ2QC12XChw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPPki1HgqETbE8rAZLxI0Vo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNI5DyLmRpicD0erj9DZ3ig="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDTHZ1oL7bU6e6XywiyZDwY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyD3z7JxLZVpiXPJXT8jvS4Q="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIX/nDvhyBku8BEmRcU0v+s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOEGGuyaOnlxeeAnlxgnCiA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM3hQt5JnXqYZC5o3Ev1k78="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOWQ5E2IFhWMjhH92ESspn4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOGeFBVlp09z995QmNkvVCM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyF3+KLWgMR+cVgsWJwhai68="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNQbBaD/iWafveK+BYtV/Qs="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGud/xKXX9ErKWYP1rYGEYw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFs5kBLhrHyMw8MyXJ20t9w="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAd9PQKABrIAZmIzdEOqH8s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHSq0OjW6V21fLSvNvemS3s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKOCeDueDswe/fpBtUvKhVM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK3JHJnjuVrkB8kR3V84rlI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBycGcsFWb12mH7nDCSvrUw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLHbhvsdP8Zl9KNrguyI6Qk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyInkh2dLnP+ftyJp/mQudCM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyH0ZHgw64ZFr0GEkkr+e/+4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM+SdnVSIYsNOSlWxa/XEqg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDWSwloBX85oB2Qu4hbGNrY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyElmB0jrYLflCfp0DFtzcek="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMN628nk9dNJ7h2A2zjbtsc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBJ8Scjx9QAwvk8DlJbmbTg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBZYGv8mnF9bdybqQ1kM7Fk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHuvhRK1DttPtoyDsDwJEac="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHgRZomLiRIp9RjSTkHVD2w="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNkJM2A9YkJ0jynEmvLqtCI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKAONS3qwq1U9Fo2drswfxM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKaHp64uDOM4IvCru0ygPnc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPhYhSJpRQxPZ0NcgiAxduc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCvIw6eO1/PPJ0SoF7f0q7U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKkPDpVhx2/cyFAF9YM30k8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLexJpHDPx2feiBnhYVZNj0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG2wg4z4KxXyNlAUo+h+ZRM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyG/SG+0snhJ6Rfkhv2LEGKM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJRNnj6cKHR/+ITKVF+htHo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKq2QD2Xynb8tVOWZ+5Kjw8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLlROj6ud06x53wLdqHfLak="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyASSAEB4T+TKP1I2Cmn5018="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLRz4Bbiyffl9Lp+fxywA04="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDvEyFZaSMQQY0VElMAoQfY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCnY92S9CQqtaRMGEoTZHDc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIwxL6mlcQ9CXDqbAP8EC8o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPW8tXzangvyZhk+838MAKE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLfqcBgiHE+D7n2ISR/obyc="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJp6oUCB0iwEAOQ747lZrYY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFr1tQcbwqITuQpIZVIljP4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyA8/9b8wecmzjymwLPkcQVg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPdWf8s6poIB+3h41eIKL+I="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGRw+HRVZr62YYl5HvPTdi4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOjNbfn+fzJkmefpVxviM6s="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAKD0/4uMWHrlfNLyVXC4Fk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHdoJXmv7sRHc5cewCSwo7k="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFkgyh64N3+LkiEq3UTHjjM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKwJkGUdtoZqC7pySYn6/yw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEpNrvZTe2Vt8WODr1B81U4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNUl2SlxaXmoqQAER0mXUxY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDzVusDLtWjaXM6Xoxx87AA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPMiK5shX8rQhBeE29L+Cno="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLx0qS3Ywa8gF/EyoiLTeI0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIRMUhYH74zo1730jbUkZd0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCY9DgS4jC2/AnGQA9wkJhU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJf7IIq10yKFJ2hka4k5Ioo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM8lM6NOhmqZ3HFIA/nDgJQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKxMuc7Sl3582iF0Of+kBBI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyIJw3NXceVx5RbncNQFUf3U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEeQT+Ku9u8lviBmheBHXhU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBn1HiHKytFhC5OanOFefnM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKUC5JI1FQSRho8EaW/vNzE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDGMAa7J3rTuwjI42AsWezI="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOaUNG5Wn2t/MqUpW2X56Sg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOPha5Lw0ocbaQqV1bdcqiA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNTrrNS6kG1sATANA8ejDP4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBV3fVxNEpDzOir9REC7IGA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyK7MwiDQsglP21FCpU86tG4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBQS5iGE0vqHSb8dB0jvdsg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyHo4+TETzjnJ1znVfEIuFWE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKqTVjiQmla2q2gTTJgkuwQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEtnOPxbplVNbMRhyPBkWuE="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEBDT57KDlfKVvZVfwnSZ6M="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFASkGRrKv2l4EDUX/ALD2U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMtxCQGoUlGy6qu4l/U6sDk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKc733PtVl0NVtlROGsMgOU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyGjBTPZ+OF7DRSpfGJA4oDw="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKzlZWiOL22HdalU2qNfp38="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBcwEV5XWJwK2bd93TUErP8="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyPsb7TNf61Q0zpkapkodAQQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKPkiDeyR6kpzfFQw9juGO4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJ2LKNVN43paT+2A1RJyfwA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyLwDGLT0ZMWUemU4N3UZx5U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMnuuC+5fBDB2LC3t22dl0U="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKuIdHjaqaVWAbG+pf+wc1k="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyENTV6lTcjH42Tzclidyeyk="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyNoGltQ+nwPYZcaI90J+a2o="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyKQD4EMHMl6Nc2r+kODdJok="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyB3Yymu5zzXVENjS6tL6LVg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJo7y8eyY/xTXBbx2uc3lo0="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyAcWftYXCX1l6peE0tI4uGg="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBls096NhmGC3zHB3PejoXQ="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyMKSx99ybf52Ov6XvvFmZYM="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyBkgcj/gTFKCtsukT4ZYPlo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyECCLgtG2DAV03a23Xsmi0w="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyEVmaz2i6yhdnAOoGdOGnp4="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyFnVJxB/YPbxPrd8lGZsLLo="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyJBu0MWQQsXhXj86TKOEhsU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyM4/SRi3SfNP0odVkpjm3Ys="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyDq5ZXy+alFvLd7uygspctY="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCwDjraw3aTtnPyOGOBJ1XU="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-o0AXGEKPN4wJ9sIG0RAn5I8JBmfQLepjs9LEz8Do3NnjvlKG5zcga6JdnaoTFXgQ"
+       },
+       "pickupType": "LOCATION"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyOfHIX33e6a/u0VL+rWtiDA="
+       },
+       "pickupType": "HOTEL"
+      },
+      {
+       "location": {
+        "ref": "LOC-6eKJ+or5y8o99Qw0C8xWyCgaVg3LEo0qlDraGWsSo9U="
+       },
+       "pickupType": "HOTEL"
+      }
+     ],
+     "additionalInfo": "Não vê a sua localização na lista? Não se preocupe! Envie-nos uma mensagem e podemos coordenar sua coleta. No dia da turnê, você será pego em sua acomodação em Las Vegas. O local exato em que se encontra será confirmado por telefone ou e-mail 48 horas antes do início da excursão."
+    }
+   },
+   "languageGuides": [
+    {
+     "type": "GUIDE",
+     "language": "en",
+     "legacyGuide": "en/SERVICE_GUIDE"
+    }
+   ]
+  }
+ ],
+ "translationInfo": {
+  "containsMachineTranslatedText": true,
+  "translationSource": "MACHINE",
+  "translationAttribution": "GOOGLE"
+ },
+ "supplier": {
+  "name": "Outdoor Travel Tours",
+  "reference": "SUPPLIER-MmpOPDC7pTCQWBw8geLoRA=="
+ },
+ "productUrl": "https://shop.live.rc.viator.com/pt-BR/tours/Nevada/Private-Valley-of-Fire-Hiking-and-Sightseeing-Adventure/d22171-56549P1?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+ "reviews": {
+  "sources": [
+   {
+    "provider": "VIATOR",
+    "reviewCounts": [
+     {
+      "rating": 1.0,
+      "count": 0
+     },
+     {
+      "rating": 2.0,
+      "count": 0
+     },
+     {
+      "rating": 3.0,
+      "count": 0
+     },
+     {
+      "rating": 4.0,
+      "count": 0
+     },
+     {
+      "rating": 5.0,
+      "count": 6
+     }
+    ],
+    "totalCount": 6,
+    "averageRating": 5.0
+   },
+   {
+    "provider": "TRIPADVISOR",
+    "reviewCounts": [
+     {
+      "rating": 1.0,
+      "count": 0
+     },
+     {
+      "rating": 2.0,
+      "count": 0
+     },
+     {
+      "rating": 3.0,
+      "count": 0
+     },
+     {
+      "rating": 4.0,
+      "count": 0
+     },
+     {
+      "rating": 5.0,
+      "count": 201
+     }
+    ],
+    "totalCount": 201,
+    "averageRating": 5.0
+   }
+  ],
+  "reviewCountTotals": [
+   {
+    "rating": 1.0,
+    "count": 0
+   },
+   {
+    "rating": 2.0,
+    "count": 0
+   },
+   {
+    "rating": 3.0,
+    "count": 0
+   },
+   {
+    "rating": 4.0,
+    "count": 0
+   },
+   {
+    "rating": 5.0,
+    "count": 207
+   }
+  ],
+  "totalReviews": 207,
+  "combinedAverageRating": 5.0
+ }
+}

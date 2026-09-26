@@ -1,0 +1,102 @@
+{
+ "destinations": [
+  {
+   "destinationId": 662,
+   "name": "Miami",
+   "type": "CITY",
+   "parentDestinationId": 276,
+   "lookupId": "8.77.276.662",
+   "destinationUrl": "https://shop.live.rc.viator.com/pt-BR/x/d662-ttd?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+   "defaultCurrencyCode": "USD",
+   "timeZone": "America/New_York",
+   "iataCodes": [
+    "MIA"
+   ],
+   "countryCallingCode": "+1",
+   "languages": [
+    "en-US"
+   ],
+   "center": {
+    "latitude": 25.7836623106,
+    "longitude": -80.1908397675
+   }
+  },
+  {
+   "destinationId": 663,
+   "name": "Orlando",
+   "type": "CITY",
+   "parentDestinationId": 276,
+   "lookupId": "8.77.276.663",
+   "destinationUrl": "https://shop.live.rc.viator.com/pt-BR/x/d663-ttd?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+   "defaultCurrencyCode": "USD",
+   "timeZone": "America/New_York",
+   "iataCodes": [
+    "ORL"
+   ],
+   "countryCallingCode": "+1",
+   "languages": [
+    "en-US"
+   ],
+   "center": {
+    "latitude": 28.5383355,
+    "longitude": -81.3792365
+   }
+  },
+  {
+   "destinationId": 684,
+   "name": "Las Vegas",
+   "type": "CITY",
+   "parentDestinationId": 22171,
+   "lookupId": "8.77.22171.684",
+   "destinationUrl": "https://shop.live.rc.viator.com/pt-BR/x/d684-ttd?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+   "defaultCurrencyCode": "USD",
+   "timeZone": "America/Los_Angeles",
+   "iataCodes": [
+    "LAS"
+   ],
+   "countryCallingCode": "+1",
+   "languages": [
+    "en-US"
+   ],
+   "center": {
+    "latitude": 36.114646,
+    "longitude": -115.172816
+   }
+  },
+  {
+   "destinationId": 479,
+   "name": "Paris",
+   "type": "CITY",
+   "parentDestinationId": 5636,
+   "lookupId": "6.51.5636.479",
+   "destinationUrl": "https://shop.live.rc.viator.com/pt-BR/x/d479-ttd?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+   "defaultCurrencyCode": "EUR",
+   "timeZone": "Europe/Paris",
+   "iataCodes": [
+    "CDG"
+   ],
+   "center": {
+    "latitude": 48.8566667,
+    "longitude": 2.3509871
+   }
+  },
+  {
+   "destinationId": 901,
+   "name": "Buenos Aires",
+   "type": "CITY",
+   "parentDestinationId": 22280,
+   "lookupId": "9.78.22280.901",
+   "destinationUrl": "https://shop.live.rc.viator.com/pt-BR/x/d901-ttd?mcid=42383&pid=P00083397&medium=api&api_version=2.0",
+   "defaultCurrencyCode": "ARS",
+   "timeZone": "America/Argentina/Buenos_Aires",
+   "iataCodes": [
+    "BUE"
+   ],
+   "center": {
+    "latitude": -34.6084175,
+    "longitude": -58.3731613
+   }
+  }
+ ],
+ "totalCount": 3394
+}

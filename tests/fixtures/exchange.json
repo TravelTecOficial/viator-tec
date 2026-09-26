@@ -1,0 +1,11 @@
+{
+ "rates": [
+  {
+   "sourceCurrency": "USD",
+   "targetCurrency": "BRL",
+   "rate": 5.30484035,
+   "lastUpdated": "2026-09-24T23:59:59Z",
+   "expiry": "2026-09-26T01:09:59Z"
+  }
+ ]
+}
