@@ -38,3 +38,10 @@ nao_contem( '207', $p, 'total de avaliações fora do HTML' );
 $v['preco'] = '';
 nao_contem( 'A partir de', vtec_html_produto( $v ), 'sem preço não mostra "a partir de"' );
 contem( 'indisponíveis no momento', vtec_html_indisponivel(), 'mensagem de indisponível' );
+
+// Campo do autocompletar: a lista (<ul>) não pode ficar dentro de <p> — o navegador a expulsa e ela some da tela.
+$campo = vtec_html_campo_destino();
+contem( 'id="vtec-procurar"', $campo, 'campo de busca' );
+contem( 'id="vtec-sugestoes"', $campo, 'lista de sugestões' );
+nao_contem( '<p', $campo, 'nada de <p> em volta da lista' );
+ok( 1 === preg_match( '#<div class="vtec-auto">\s*<input[^>]+id="vtec-procurar"[^>]*>\s*<ul id="vtec-sugestoes"#', $campo ), 'lista logo depois do campo, dentro do mesmo div' );

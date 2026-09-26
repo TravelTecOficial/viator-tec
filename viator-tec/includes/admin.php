@@ -18,7 +18,7 @@ add_action( 'admin_enqueue_scripts', function ( $tela ) {
 		'rest'  => rest_url( 'viator-tec/v1/destinos' ),
 		'nonce' => wp_create_nonce( 'wp_rest' ),
 	) ) . ';', 'before' );
-	wp_add_inline_style( 'common', '.vtec-auto{position:relative;display:inline-block}#vtec-sugestoes{position:absolute;z-index:99;left:0;right:0;top:100%;margin:2px 0 0;background:#fff;border:1px solid #c3c4c7;border-radius:4px;max-height:280px;overflow:auto;box-shadow:0 4px 12px rgba(0,0,0,.1)}#vtec-sugestoes li{margin:0;padding:8px 10px;cursor:pointer}#vtec-sugestoes li:hover,#vtec-sugestoes li.ativo{background:#f0f6fc}#vtec-destinos tr.vtec-novo td{background:#fff8e5}' );
+	wp_add_inline_style( 'common', '.vtec-auto-linha{margin:12px 0}.vtec-auto{position:relative;display:inline-block;vertical-align:middle}#vtec-sugestoes{position:absolute;z-index:99;left:0;right:0;top:100%;margin:2px 0 0;background:#fff;border:1px solid #c3c4c7;border-radius:4px;max-height:280px;overflow:auto;box-shadow:0 4px 12px rgba(0,0,0,.1)}#vtec-sugestoes li{margin:0;padding:8px 10px;cursor:pointer}#vtec-sugestoes li:hover,#vtec-sugestoes li.ativo{background:#f0f6fc}#vtec-destinos tr.vtec-novo td{background:#fff8e5}' );
 } );
 
 add_action( 'admin_post_vtec_salvar', function () {
@@ -75,9 +75,7 @@ function vtec_tela_admin() {
 		. '<tr><th>Passeios por página</th><td><input type="number" min="1" max="50" name="por_pagina" value="' . (int) $o['por_pagina'] . '"></td></tr></table>';
 
 	echo '<h2>Destinos</h2>'
-		. '<p><label for="vtec-procurar"><strong>Adicionar destino:</strong></label> '
-		. '<span class="vtec-auto"><input id="vtec-procurar" type="search" class="regular-text" autocomplete="off" placeholder="Digite a cidade ou o país, ex.: Paris">'
-		. '<ul id="vtec-sugestoes" hidden></ul></span> <span id="vtec-aviso-destino" class="description"></span></p>'
+		. vtec_html_campo_destino()
 		. '<p class="description">Escolha na lista e o destino entra na tabela; depois clique em Salvar. O nome e o endereço (/passeios/<em>slug</em>/) podem ser editados. Foto é opcional — sem foto usa a do passeio mais bem avaliado.</p>'
 		. '<table class="widefat striped"><thead><tr><th>ID Viator</th><th>Nome</th><th>Slug</th><th>URL da foto</th></tr></thead><tbody id="vtec-destinos">';
 	$linhas = array_merge( $o['destinos'], array_fill( 0, 1, array( 'id' => '', 'nome' => '', 'slug' => '', 'foto' => '' ) ) );

@@ -102,3 +102,10 @@ function vtec_html_produto( $v ) {
 function vtec_html_indisponivel() {
 	return '<div class="vtec"><p class="vtec-vazio">Passeios indisponíveis no momento. Tente de novo em alguns minutos.</p></div>';
 }
+
+/** Campo "Adicionar destino" do painel. Tudo em div: <ul> dentro de <p> é expulso pelo navegador. */
+function vtec_html_campo_destino() {
+	return '<div class="vtec-auto-linha"><label for="vtec-procurar"><strong>Adicionar destino:</strong></label> '
+		. '<div class="vtec-auto"><input id="vtec-procurar" type="search" class="regular-text" autocomplete="off" placeholder="Digite a cidade ou o país, ex.: Paris">'
+		. '<ul id="vtec-sugestoes" hidden></ul></div> <span id="vtec-aviso-destino" class="description"></span></div>';
+}
