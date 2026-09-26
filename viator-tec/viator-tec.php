@@ -17,7 +17,7 @@ define( 'VTEC_DIR', plugin_dir_path( __FILE__ ) );
 define( 'VTEC_URL', plugin_dir_url( __FILE__ ) );
 define( 'VTEC_BASENAME', plugin_basename( __FILE__ ) );
 
-foreach ( array( 'opcoes', 'api', 'cache', 'dados', 'servico', 'render', 'rotas', 'rest', 'admin', 'atualizador' ) as $vtec_arquivo ) {
+foreach ( array( 'opcoes', 'api', 'cache', 'dados', 'servico', 'render', 'contexto', 'grade', 'rotas', 'rest', 'sitemap', 'instalador', 'elementor', 'admin', 'atualizador' ) as $vtec_arquivo ) {
 	require_once VTEC_DIR . 'includes/' . $vtec_arquivo . '.php';
 }
 

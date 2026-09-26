@@ -1,0 +1,116 @@
+{
+ "id": 5302,
+ "date": "2026-09-23T13:25:25",
+ "date_gmt": "2026-09-23T13:25:25",
+ "guid": {
+  "rendered": "https://redeturistica.com.br/?elementor_library=roteiros-lista-roteiros",
+  "raw": "https://redeturistica.com.br/?elementor_library=roteiros-lista-roteiros"
+ },
+ "modified": "2026-09-24T12:31:51",
+ "modified_gmt": "2026-09-24T12:31:51",
+ "password": "",
+ "slug": "roteiros-lista-roteiros",
+ "status": "publish",
+ "type": "elementor_library",
+ "link": "https://redeturistica.com.br/?elementor_library=roteiros-lista-roteiros",
+ "title": {
+  "raw": "Roteiros — lista (/roteiros/)",
+  "rendered": "Roteiros — lista (/roteiros/)"
+ },
+ "author": 1,
+ "featured_media": 0,
+ "template": "",
+ "meta": {
+  "_elementor_edit_mode": "builder",
+  "_elementor_template_type": "archive",
+  "_elementor_data": "[{\"id\":\"rtlhead\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"column\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":true},\"html_tag\":\"section\",\"css_classes\":\"blog-head\"},\"elements\":[{\"id\":\"rtlhtml\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div class=\\\"blog-head-in\\\">\\n  <p class=\\\"eyebrow\\\">Roteiros<\\/p>\\n  <h1>Viagens escolhidas para voc\\u00ea embarcar<\\/h1>\\n  <p>Hospedagem, passeios e valores de refer\\u00eancia reunidos em cada roteiro. Escolha o seu e pe\\u00e7a a cota\\u00e7\\u00e3o.<\\/p>\\n<\\/div>\"},\"elements\":[],\"widgetType\":\"html\"}],\"isInner\":false},{\"id\":\"419d72f\",\"elType\":\"container\",\"settings\":{\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"50\",\"left\":\"0\",\"isLinked\":false},\"padding_mobile\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"16\",\"bottom\":\"0\",\"left\":\"16\",\"isLinked\":false}},\"elements\":[{\"id\":\"96b175f\",\"elType\":\"widget\",\"settings\":{\"template_id\":\"5357\",\"alternate_templates\":[{\"template_id\":null,\"_id\":\"d659064\"}],\"post_query_post_type\":\"roteiros\",\"pagination_page_limit\":\"5\",\"pagination_prev_label\":\"Anterior\",\"pagination_next_label\":\"Pr\\u00f3ximo\",\"text\":\"Ver mais\",\"load_more_no_posts_custom_message\":\"\",\"nothing_found_message_text\":\"Nenhum roteiro publicado ainda.\",\"posts_per_page\":9,\"pagination_type\":\"numbers\",\"post_query_post_status\":[\"publish\"],\"columns\":\"3\",\"columns_tablet\":\"2\",\"columns_mobile\":\"1\",\"column_gap\":{\"unit\":\"px\",\"size\":30,\"sizes\":[]},\"row_gap\":{\"unit\":\"px\",\"size\":30,\"sizes\":[]},\"equal_height\":\"yes\",\"pagination_align\":\"center\",\"pagination_spacing_top\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"pagination_color\":\"#3C3D3D\",\"pagination_hover_color\":\"#E98300\",\"pagination_active_color\":\"#E98300\",\"pagination_typography_typography\":\"custom\",\"pagination_typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"pagination_typography_font_weight\":\"600\",\"pagination_spacing\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"loop-grid\"}],\"isInner\":false}]",
+  "_elementor_page_settings": {
+   "page_template": "elementor_header_footer",
+   "preview_type": "archive/roteiros",
+   "custom_css": "/* chamada no padrão do blog (vars + .blog-head de padrao/blog/blog.css) */\n/* cores e fontes da Rede Turística para o blog padrão (24/09/2026) */\n:root{\n  --blog-fundo:#FFFFFF;\n  --blog-fundo-2:#F4F4F4;\n  --blog-texto:#3C3D3D;\n  --blog-texto-suave:#666666;\n  --blog-titulo:#3C3D3D;\n  --blog-acento:#E98300;\n  --blog-acento-texto:#C56F00;\n  --blog-fio:#E6E6E6;\n  --blog-display:\"Montserrat\",\"Segoe UI\",sans-serif;\n  --blog-ui:\"Roboto\",\"Segoe UI\",sans-serif;\n  --blog-nav-h:0px;\n  --blog-pad:max(16px,calc((100vw - 1140px) / 2));\n  --blog-ease:cubic-bezier(.22,.61,.36,1);\n  --blog-foto-filtro:none;\n  --blog-capa-fundo:#3C3D3D;\n  --blog-capa-filtro:brightness(.9);\n  --blog-capa-scrim:linear-gradient(to top,rgba(0,0,0,.85) 0%,rgba(0,0,0,.45) 42%,rgba(0,0,0,.15) 74%,rgba(0,0,0,.45) 100%);\n  --blog-capa-texto:#FFFFFF;\n  --blog-capa-texto-suave:rgba(255,255,255,.75);\n}\n.blog-head .eyebrow{font-family:var(--blog-ui);font-size:12px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;margin:0}\n.blog-head{background:var(--blog-fundo);color:var(--blog-texto);padding:0}\n.blog-head-in{padding:calc(var(--blog-nav-h) + clamp(52px,7vw,96px)) var(--blog-pad) clamp(34px,4.5vw,56px);max-width:760px}\n.blog-head h1{font-family:var(--blog-display);font-weight:400;font-size:clamp(34px,5vw,58px);line-height:1.08;color:var(--blog-titulo);margin:20px 0 16px}\n.blog-head-in > p:not(.eyebrow){color:var(--blog-texto-suave);max-width:52ch;font-size:16.5px;line-height:1.6;margin:0}\n.blog-head .eyebrow,.blog-cta .eyebrow{color:var(--blog-acento-texto)}\n.blog-head-in{padding-left:var(--blog-pad)!important;padding-right:var(--blog-pad)!important}\n@media (max-width:767px){.blog-head-in{padding-top:40px}}\n/* tela larga: a margem esquerda entra na largura máxima */\n.blog-head-in{max-width:calc(760px + var(--blog-pad))}"
+  },
+  "_elementor_conditions": [
+   "include/archive/roteiros_archive"
+  ]
+ },
+ "permalink_template": "https://redeturistica.com.br/?elementor_library=roteiros-lista-roteiros",
+ "generated_slug": "roteiros-lista-roteiros",
+ "class_list": [
+  "post-5302",
+  "elementor_library",
+  "type-elementor_library",
+  "status-publish",
+  "hentry"
+ ],
+ "_links": {
+  "self": [
+   {
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/elementor_library/5302",
+    "targetHints": {
+     "allow": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/elementor_library"
+   }
+  ],
+  "about": [
+   {
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/types/elementor_library"
+   }
+  ],
+  "author": [
+   {
+    "embeddable": true,
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/users/1"
+   }
+  ],
+  "version-history": [
+   {
+    "count": 5,
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/elementor_library/5302/revisions"
+   }
+  ],
+  "predecessor-version": [
+   {
+    "id": 5384,
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/elementor_library/5302/revisions/5384"
+   }
+  ],
+  "wp:attachment": [
+   {
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/media?parent=5302"
+   }
+  ],
+  "wp:action-publish": [
+   {
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/elementor_library/5302"
+   }
+  ],
+  "wp:action-unfiltered-html": [
+   {
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/elementor_library/5302"
+   }
+  ],
+  "wp:action-assign-author": [
+   {
+    "href": "https://redeturistica.com.br/wp-json/wp/v2/elementor_library/5302"
+   }
+  ],
+  "curies": [
+   {
+    "name": "wp",
+    "href": "https://api.w.org/{rel}",
+    "templated": true
+   }
+  ]
+ }
+}

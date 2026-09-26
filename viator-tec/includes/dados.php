@@ -154,6 +154,8 @@ function vtec_produto_view( $p, $preco ) {
 		'encontro'     => isset( $p['logistics']['start'][0]['description'] ) ? (string) $p['logistics']['start'][0]['description'] : '',
 		'informacoes'  => vtec_textos_itens( isset( $p['additionalInfo'] ) ? $p['additionalInfo'] : null ),
 		'link'         => isset( $p['productUrl'] ) ? (string) $p['productUrl'] : '',
+		'imagem'       => vtec_imagem( isset( $p['images'] ) ? $p['images'] : null, 1200 ),
+		'url'          => vtec_url_produto( $p['productCode'], $p['title'] ),
 		'nota'         => $nota['nota'],
 		'total'        => $nota['total'],
 	);
