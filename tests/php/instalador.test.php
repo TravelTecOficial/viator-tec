@@ -25,3 +25,15 @@ $dados = vtec_preparar_modelo( vtec_ler_modelo( 'destino' ), array( 'card_passei
 contem( '"modelo":"123"', $dados, 'placeholder trocado pelo ID do card' );
 nao_contem( '{{MODELO_', $dados, 'nenhum placeholder sobrando' );
 ok( is_array( json_decode( $dados, true ) ), 'JSON válido' );
+
+// Cards repetem na mesma página: foto como <img> (widget de imagem), nunca fundo dinâmico (o CSS seria o mesmo em todos).
+foreach ( array( 'card_passeio', 'card_destino' ) as $chave ) {
+	$json = json_encode( vtec_ler_modelo( $chave )['content'] );
+	nao_contem( '"background_image"', $json, "$chave: sem fundo dinâmico" );
+	contem( '"widgetType":"image"', $json, "$chave: foto como widget de imagem" );
+}
+contem( 'vtec-destino-foto', json_encode( vtec_ler_modelo( 'card_destino' )['content'] ), 'card de destino usa a foto do destino' );
+
+// Atualizar modelos do plugin só se o dono nunca editou (data de modificação = data de criação).
+ok( vtec_modelo_intocado( '2026-09-26 10:00:00', '2026-09-26 10:00:00' ), 'nunca editado' );
+ok( ! vtec_modelo_intocado( '2026-09-26 10:00:00', '2026-09-26 11:30:00' ), 'editado no Elementor' );

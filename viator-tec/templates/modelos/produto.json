@@ -22,7 +22,7 @@
     "background_overlay_background": "gradient",
     "background_overlay_color": "rgba(0,0,0,0.62)",
     "__dynamic__": {
-     "background_image": "[elementor-tag id=\"vt00016\" name=\"vtec-imagem\" settings=\"%7B%7D\"]"
+     "background_image": "[elementor-tag id=\"vt00018\" name=\"vtec-imagem\" settings=\"%7B%7D\"]"
     },
     "background_repeat": "no-repeat",
     "background_size": "cover",
@@ -111,7 +111,7 @@
       "typography_font_weight": "700",
       "title_color": "#FFFFFF",
       "__dynamic__": {
-       "title": "[elementor-tag id=\"vt00017\" name=\"vtec-titulo\" settings=\"%7B%7D\"]"
+       "title": "[elementor-tag id=\"vt00019\" name=\"vtec-titulo\" settings=\"%7B%7D\"]"
       },
       "header_size": "h1",
       "typography_font_family": "Montserrat",
@@ -336,7 +336,7 @@
        "widgetType": "text-editor",
        "settings": {
         "__dynamic__": {
-         "editor": "[elementor-tag id=\"vt0001c\" name=\"vtec-nota\" settings=\"%7B%7D\"]"
+         "editor": "[elementor-tag id=\"vt0001e\" name=\"vtec-nota\" settings=\"%7B%7D\"]"
         },
         "_css_classes": "vtec-nota-produto"
        },
@@ -360,7 +360,7 @@
          "size": 1.8
         },
         "__dynamic__": {
-         "editor": "[elementor-tag id=\"vt00018\" name=\"vtec-descricao\" settings=\"%7B%7D\"]"
+         "editor": "[elementor-tag id=\"vt0001a\" name=\"vtec-descricao\" settings=\"%7B%7D\"]"
         },
         "_css_classes": "rt-apresentacao"
        },
@@ -418,7 +418,7 @@
         },
         "typography_font_weight": "600",
         "__dynamic__": {
-         "editor": "[elementor-tag id=\"vt00019\" name=\"vtec-preco\" settings=\"%7B%7D\"]"
+         "editor": "[elementor-tag id=\"vt0001b\" name=\"vtec-preco\" settings=\"%7B%7D\"]"
         },
         "_css_classes": "rt-preco"
        },
@@ -472,7 +472,7 @@
          "sizes": []
         },
         "__dynamic__": {
-         "link": "[elementor-tag id=\"vt0001b\" name=\"vtec-link-reserva\" settings=\"%7B%7D\"]"
+         "link": "[elementor-tag id=\"vt0001d\" name=\"vtec-link-reserva\" settings=\"%7B%7D\"]"
         },
         "_css_classes": "vtec-reservar"
        },
@@ -597,7 +597,7 @@
      "elType": "widget",
      "settings": {
       "__dynamic__": {
-       "editor": "[elementor-tag id=\"vt0001a\" name=\"vtec-galeria\" settings=\"%7B%7D\"]"
+       "editor": "[elementor-tag id=\"vt0001c\" name=\"vtec-galeria\" settings=\"%7B%7D\"]"
       },
       "_margin": {
        "unit": "px",
@@ -702,7 +702,7 @@
            "elType": "widget",
            "settings": {
             "__dynamic__": {
-             "editor": "[elementor-tag id=\"vt0001d\" name=\"vtec-inclusoes\" settings=\"%7B%7D\"]"
+             "editor": "[elementor-tag id=\"vt0001f\" name=\"vtec-inclusoes\" settings=\"%7B%7D\"]"
             }
            },
            "elements": [],
@@ -735,7 +735,7 @@
            "elType": "widget",
            "settings": {
             "__dynamic__": {
-             "editor": "[elementor-tag id=\"vt0001e\" name=\"vtec-exclusoes\" settings=\"%7B%7D\"]"
+             "editor": "[elementor-tag id=\"vt00020\" name=\"vtec-exclusoes\" settings=\"%7B%7D\"]"
             }
            },
            "elements": [],
@@ -768,7 +768,7 @@
            "elType": "widget",
            "settings": {
             "__dynamic__": {
-             "editor": "[elementor-tag id=\"vt0001f\" name=\"vtec-encontro\" settings=\"%7B%7D\"]"
+             "editor": "[elementor-tag id=\"vt00021\" name=\"vtec-encontro\" settings=\"%7B%7D\"]"
             }
            },
            "elements": [],
@@ -801,7 +801,7 @@
            "elType": "widget",
            "settings": {
             "__dynamic__": {
-             "editor": "[elementor-tag id=\"vt00020\" name=\"vtec-cancelamento\" settings=\"%7B%7D\"]"
+             "editor": "[elementor-tag id=\"vt00022\" name=\"vtec-cancelamento\" settings=\"%7B%7D\"]"
             }
            },
            "elements": [],
@@ -834,7 +834,7 @@
            "elType": "widget",
            "settings": {
             "__dynamic__": {
-             "editor": "[elementor-tag id=\"vt00021\" name=\"vtec-informacoes\" settings=\"%7B%7D\"]"
+             "editor": "[elementor-tag id=\"vt00023\" name=\"vtec-informacoes\" settings=\"%7B%7D\"]"
             }
            },
            "elements": [],

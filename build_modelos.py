@@ -80,9 +80,17 @@ def card_passeio():
             e["widgetType"] = "heading"
         if e.get("widgetType") == "button":
             e["settings"]["text"] = "Ver passeio"
+    # Foto como <img>: fundo dinâmico sai no CSS do modelo, igual para todos os cards da página.
+    foto = els[0]["elements"][0]
+    foto["settings"]["__dynamic__"].pop("background_image", None)
+    foto["elements"] = [widget("image", {"__dynamic__": {"image": tag("vtec-imagem")}, "image_size": "full", "_css_classes": "rt-card-img"})]
     corpo = els[0]["elements"][1]["elements"]  # título + subtítulo
     corpo.insert(1, texto_dinamico("vtec-nota", "rt-card-nota", {"text_color": "#555555"}))
-    css = ps.get("custom_css", "").replace(".e-loop-item:has(.rt-card)", ".vtec-grade-item:has(.rt-card)")
+    css = ps.get("custom_css", "").replace(".e-loop-item:has(.rt-card)", ".vtec-grade-item:has(.rt-card)") + (
+        "\n/* foto do card como imagem (Viator Tec) */\n"
+        ".rt-card-foto{position:relative;overflow:hidden}\n"
+        ".rt-card-foto .rt-card-img,.rt-card-foto .rt-card-img .elementor-widget-container{position:absolute;inset:0;margin:0}\n"
+        ".rt-card-foto .rt-card-img img{width:100%;height:100%;object-fit:cover;display:block}\n")
     return els, {"custom_css": css}
 
 

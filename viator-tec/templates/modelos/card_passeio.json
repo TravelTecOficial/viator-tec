@@ -3,7 +3,7 @@
  "titulo": "Passeios – card de passeio (Viator Tec)",
  "tipo": "section",
  "page_settings": {
-  "custom_css": ".rt-card{overflow:hidden;border-radius:4px;box-shadow:0 2px 10px rgba(0,0,0,.08)}\n.rt-card .rt-card-sub p,.rt-card .rt-card-preco p{margin:0}\n.rt-card .rt-card-preco .elementor-widget-container{font-size:16px}\n.rt-card .rt-card-foto{transition:filter .2s}.rt-card .rt-card-foto:hover{filter:brightness(1.05)}\n/* movimento (24/09). Sem aspas aqui: o CSS do loop item sai inline e o Elementor escapa as aspas */\n.rt-card{position:relative;transition:transform .45s cubic-bezier(.22,.61,.36,1),box-shadow .45s cubic-bezier(.22,.61,.36,1)}\n.rt-card::before{content:counter(rt-linha)!important;font-size:0;line-height:0;color:transparent;overflow:hidden;position:absolute;top:0;left:0;right:0;height:4px;background:#E98300;transform:scaleX(0);transform-origin:0 50%;z-index:3;transition:transform .55s cubic-bezier(.22,.61,.36,1)}\n.rt-card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(0,0,0,.16)}\n.rt-card:hover::before{transform:scaleX(1)}\n.rt-card .rt-card-foto{transform-origin:50% 0;transition:transform .9s cubic-bezier(.22,.61,.36,1)}\n.rt-card:hover .rt-card-foto{transform:scale(1.07)}\n.rt-card > .e-con:not(.rt-card-foto){position:relative;z-index:1}\n.rt-card > .e-con:nth-child(2){background:#F4F4F4}\n.rt-card .elementor-post-title,.rt-card .elementor-heading-title{transition:color .3s}\n.rt-card:hover .elementor-heading-title a{color:#C56F00}\n@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){\n  .vtec-grade-item:has(.rt-card){animation:rt-sobe linear both;animation-timeline:view();animation-range:entry 0% entry 55%}\n}}\n@keyframes rt-sobe{from{opacity:0;transform:translateY(48px)}to{opacity:1;transform:none}}\n@media (prefers-reduced-motion:reduce){.rt-card,.rt-card .rt-card-foto,.rt-card::before{transition:none}.rt-card:hover{transform:none}.rt-card:hover .rt-card-foto{transform:none}}"
+  "custom_css": ".rt-card{overflow:hidden;border-radius:4px;box-shadow:0 2px 10px rgba(0,0,0,.08)}\n.rt-card .rt-card-sub p,.rt-card .rt-card-preco p{margin:0}\n.rt-card .rt-card-preco .elementor-widget-container{font-size:16px}\n.rt-card .rt-card-foto{transition:filter .2s}.rt-card .rt-card-foto:hover{filter:brightness(1.05)}\n/* movimento (24/09). Sem aspas aqui: o CSS do loop item sai inline e o Elementor escapa as aspas */\n.rt-card{position:relative;transition:transform .45s cubic-bezier(.22,.61,.36,1),box-shadow .45s cubic-bezier(.22,.61,.36,1)}\n.rt-card::before{content:counter(rt-linha)!important;font-size:0;line-height:0;color:transparent;overflow:hidden;position:absolute;top:0;left:0;right:0;height:4px;background:#E98300;transform:scaleX(0);transform-origin:0 50%;z-index:3;transition:transform .55s cubic-bezier(.22,.61,.36,1)}\n.rt-card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(0,0,0,.16)}\n.rt-card:hover::before{transform:scaleX(1)}\n.rt-card .rt-card-foto{transform-origin:50% 0;transition:transform .9s cubic-bezier(.22,.61,.36,1)}\n.rt-card:hover .rt-card-foto{transform:scale(1.07)}\n.rt-card > .e-con:not(.rt-card-foto){position:relative;z-index:1}\n.rt-card > .e-con:nth-child(2){background:#F4F4F4}\n.rt-card .elementor-post-title,.rt-card .elementor-heading-title{transition:color .3s}\n.rt-card:hover .elementor-heading-title a{color:#C56F00}\n@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){\n  .vtec-grade-item:has(.rt-card){animation:rt-sobe linear both;animation-timeline:view();animation-range:entry 0% entry 55%}\n}}\n@keyframes rt-sobe{from{opacity:0;transform:translateY(48px)}to{opacity:1;transform:none}}\n@media (prefers-reduced-motion:reduce){.rt-card,.rt-card .rt-card-foto,.rt-card::before{transition:none}.rt-card:hover{transform:none}.rt-card:hover .rt-card-foto{transform:none}}\n/* foto do card como imagem (Viator Tec) */\n.rt-card-foto{position:relative;overflow:hidden}\n.rt-card-foto .rt-card-img,.rt-card-foto .rt-card-img .elementor-widget-container{position:absolute;inset:0;margin:0}\n.rt-card-foto .rt-card-img img{width:100%;height:100%;object-fit:cover;display:block}\n"
  },
  "content": [
   {
@@ -63,16 +63,29 @@
       "background_position": "center center",
       "background_size": "cover",
       "__dynamic__": {
-       "background_image": "[elementor-tag id=\"vt00001\" name=\"vtec-imagem\" settings=\"%7B%7D\"]",
        "link": "[elementor-tag id=\"vt00002\" name=\"vtec-url-passeio\" settings=\"%7B%7D\"]"
       },
       "_css_classes": "rt-card-foto",
       "css_classes": "rt-card-foto"
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "vcp0003",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "__dynamic__": {
+         "image": "[elementor-tag id=\"vt00008\" name=\"vtec-imagem\" settings=\"%7B%7D\"]"
+        },
+        "image_size": "full",
+        "_css_classes": "rt-card-img"
+       },
+       "elements": []
+      }
+     ]
     },
     {
-     "id": "vcp0003",
+     "id": "vcp0004",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -98,7 +111,7 @@
      },
      "elements": [
       {
-       "id": "vcp0004",
+       "id": "vcp0005",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -125,12 +138,12 @@
        "elements": []
       },
       {
-       "id": "vcp0005",
+       "id": "vcp0006",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
         "__dynamic__": {
-         "editor": "[elementor-tag id=\"vt00008\" name=\"vtec-nota\" settings=\"%7B%7D\"]"
+         "editor": "[elementor-tag id=\"vt00009\" name=\"vtec-nota\" settings=\"%7B%7D\"]"
         },
         "_css_classes": "rt-card-nota",
         "text_color": "#555555"
@@ -138,7 +151,7 @@
        "elements": []
       },
       {
-       "id": "vcp0006",
+       "id": "vcp0007",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -163,7 +176,7 @@
      ]
     },
     {
-     "id": "vcp0007",
+     "id": "vcp0008",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -189,7 +202,7 @@
      },
      "elements": [
       {
-       "id": "vcp0008",
+       "id": "vcp0009",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -209,7 +222,7 @@
        "elements": []
       },
       {
-       "id": "vcp0009",
+       "id": "vcp000a",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
