@@ -6,3 +6,7 @@ contem( 'Plugin Name: Viator Tec', file_get_contents( '/p/viator-tec.php' ), 'ca
 foreach ( array( 'opcoes', 'api', 'cache', 'dados', 'servico', 'render', 'rotas', 'rest', 'admin', 'atualizador' ) as $f ) {
 	ok( file_exists( "/p/includes/$f.php" ), "includes/$f.php existe" );
 }
+$at = file_get_contents( '/p/includes/atualizador.php' );
+contem( "'TravelTecOficial/viator-tec'", $at, 'atualizador aponta para o repositório certo' );
+nao_contem( 'roteiros', strtolower( $at ), 'nada do Voucher Tec sobrou no atualizador' );
+nao_contem( 'TT_', $at, 'sem constantes TT_' );
